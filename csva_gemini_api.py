@@ -11,6 +11,8 @@ import unicodedata
 import traceback
 import pathlib
 import uvicorn
+import requests
+import json
 
 # System instruction
 SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้าหมาย: 
@@ -41,12 +43,18 @@ SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้�
 * หากข้อมูลที่นิสิตสอบถามไม่อยู่ในไฟล์ความรู้ ให้ค้นหาข้อมูลที่มีความใกล้เคียงหรือเกี่ยวข้องที่สุด จากแหล่งข้อมูลอื่น.
 * นอกเหนือจากนี้ ให้แจ้งว่าไม่สามารถให้ข้อมูลในส่วนนั้นได้โดยตรง แต่สามารถให้ข้อมูลอื่นที่เกี่ยวข้องได้."""
 
+# Base URL for Laravel API
+LARAVEL_BASE_URL = "http://localhost"
+
 class PromptRequest(BaseModel):
     prompt: str
     conv_id: int
 
 class ChatRequest(BaseModel):
     conv_id: int
+    
+class RefreshKnowledgeRequest(BaseModel):
+    force: bool = False
 
 # Initialize the Gemini client with provided API key
 client = genai.Client(api_key="AIzaSyB67xn_olcqoGAn-IAvdFTTeuhGaaEBiEY")
@@ -54,9 +62,126 @@ client = genai.Client(api_key="AIzaSyB67xn_olcqoGAn-IAvdFTTeuhGaaEBiEY")
 # Dictionary to store chat sessions
 chat_sessions: Dict[int, object] = {}
 
+# Global variable to store processed knowledge files
+knowledge_contents = []
+
 # Alternative method using pathlib
 base_dir = pathlib.Path.cwd() / "doc"
 pdf_files = list(base_dir.glob("*.pdf"))
+
+def fetch_active_knowledge_files():
+    """Fetch active knowledge files from Laravel API"""
+    try:
+        response = requests.get(f"{LARAVEL_BASE_URL}/api/knowledge/active")
+        response.raise_for_status()
+        
+        knowledge_data = response.json()
+        print(f"Fetched {len(knowledge_data)} active knowledge files from Laravel")
+        
+        return knowledge_data
+        
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching knowledge files from Laravel: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"Error parsing JSON response from Laravel: {e}")
+        return []
+
+def download_file_from_laravel(file_path):
+    """Download file content from Laravel storage"""
+    try:
+        # แก้ไข URL ให้ตรงกับ Laravel storage URL
+        file_url = f"{LARAVEL_BASE_URL}/storage/{file_path}"
+        
+        response = requests.get(file_url)
+        response.raise_for_status()
+        
+        return response.content
+        
+    except requests.exceptions.RequestException as e:
+        print(f"Error downloading file {file_path}: {e}")
+        return None
+
+def process_knowledge_files_from_laravel():
+    """Process knowledge files from Laravel API"""
+    knowledge_files = fetch_active_knowledge_files()
+    
+    if not knowledge_files:
+        print("No active knowledge files found")
+        return []
+    
+    contents = []
+    uploaded_files = []
+    
+    for knowledge in knowledge_files:
+        try:
+            file_path = knowledge.get('file_path')
+            filename = knowledge.get('filename')
+            title = knowledge.get('title', 'Unknown')
+            
+            if not file_path or not filename:
+                print(f"Missing file path or filename for knowledge: {title}")
+                continue
+            
+            # Download file content
+            file_content = download_file_from_laravel(file_path)
+            
+            if file_content is None:
+                print(f"Failed to download file: {filename}")
+                continue
+            
+            # Create Gemini Part from file content
+            part = types.Part.from_bytes(
+                data=file_content,
+                mime_type='application/pdf',
+            )
+            contents.append(part)
+            
+            # Upload file to Gemini for processing
+            # Create temporary file for upload
+            temp_dir = tempfile.mkdtemp()
+            temp_file_path = os.path.join(temp_dir, filename)
+            
+            with open(temp_file_path, 'wb') as temp_file:
+                temp_file.write(file_content)
+            
+            # Upload to Gemini
+            uploaded_file = client.files.upload(
+                file=temp_file_path,
+                config=dict(mime_type='application/pdf')
+            )
+            uploaded_files.append(uploaded_file)
+            
+            # Clean up temp file
+            os.remove(temp_file_path)
+            os.rmdir(temp_dir)
+            
+            print(f"Processed: {title} ({filename})")
+            
+        except Exception as e:
+            print(f"Error processing knowledge file {knowledge.get('title', 'Unknown')}: {e}")
+            continue
+    
+    print(f"Successfully processed {len(contents)} knowledge files")
+    return contents
+
+def refresh_knowledge_base():
+    """Refresh knowledge base from Laravel"""
+    global knowledge_contents
+    
+    print("Refreshing knowledge base from Laravel...")
+    knowledge_contents = process_knowledge_files_from_laravel()
+    
+    # Update all existing chat sessions with new knowledge
+    for conv_id, chat in chat_sessions.items():
+        try:
+            if knowledge_contents:
+                chat.send_message(knowledge_contents)
+                print(f"Updated chat session {conv_id} with new knowledge")
+        except Exception as e:
+            print(f"Error updating chat session {conv_id}: {e}")
+    
+    return len(knowledge_contents)
 
 def create_chat_session(conv_id: int):
     """Create a new chat session with the Gemini model and configuration"""
@@ -167,11 +292,15 @@ def process_files_and_prompt(files, custom_prompt, conv_id):
 
 def initialize_chat_with_docs(chat):
     """Initialize a chat session with documents"""
-    if my_contents:
-        chat.send_message(my_contents)
+    if knowledge_contents:
+        chat.send_message(knowledge_contents)
+
+# Initialize knowledge base on startup
+print("Initializing knowledge base from Laravel...")
+knowledge_contents = process_knowledge_files_from_laravel()
         
-# Process all PDF files and send the contents to Gemini
-my_contents = process_all_files(pdf_files)
+# # Process all PDF files and send the contents to Gemini
+# my_contents = process_all_files(pdf_files)
 
 # Create FastAPI app for API endpoints
 app = FastAPI()
@@ -188,6 +317,26 @@ async def create_chat_api(request: ChatRequest):
         return {"message": f"Chat session {request.conv_id} created successfully"}
     except Exception as e:
         return {"error": str(e)}
+    
+@app.post("/api/refresh_knowledge")
+async def refresh_knowledge_api(request: RefreshKnowledgeRequest):
+    """API endpoint for refreshing knowledge base from Laravel"""
+    try:
+        count = refresh_knowledge_base()
+        return {
+            "message": f"Knowledge base refreshed successfully",
+            "files_processed": count
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/api/knowledge_status")
+async def knowledge_status_api():
+    """API endpoint for checking knowledge base status"""
+    return {
+        "knowledge_files_loaded": len(knowledge_contents),
+        "active_chat_sessions": len(chat_sessions)
+    }    
     
 @app.get("/api/list_chats")
 async def list_chats_api():
