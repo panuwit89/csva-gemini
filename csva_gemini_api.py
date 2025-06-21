@@ -2,17 +2,18 @@ from typing import List, Dict
 from pydantic import BaseModel
 from google import genai
 from google.genai import types
-from fastapi import FastAPI, File, UploadFile, Form
+from fastapi import FastAPI, File, UploadFile, Form, BackgroundTasks
 import re
 import os
 import uuid
 import tempfile
 import unicodedata
-import traceback
-import pathlib
 import uvicorn
 import requests
 import json
+import threading
+import datetime
+import gc  # เพิ่ม garbage collector
 
 # System instruction
 SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้าหมาย: 
@@ -65,14 +66,23 @@ chat_sessions: Dict[int, object] = {}
 # Global variable to store processed knowledge files
 knowledge_contents = []
 
-# Alternative method using pathlib
-base_dir = pathlib.Path.cwd() / "doc"
-pdf_files = list(base_dir.glob("*.pdf"))
+# Collect refresh status information
+refresh_status = {
+    "is_running": False,
+    "last_refresh": None,
+    "files_processed": 0,
+    "error": None,
+    "start_time": None,
+    "end_time": None
+}
+
+# Lock สำหรับ thread safety
+refresh_lock = threading.Lock()
 
 def fetch_active_knowledge_files():
     """Fetch active knowledge files from Laravel API"""
     try:
-        response = requests.get(f"{LARAVEL_BASE_URL}/api/knowledge/active")
+        response = requests.get(f"{LARAVEL_BASE_URL}/knowledge/active", timeout=30)
         response.raise_for_status()
         
         knowledge_data = response.json()
@@ -90,10 +100,8 @@ def fetch_active_knowledge_files():
 def download_file_from_laravel(file_path):
     """Download file content from Laravel storage"""
     try:
-        # แก้ไข URL ให้ตรงกับ Laravel storage URL
         file_url = f"{LARAVEL_BASE_URL}/storage/{file_path}"
-        
-        response = requests.get(file_url)
+        response = requests.get(file_url, timeout=60)
         response.raise_for_status()
         
         return response.content
@@ -111,7 +119,6 @@ def process_knowledge_files_from_laravel():
         return []
     
     contents = []
-    uploaded_files = []
     
     for knowledge in knowledge_files:
         try:
@@ -130,33 +137,32 @@ def process_knowledge_files_from_laravel():
                 print(f"Failed to download file: {filename}")
                 continue
             
-            # Create Gemini Part from file content
-            part = types.Part.from_bytes(
-                data=file_content,
-                mime_type='application/pdf',
-            )
-            contents.append(part)
-            
-            # Upload file to Gemini for processing
             # Create temporary file for upload
             temp_dir = tempfile.mkdtemp()
             temp_file_path = os.path.join(temp_dir, filename)
             
-            with open(temp_file_path, 'wb') as temp_file:
-                temp_file.write(file_content)
-            
-            # Upload to Gemini
-            uploaded_file = client.files.upload(
-                file=temp_file_path,
-                config=dict(mime_type='application/pdf')
-            )
-            uploaded_files.append(uploaded_file)
-            
-            # Clean up temp file
-            os.remove(temp_file_path)
-            os.rmdir(temp_dir)
-            
-            print(f"Processed: {title} ({filename})")
+            try:
+                with open(temp_file_path, 'wb') as temp_file:
+                    temp_file.write(file_content)
+                
+                # Upload to Gemini
+                uploaded_file = client.files.upload(
+                    file=temp_file_path,
+                    config=dict(mime_type='application/pdf')
+                )
+                contents.append(uploaded_file)
+                
+                print(f"Processed: {title} ({filename})")
+                
+            finally:
+                # Clean up temp file
+                try:
+                    if os.path.exists(temp_file_path):
+                        os.remove(temp_file_path)
+                    if os.path.exists(temp_dir):
+                        os.rmdir(temp_dir)
+                except Exception as cleanup_error:
+                    print(f"Cleanup error: {cleanup_error}")
             
         except Exception as e:
             print(f"Error processing knowledge file {knowledge.get('title', 'Unknown')}: {e}")
@@ -166,33 +172,68 @@ def process_knowledge_files_from_laravel():
     return contents
 
 def refresh_knowledge_base():
-    """Refresh knowledge base from Laravel"""
+    """Refresh knowledge base from Laravel - Fixed version"""
     global knowledge_contents
     
-    print("Refreshing knowledge base from Laravel...")
-    knowledge_contents = process_knowledge_files_from_laravel()
+    with refresh_lock:  # Thread safety
+        if refresh_status["is_running"]:
+            print("Refresh already in progress, skipping...")
+            return len(knowledge_contents)
+        
+        refresh_status["is_running"] = True
+        refresh_status["start_time"] = datetime.datetime.now()
+        refresh_status["error"] = None
     
-    # Update all existing chat sessions with new knowledge
-    for conv_id, chat in chat_sessions.items():
-        try:
-            if knowledge_contents:
-                chat.send_message(knowledge_contents)
-                print(f"Updated chat session {conv_id} with new knowledge")
-        except Exception as e:
-            print(f"Error updating chat session {conv_id}: {e}")
-    
-    return len(knowledge_contents)
+    try:
+        print("Refreshing knowledge base from Laravel...")
+        
+        # Clear old knowledge contents to free memory
+        old_contents = knowledge_contents
+        knowledge_contents = []
+        
+        # Force garbage collection
+        del old_contents
+        gc.collect()
+        
+        # Process new knowledge files
+        new_contents = process_knowledge_files_from_laravel()
+        knowledge_contents = new_contents  # Update global variable
+        
+        # Edit: not update existing chat sessions
+        print("Knowledge base refreshed successfully")
+        print("Note: New chat sessions will use updated knowledge. Existing chat session contents remain unchanged.")
+        
+        refresh_status["files_processed"] = len(knowledge_contents)
+        refresh_status["last_refresh"] = datetime.datetime.now().isoformat()
+        
+        return len(knowledge_contents)
+        
+    except Exception as e:
+        error_msg = str(e)
+        refresh_status["error"] = error_msg
+        print(f"Error refreshing knowledge base: {error_msg}")
+        raise e
+        
+    finally:
+        refresh_status["is_running"] = False
+        refresh_status["end_time"] = datetime.datetime.now()
+        # Force garbage collection after refresh
+        gc.collect()
 
 def create_chat_session(conv_id: int):
     """Create a new chat session with the Gemini model and configuration"""
-    chat = client.chats.create(
-        model="gemini-2.0-flash",
-        config=types.GenerateContentConfig(
-            system_instruction=SYSTEM_INSTRUCTION,
+    try:
+        chat = client.chats.create(
+            model="gemini-2.0-flash",
+            config=types.GenerateContentConfig(
+                system_instruction=SYSTEM_INSTRUCTION,
+            )
         )
-    )
-    chat_sessions[conv_id] = chat
-    return chat
+        chat_sessions[conv_id] = chat
+        return chat
+    except Exception as e:
+        print(f"Error creating chat session {conv_id}: {e}")
+        raise e
 
 def get_chat_session(conv_id: int):
     """Get existing chat by conversation ID"""
@@ -201,60 +242,25 @@ def get_chat_session(conv_id: int):
     
     return chat_sessions[conv_id]
 
-def process_all_files(pdf_files):
-    """Process all PDF files in a single request"""
-    if not pdf_files:
-        print("No files to process")
-        return
-    
-    # Create content list with all files
-    contents = []
-    
-    # Add all files to contents
-    for pdf_file in pdf_files:
-        filepath = pathlib.Path(pdf_file)
-        try:
-            contents.append(
-                types.Part.from_bytes(
-                    data=filepath.read_bytes(),
-                    mime_type='application/pdf',
-                )
-            )
-            print(f"Added: {filepath.name}")
-            
-            # Upload file to Gemini by passing the file path directly
-            client.files.upload(
-                file=filepath,
-                config=dict(mime_type='application/pdf')
-            )
-            
-        except Exception as e:
-            print(f"Error adding {filepath.name}: {e}")
-    
-    return contents
-
 def process_prompt(prompt, conv_id):
-    """
-    Process a text prompt
-    """
+    """Process a text prompt"""
     try:
         # Get the chat session for the conversation ID
         chat = get_chat_session(conv_id)
-
+        
         # Send the prompt to Gemini and get the response
         response = chat.send_message(prompt)
         return response.text
     except Exception as e:
+        print(f"Error processing prompt for conv_id {conv_id}: {e}")
         return f"Error: {str(e)}"
 
 def process_files_and_prompt(files, custom_prompt, conv_id):
-    """
-    Process uploaded files and a prompt
-    """
+    """Process uploaded files and a prompt"""
     try:
         # Get the chat session for the conversation ID
         chat = get_chat_session(conv_id)
-
+        
         # List to store uploaded files (Gemini File objects)
         uploaded_gemini_files = []
 
@@ -277,30 +283,49 @@ def process_files_and_prompt(files, custom_prompt, conv_id):
                 file=file.name,
                 config=dict(mime_type=mime_type)
             )
-            
             uploaded_gemini_files.append(uploaded_file_obj)
         
-        # If no files were uploaded, return an error
         if not uploaded_gemini_files:
             return "No files were uploaded. Please upload at least one file."
         
         chat.send_message(uploaded_gemini_files)
         response = chat.send_message(custom_prompt)
         return response.text
+        
     except Exception as e:
+        print(f"Error processing files and prompt for conv_id {conv_id}: {e}")
         return f"Error: {str(e)}"
+
+def refresh_knowledge_background():
+    """Background task for refreshing knowledge base"""
+    try:
+        print("Starting background knowledge refresh...")
+        count = refresh_knowledge_base()
+        print(f"Background knowledge refresh completed. Files processed: {count}")
+    except Exception as e:
+        print(f"Error in background knowledge refresh: {e}")
 
 def initialize_chat_with_docs(chat):
     """Initialize a chat session with documents"""
-    if knowledge_contents:
-        chat.send_message(knowledge_contents)
+    try:
+        if knowledge_contents:
+            chat.send_message(knowledge_contents)
+            print("Chat initialized with knowledge documents")
+        else:
+            print("No knowledge contents available for initialization")
+    except Exception as e:
+        print(f"Warning: Could not initialize chat with documents: {e}")
+
+
 
 # Initialize knowledge base on startup
 print("Initializing knowledge base from Laravel...")
-knowledge_contents = process_knowledge_files_from_laravel()
-        
-# # Process all PDF files and send the contents to Gemini
-# my_contents = process_all_files(pdf_files)
+try:
+    knowledge_contents = process_knowledge_files_from_laravel()
+    print(f"Startup: Loaded {len(knowledge_contents)} knowledge files")
+except Exception as e:
+    print(f"Error during startup knowledge loading: {e}")
+    knowledge_contents = []
 
 # Create FastAPI app for API endpoints
 app = FastAPI()
@@ -316,41 +341,60 @@ async def create_chat_api(request: ChatRequest):
         initialize_chat_with_docs(chat)
         return {"message": f"Chat session {request.conv_id} created successfully"}
     except Exception as e:
+        print(f"Error in create_chat_api: {e}")
         return {"error": str(e)}
-    
-@app.post("/api/refresh_knowledge")
-async def refresh_knowledge_api(request: RefreshKnowledgeRequest):
-    """API endpoint for refreshing knowledge base from Laravel"""
-    try:
-        count = refresh_knowledge_base()
-        return {
-            "message": f"Knowledge base refreshed successfully",
-            "files_processed": count
-        }
-    except Exception as e:
-        return {"error": str(e)}
-
-@app.get("/api/knowledge_status")
-async def knowledge_status_api():
-    """API endpoint for checking knowledge base status"""
-    return {
-        "knowledge_files_loaded": len(knowledge_contents),
-        "active_chat_sessions": len(chat_sessions)
-    }    
-    
-@app.get("/api/list_chats")
-async def list_chats_api():
-    """API endpoint for listing all active chat sessions"""
-    return {"chat_sessions": list(chat_sessions.keys())}
 
 @app.delete("/api/delete_chat/{conv_id}")
 async def delete_chat_api(conv_id: int):
     """API endpoint for deleting a chat session"""
-    if conv_id in chat_sessions:
-        del chat_sessions[conv_id]
-        return {"message": f"Chat session {conv_id} deleted successfully"}
-    else:
-        return {"error": f"Chat session {conv_id} not found"}
+    try:
+        if conv_id in chat_sessions:
+            del chat_sessions[conv_id]
+            # Force garbage collection after deleting chat
+            gc.collect()
+            return {"message": f"Chat session {conv_id} deleted successfully"}
+        else:
+            return {"error": f"Chat session {conv_id} not found"}
+    except Exception as e:
+        print(f"Error deleting chat {conv_id}: {e}")
+        return {"error": str(e)}
+    
+@app.post("/api/refresh_knowledge")
+async def refresh_knowledge_api(request: RefreshKnowledgeRequest, background_tasks: BackgroundTasks):
+    """API endpoint for refreshing knowledge base from Laravel - responds immediately then processes in background"""
+    try:
+        # Check if refresh is already running
+        if refresh_status["is_running"]:
+            return {
+                "message": "Knowledge base refresh is already in progress",
+                "status": "already_running",
+                "start_time": refresh_status["start_time"].isoformat() if refresh_status["start_time"] else None
+            }
+        
+        # add background task
+        background_tasks.add_task(refresh_knowledge_background)
+        
+        # Respond immediately
+        return {
+            "message": "Knowledge base refresh started successfully",
+            "status": "processing",
+            "note": "The refresh process is running in the background"
+        }
+    except Exception as e:
+        print(f"Error in refresh_knowledge_api: {e}")
+        return {"error": str(e)}
+
+@app.get("/api/refresh_status")
+async def get_refresh_status():
+    """API endpoint for checking refresh status"""
+    return {
+        "is_running": refresh_status["is_running"],
+        "last_refresh": refresh_status["last_refresh"],
+        "files_processed": refresh_status["files_processed"],
+        "error": refresh_status["error"],
+        "start_time": refresh_status["start_time"].isoformat() if refresh_status["start_time"] else None,
+        "end_time": refresh_status["end_time"].isoformat() if refresh_status["end_time"] else None
+    }
 
 @app.post("/api/process_prompt")
 async def process_prompt_api(request: PromptRequest):
@@ -359,6 +403,7 @@ async def process_prompt_api(request: PromptRequest):
         result = process_prompt(request.prompt, request.conv_id)
         return {"result": result}
     except Exception as e:
+        print(f"Error in process_prompt_api: {e}")
         return {"error": str(e)}
 
 @app.post("/api/process_files_and_prompt")
@@ -368,13 +413,15 @@ async def process_files_and_prompt_api(
     conv_id: int = Form(...)
 ):
     """API endpoint for processing files and prompts"""
-    temp_dir = None # Initialize temp_dir outside try for proper cleanup
+    temp_dir = None
+    temp_files_for_processing = []
 
     try:
         def sanitize_filename(filename):
             """Sanitize filename to avoid filesystem issues"""
             if not filename:
                 return 'unnamed_file'
+            
             # Normalize unicode characters
             filename = unicodedata.normalize('NFKD', filename)
             # Remove or replace problematic characters
@@ -385,8 +432,6 @@ async def process_files_and_prompt_api(
             filename = filename.strip('. ')
             return filename if filename else 'unnamed_file'
 
-        # Save uploaded files temporarily with safe filenames
-        temp_files_for_processing = [] # List to store SimpleFile objects for your process_files_and_prompt
         temp_dir = tempfile.mkdtemp()
         
         for i, file in enumerate(files):
@@ -396,7 +441,6 @@ async def process_files_and_prompt_api(
             temp_filename = f"{uuid.uuid4().hex}_{safe_filename}{file_extension}"
             temp_path = os.path.join(temp_dir, temp_filename)
 
-            # Save the file
             try:
                 content = await file.read()
                                 
@@ -409,9 +453,7 @@ async def process_files_and_prompt_api(
                 
                 # Verify file was written successfully
                 if os.path.exists(temp_path) and os.path.getsize(temp_path) > 0:
-                    file_size = os.path.getsize(temp_path)
-                    
-                    # Create a simple file object that matches what your process function expects
+                    # Create a simple file object
                     class SimpleFile:
                         def __init__(self, path, original_filename):
                             self.name = path
@@ -423,37 +465,20 @@ async def process_files_and_prompt_api(
                     
             except Exception as file_error:
                 print(f"Error saving file {file.filename}: {str(file_error)}")
-                print(f"Traceback: {traceback.format_exc()}")
                 continue
         
         if not temp_files_for_processing:
-            error_msg = "No valid files were uploaded or saved"
-            return {"error": error_msg}
-        
-        # List all temp files before processing
-        for temp_file in temp_files_for_processing:
-            print(f"Temp file: {temp_file.filename} -> {temp_file.name}")
+            return {"error": "No valid files were uploaded or saved"}
         
         # Process the files
-        try:
-            # Pass the list of SimpleFile objects
-            result = process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id) 
-            if isinstance(result, str) and len(result) > 100:
-                print(f"Result preview: {result[:100]}...")
-            else:
-                print(f"Result: {result}")
-                
-        except Exception as process_error:
-            error_msg = f"Error processing files: {str(process_error)}"
-            return {"error": error_msg}
-        
+        result = process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id) 
         return {"result": result}
         
     except Exception as e:
-        error_msg = f"Unexpected error in process_files_and_prompt_api: {str(e)}"
-        return {"error": error_msg}
+        print(f"Error in process_files_and_prompt_api: {e}")
+        return {"error": str(e)}
     finally:
-        # Cleanup temporary files and directory
+        # Cleanup
         for temp_file in temp_files_for_processing: 
             try:
                 if os.path.exists(temp_file.name):
@@ -461,13 +486,22 @@ async def process_files_and_prompt_api(
             except Exception as cleanup_error:
                 print(f"Error cleaning up {temp_file.name}: {str(cleanup_error)}")
 
-        if temp_dir and os.path.exists(temp_dir): # Check if temp_dir exists before trying to remove
+        if temp_dir and os.path.exists(temp_dir):
             try:
                 os.rmdir(temp_dir)
-                print(f"Removed temp directory: {temp_dir}")
             except Exception as cleanup_error:
                 print(f"Error removing temp directory {temp_dir}: {str(cleanup_error)}")
+        
+        # Force garbage collection after file processing
+        gc.collect()
 
 # Launch the app
 if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8001)
+    uvicorn.run(
+        app, 
+        host="0.0.0.0", 
+        port=8001,
+        timeout_keep_alive=300,
+        limit_concurrency=10,
+        access_log=True
+    )
