@@ -316,6 +316,93 @@ def initialize_chat_with_docs(chat):
     except Exception as e:
         print(f"Warning: Could not initialize chat with documents: {e}")
 
+def define_chat_name(conv_id: int):
+    """Define a name for the chat session based on the first actual user interaction"""
+    try:
+        if conv_id not in chat_sessions:
+            print(f"Error: Chat session '{conv_id}' not found.")
+            return "New Conversation"
+
+        chat = get_chat_session(conv_id)
+        
+        ### Section 1 : Find the first actual user interaction ###
+        start_index = -1
+        for i, message in enumerate(chat.get_history()):
+            # Check if the message is from the user and has text parts
+            if message.role == 'user' and any(hasattr(part, 'text') and part.text and part.text.strip() for part in message.parts):
+                start_index = i
+                break
+
+        # If cannot find a user message, return a default name
+        if start_index == -1:
+            print(f"No actual user conversation found in conv_id '{conv_id}' to generate a name.")
+            return "New Conversation"
+
+        ### Section 2 : Get history content from start_index ###
+        # Get the last 4 messages starting from start_index
+        history_slice = chat.get_history()[start_index : start_index + 4]
+        
+        # Create a transcript from history_slice
+        transcript_parts = []
+        for message in history_slice:
+            # Collect all text parts of the same message and check if part.text is not None
+            full_text = " ".join([part.text for part in message.parts if hasattr(part, 'text') and part.text is not None]).strip()
+            if not full_text:
+                continue
+
+            role = "ผู้ใช้" if message.role == "user" else "ผู้ช่วย"
+            transcript_parts.append(f"{role}: {full_text}")
+        
+        # If no messages were found or transcript_parts is empty, return a default name
+        if not transcript_parts:
+            print(f"No valid transcript found for conv_id '{conv_id}'")
+            return "New Conversation"
+
+        transcript = "\n".join(transcript_parts)
+        print(f"Transcript for naming conv_id '{conv_id}': {transcript}")
+        
+        # Prompt for naming the chat based on the transcript content
+        prompt_for_naming = f"""
+        จากบทสนทนาต่อไปนี้ โปรดตั้งชื่อเรื่องเป็นภาษาไทยที่สั้น กระชับ และได้ใจความ
+        โดยมีความยาวไม่เกิน 8 คำ และไม่ต้องใส่เครื่องหมายใดๆ รวมถึงเครื่องหมายคำพูด ("") หรือคำนำหน้าใดๆ เช่น "ชื่อเรื่อง:" 
+
+        บทสนทนา:
+        ---
+        {transcript}
+        ---
+
+        ชื่อเรื่องที่เหมาะสมคือ:
+        """
+
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.0-flash",
+                contents=prompt_for_naming,
+                config=types.GenerateContentConfig(
+                    temperature=0.2
+                )
+            )
+
+            # Check if response is valid and has text
+            if response and hasattr(response, 'text') and response.text:
+                chat_name = response.text.strip().strip('"').strip("'")
+                print(f"Generated name for conv_id '{conv_id}': {chat_name}")
+                return chat_name
+            else:
+                print(f"Gemini API returned empty response for conv_id '{conv_id}'")
+                print(f"Response object: {response}")
+                if hasattr(response, 'candidates') and response.candidates:
+                    print(f"Candidates: {response.candidates}")
+                return "New Conversation"
+                
+        except Exception as gemini_error:
+            print(f"Error calling Gemini API for conv_id '{conv_id}': {gemini_error}")
+            return "New Conversation"
+
+    except Exception as e:
+        print(f"An error occurred while defining chat name for conv_id {conv_id}: {e}")
+        return "New Conversation"
+
 
 
 # Initialize knowledge base on startup
@@ -331,14 +418,16 @@ except Exception as e:
 app = FastAPI()
 
 @app.post("/api/create_chat")
-async def create_chat_api(request: ChatRequest):
+async def create_chat_api(request: ChatRequest, background_tasks: BackgroundTasks):
     """API endpoint for creating a new chat session"""
     try:
         if request.conv_id in chat_sessions:
             return {"error": f"Chat session {request.conv_id} already exists"}
         
         chat = create_chat_session(request.conv_id)
-        initialize_chat_with_docs(chat)
+        
+        background_tasks.add_task(initialize_chat_with_docs, chat)
+        
         return {"message": f"Chat session {request.conv_id} created successfully"}
     except Exception as e:
         print(f"Error in create_chat_api: {e}")
@@ -357,6 +446,18 @@ async def delete_chat_api(conv_id: int):
             return {"error": f"Chat session {conv_id} not found"}
     except Exception as e:
         print(f"Error deleting chat {conv_id}: {e}")
+        return {"error": str(e)}
+    
+@app.post("/api/define_chat_name")
+async def define_chat_name_api(request: ChatRequest):
+    """API Endpoint for defining a chat name based on conversation ID"""
+    try:
+        # Call define chat name function
+        result = define_chat_name(request.conv_id)
+        
+        return {"result": result}
+    except Exception as e:
+        print(f"Error in define_chat_name_api: {e}")
         return {"error": str(e)}
     
 @app.post("/api/refresh_knowledge")
