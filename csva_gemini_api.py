@@ -44,6 +44,41 @@ SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้�
 * หากข้อมูลที่นิสิตสอบถามไม่อยู่ในไฟล์ความรู้ ให้ค้นหาข้อมูลที่มีความใกล้เคียงหรือเกี่ยวข้องที่สุด จากแหล่งข้อมูลอื่น.
 * นอกเหนือจากนี้ ให้แจ้งว่าไม่สามารถให้ข้อมูลในส่วนนั้นได้โดยตรง แต่สามารถให้ข้อมูลอื่นที่เกี่ยวข้องได้."""
 
+# Transcript instruction
+TRANSCRIPT_INSTRUCTION = """
+1) บทบาทและบริบท
+    * คุณเป็นผู้ช่วยประจำภาควิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์
+    * หน้าที่หลักคือช่วยตอบคำถามเกี่ยวกับทรานสคริปต์ผลการเรียนของนิสิต
+
+รูปแบบการตอบคำถาม:
+2) จัดเรียงผลการเรียนตามภาคการศึกษา (“Semester”) และปีการศึกษา ดังนี้:
+    - Summer Semester (ปีการศึกษา)
+    - First Semester (ปีการศึกษา)
+    - Second Semester (ปีการศึกษา)
+    * เรียงปีการศึกษาจากน้อยไปมาก
+    * ภายในแต่ละปีการศึกษา ให้เรียงลำดับภาคการศึกษาตามที่กำหนด (summer → first → second)
+    * ภาคการศึกษา summer อาจจะมีหรือไม่มีขึ้นอยู่กับข้อมูลที่ได้รับมา
+
+3) โครงสร้างการแสดงผล
+    * แต่ละภาคการศึกษาขึ้นหัวข้อด้วยชื่อภาคการศึกษาและปี แสดงภาคและปีการศึกษาในรูปแบบตัวหนา เช่น 
+        - First Semester (2022)
+        - Second Semester (2022)
+        - Summer Semester (2023)
+        - First Semester (2023)
+        - Second Semester (2023)
+        - Summer Semester (2024)
+        - First Semester (2024)
+        - Second Semester (2024)
+        - Summer Semester (2025)
+
+4) การตรวจสอบความถูกต้อง
+    * หลังแสดงข้อมูลทรานสคริปต์ทั้งหมดแล้ว ให้ถามยืนยันกับเจ้าของข้อมูลเสมอ เช่น
+        - “ข้อมูลทรานสคริปต์ที่แสดงข้างต้นถูกต้องหรือไม่ หรือต้องการแก้ไขเพิ่มเติมในส่วนใดบ้างครับ/ค่ะ?”
+
+5) ข้อควรระวัง
+    * ควรอ่านไฟล์ทรานสคริปต์และข้อมูลดิบ (input file) ให้ละเอียดและครบถ้วนก่อนจัดเรียง
+    * หากเจอข้อมูลขาดหายหรือไม่ชัดเจน ให้สอบถามเพิ่มเติมทันที"""
+
 # Base URL for Laravel API
 LARAVEL_BASE_URL = "http://localhost"
 
@@ -238,7 +273,7 @@ def create_chat_session(conv_id: int):
 def get_chat_session(conv_id: int):
     """Get existing chat by conversation ID"""
     if conv_id not in chat_sessions:
-        raise ValueError(f"Chat session '{conv_id}' not found")
+        raise ValueError(f"Chat session '{conv_id}' not found") ### chat not found
     
     return chat_sessions[conv_id]
 
@@ -255,7 +290,7 @@ def process_prompt(prompt, conv_id):
         print(f"Error processing prompt for conv_id {conv_id}: {e}")
         return f"Error: {str(e)}"
 
-def process_files_and_prompt(files, custom_prompt, conv_id):
+def process_files_and_prompt(files, custom_prompt, conv_id, custom_config):
     """Process uploaded files and a prompt"""
     try:
         # Get the chat session for the conversation ID
@@ -289,7 +324,7 @@ def process_files_and_prompt(files, custom_prompt, conv_id):
             return "No files were uploaded. Please upload at least one file."
         
         chat.send_message(uploaded_gemini_files)
-        response = chat.send_message(custom_prompt)
+        response = chat.send_message(custom_prompt, custom_config)
         return response.text
         
     except Exception as e:
@@ -518,6 +553,15 @@ async def process_files_and_prompt_api(
     temp_files_for_processing = []
 
     try:
+        # Create flag to check if transcript file is present
+        should_process_transcript = False
+        for file in files:
+            # Check filename contains 'transcript'
+            if file.filename and 'transcript' in file.filename.lower():
+                should_process_transcript = True
+                print(f"Detected transcript file: {file.filename}")
+                break
+        
         def sanitize_filename(filename):
             """Sanitize filename to avoid filesystem issues"""
             if not filename:
@@ -571,8 +615,13 @@ async def process_files_and_prompt_api(
         if not temp_files_for_processing:
             return {"error": "No valid files were uploaded or saved"}
         
+        transcript_config = None
+        if should_process_transcript:
+            transcript_config = types.GenerateContentConfig(system_instruction=TRANSCRIPT_INSTRUCTION)
+            print("Config set to TRANSCRIPT_INSTRUCTION")
+        
         # Process the files
-        result = process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id) 
+        result = process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id, transcript_config) 
         return {"result": result}
         
     except Exception as e:
