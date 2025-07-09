@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List, Dict, Optional
 from pydantic import BaseModel
 from google import genai
 from google.genai import types
@@ -17,7 +17,7 @@ import gc  # เพิ่ม garbage collector
 
 # System instruction
 SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้าหมาย: 
-* ตอบคำถามของนิสิตภาควิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ เกี่ยวกับเรื่องต่างๆ ที่เกี่ยวข้องกับการศึกษาในภาควิชาและมหาวิทยาลัย.
+* ตอบคำถามของนิสิตภาควิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ เกี่ยวกับเรื่องต่างๆ ที่เกี่ยวข้องกับการศึกษาในภาควิชา ในมหาวิทยาลัยหรือตามความเหมาะสม.
 * ให้ข้อมูลที่ถูกต้องและเป็นปัจจุบัน อ้างอิงจากไฟล์ความรู้ที่แนบมา.
 * ช่วยเหลือและแนะนำนิสิตในเรื่องต่างๆ เช่น เงื่อนไขการให้ทุนการศึกษาภาคพิเศษ, ขั้นตอนการยื่นหนังสือสหกิจศึกษา, การขอแบบฟอร์มเอกสารต่างๆ, การส่งโครงงานวิทยาการคอมพิวเตอร์, เอกสารที่จำเป็นสำหรับการยื่นสำเร็จการศึกษา, ปฏิทินการศึกษาของภาคเรียน, ขั้นตอนการขอยืมอุปกรณ์ IOT, และขั้นตอนการขอเอกสารทางการศึกษาจากมหาวิทยาลัย.
 * สร้างบรรยากาศการสนทนาที่เป็นกันเองและเข้าถึงง่าย.
@@ -41,7 +41,6 @@ SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้�
     ค) ตอบคำถามด้วยความอดทนและใจเย็น.
 การอ้างอิง:
 * ยึดมั่นในการให้ข้อมูลที่ถูกต้องตามที่ระบุไว้ในไฟล์ความรู้ที่แนบมาเท่านั้น.
-* หากข้อมูลที่นิสิตสอบถามไม่อยู่ในไฟล์ความรู้ ให้ค้นหาข้อมูลที่มีความใกล้เคียงหรือเกี่ยวข้องที่สุด จากแหล่งข้อมูลอื่น.
 * นอกเหนือจากนี้ ให้แจ้งว่าไม่สามารถให้ข้อมูลในส่วนนั้นได้โดยตรง แต่สามารถให้ข้อมูลอื่นที่เกี่ยวข้องได้."""
 
 # Transcript instruction
@@ -82,9 +81,14 @@ TRANSCRIPT_INSTRUCTION = """
 # Base URL for Laravel API
 LARAVEL_BASE_URL = "http://localhost"
 
+class Message(BaseModel):
+    role: str
+    content: str
+    
 class PromptRequest(BaseModel):
     prompt: str
     conv_id: int
+    history: Optional[List[Message]] = None
 
 class ChatRequest(BaseModel):
     conv_id: int
@@ -93,7 +97,7 @@ class RefreshKnowledgeRequest(BaseModel):
     force: bool = False
 
 # Initialize the Gemini client with provided API key
-client = genai.Client(api_key="AIzaSyB67xn_olcqoGAn-IAvdFTTeuhGaaEBiEY")
+client = genai.Client(api_key="AIzaSyB6AS0OkeKNbGecKzVIidL4vXsvUa-OgVo")
 
 # Dictionary to store chat sessions
 chat_sessions: Dict[int, object] = {}
@@ -255,33 +259,91 @@ def refresh_knowledge_base():
         # Force garbage collection after refresh
         gc.collect()
 
-def create_chat_session(conv_id: int):
+def create_chat_session(conv_id: int, history: list[types.Content] | None = None):
     """Create a new chat session with the Gemini model and configuration"""
     try:
+        # If this is a new conversation ID, initialize an empty chat history
+        if history is None:
+            history = []
+            
         chat = client.chats.create(
             model="gemini-2.0-flash",
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_INSTRUCTION,
-            )
+            ),
+            history=history,
         )
         chat_sessions[conv_id] = chat
+        print(f"Chat session {conv_id} created successfully.")
         return chat
     except Exception as e:
         print(f"Error creating chat session {conv_id}: {e}")
         raise e
 
-def get_chat_session(conv_id: int):
-    """Get existing chat by conversation ID"""
-    if conv_id not in chat_sessions:
-        raise ValueError(f"Chat session '{conv_id}' not found") ### chat not found
+def get_chat_session(conv_id: int, history: list[types.Content] | None = None):
+    """Get existing chat by conversation ID.
+    If not found in memory, it will try to fetch history from the Laravel backend
+    and recreate the session.
+    """
+    if conv_id in chat_sessions:
+        print(f"Found chat session {conv_id} in memory.")
+        return chat_sessions[conv_id]
     
-    return chat_sessions[conv_id]
+    if conv_id not in chat_sessions:
+        print(f"Chat session {conv_id} not in memory. Creating new session...")
+        
+    try:
+        recreated_history = []
+        if history is not None:
+            for i, msg in enumerate(history):
+                
+                role_val = None
+                content_val = None
 
-def process_prompt(prompt, conv_id):
+                if isinstance(msg, Message): # Is Pydantic Message object type (from sendPrompt)
+                    role_val = msg.role
+                    content_val = msg.content
+                elif isinstance(msg, dict): # Is dictionary type (from process_files_and_prompt)
+                    role_val = msg.get('role', msg.get('type', 'user'))
+                    content_val = msg.get('content', '')
+                else:
+                    # Handle unexpected types
+                    print(f"WARNING: Unexpected type in history item {i}: {type(msg)}. Attempting to convert to string content.")
+                    role_val = "user" # Initialize role as 'user' if not specified
+                    content_val = str(msg) # Convert to string content to avoid AttributeError
+
+                if role_val is not None and content_val is not None:
+                    recreated_history.append(
+                        types.Content(parts=[types.Part(text=content_val)], role=role_val)
+                    )
+                else:
+                    print(f"WARNING: Skipping malformed or empty history message for conv_id {conv_id}: {msg}")
+
+        print(f"Successfully fetched {len(recreated_history)} messages. Recreating session...")
+        
+        chat = create_chat_session(conv_id, history=recreated_history)
+        
+        try:
+            initialize_chat_with_docs(chat)
+            print(f"Chat session {conv_id} initialized with knowledge documents")
+        except Exception as doc_error:
+            print(f"Warning: Could not initialize chat {conv_id} with documents: {doc_error}")
+        
+        return chat
+
+    except requests.exceptions.RequestException as e:
+        # Handle API call failures (e.g., network error, 404 not found from Laravel)
+        print(f"Failed to fetch history for conv_id {conv_id} from API: {e}")
+        raise ValueError(f"Chat session '{conv_id}' not found in memory or database.") from e
+    except Exception as e:
+        print(f"An unexpected error occurred while recreating session {conv_id}: {e}")
+        raise e
+
+def process_prompt(prompt, conv_id, history=None):
     """Process a text prompt"""
     try:
         # Get the chat session for the conversation ID
-        chat = get_chat_session(conv_id)
+        chat = get_chat_session(conv_id, history)
         
         # Send the prompt to Gemini and get the response
         response = chat.send_message(prompt)
@@ -290,12 +352,12 @@ def process_prompt(prompt, conv_id):
         print(f"Error processing prompt for conv_id {conv_id}: {e}")
         return f"Error: {str(e)}"
 
-def process_files_and_prompt(files, custom_prompt, conv_id, custom_config):
+def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, history=None):
     """Process uploaded files and a prompt"""
     try:
         # Get the chat session for the conversation ID
-        chat = get_chat_session(conv_id)
-        
+        chat = get_chat_session(conv_id, history)
+
         # List to store uploaded files (Gemini File objects)
         uploaded_gemini_files = []
 
@@ -306,8 +368,6 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config):
             
             if file_extension == '.pdf':
                 mime_type = 'application/pdf'
-            elif file_extension in ['.png', '.jpg', '.jpeg']:
-                mime_type = f'image/{file_extension[1:]}'
             elif file_extension == '.txt':
                 mime_type = 'text/plain'
             else:
@@ -536,7 +596,7 @@ async def get_refresh_status():
 async def process_prompt_api(request: PromptRequest):
     """API endpoint for processing text prompts"""
     try:
-        result = process_prompt(request.prompt, request.conv_id)
+        result = process_prompt(request.prompt, request.conv_id, request.history)
         return {"result": result}
     except Exception as e:
         print(f"Error in process_prompt_api: {e}")
@@ -546,7 +606,8 @@ async def process_prompt_api(request: PromptRequest):
 async def process_files_and_prompt_api(
     files: List[UploadFile] = File(...),
     custom_prompt: str = Form(...),
-    conv_id: int = Form(...)
+    conv_id: int = Form(...),
+    history: Optional[str] = Form(None)
 ):
     """API endpoint for processing files and prompts"""
     temp_dir = None
@@ -615,13 +676,23 @@ async def process_files_and_prompt_api(
         if not temp_files_for_processing:
             return {"error": "No valid files were uploaded or saved"}
         
+        # Parse history string if provided
+        parsed_history = None
+        if history:
+            try:
+                # Convert JSON string back to Python list of dicts
+                parsed_history = json.loads(history) # Now parsed_history will be a list of dicts like [{'role': 'user', 'content': '...'}]
+            except json.JSONDecodeError:
+                print(f"Warning: Could not decode history JSON string: {history}")
+                return {"error": "Invalid history format (not a valid JSON string)"}
+        
         transcript_config = None
         if should_process_transcript:
             transcript_config = types.GenerateContentConfig(system_instruction=TRANSCRIPT_INSTRUCTION)
             print("Config set to TRANSCRIPT_INSTRUCTION")
         
         # Process the files
-        result = process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id, transcript_config) 
+        result = process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id, transcript_config, parsed_history) 
         return {"result": result}
         
     except Exception as e:
