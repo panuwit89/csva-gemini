@@ -183,12 +183,19 @@ def process_knowledge_files_from_laravel():
             try:
                 with open(temp_file_path, 'wb') as temp_file:
                     temp_file.write(file_content)
-                
-                # Upload to Gemini
+
+                # Check file extension to determine mime_type
+                if filename.lower().endswith('.txt'):
+                    mime_type = 'text/plain'  # Mime type for Text files
+                else:
+                    mime_type = 'application/pdf' # Mime type for PDF files
+
+                # 2. Upload to Gemini using the determined mime_type
                 uploaded_file = client.files.upload(
                     file=temp_file_path,
-                    config=dict(mime_type='application/pdf')
+                    config=dict(mime_type=mime_type)
                 )
+                
                 contents.append(uploaded_file)
                 
                 print(f"Processed: {title} ({filename})")
