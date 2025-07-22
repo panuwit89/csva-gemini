@@ -1,0 +1,1044 @@
+﻿รายละเอียดของหลักสูตร หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ หลักสูตรปรับปรุง พ.ศ. 2565
+ชื่อสถาบันอุดมศึกษา	มหาวิทยาลัยเกษตรศาสตร์
+วิทยาเขต/คณะ/ภาควิชา	คณะวิทยาศาสตร์ ภาควิชาวิทยาการคอมพิวเตอร์
+หมวดที่ 1 ข้อมูลทั่วไป
+1.	รหัสและชื่อหลักสูตร
+รหัสหลักสูตร	25300021100231
+ภาษาไทย	หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์
+ภาษาอังกฤษ	Bachelor of Science Program in Computer Science
+2. ชื่อปริญญาและสาขาวิชา
+ชื่อเต็ม	วิทยาศาสตรบัณฑิต (วิทยาการคอมพิวเตอร์)
+ชื่อย่อ	วท.บ. (วิทยาการคอมพิวเตอร์)
+ชื่อเต็ม	Bachelor of Science (Computer Science)
+ชื่อย่อ	B.S. (Computer Science)
+3. วิชาเอก (ถ้ามี)
+ไม่มี
+4. จํานวนหน่วยกิตที่เรียนตลอดหลักสูตร
+ไม่น้อยกว่า 124 หน่วยกิต
+5. รูปแบบของหลักสูตร
+5.1 รูปแบบและประเภทของหลักสูตร
+	หลักสูตรระดับปริญญาตรี 4 ปี (ทางวิชาการ)
+	ตามมาตรฐานคุณวุฒิระดับปริญญาตรี สาขาคอมพิวเตอร์ พ.ศ. 2552
+5.2 ภาษาที่ใช้ ภาษาไทยและภาษาอังกฤษ
+5.3  การรับเข้าศึกษา รับทั้งนิสิตไทยและนิสิตต่างชาติ
+5.4 ความร่วมมือกับสถาบันอื่น เป็นหลักสูตรเฉพาะของสถาบัน
+5.5  การให้ปริญญาแก่ผู้สําเร็จการศึกษา ให้ปริญญาเพียงสาขาวิชาเดียว
+6. สถานภาพของหลักสูตรและการพิจารณาอนุมัติ/เห็นชอบหลักสูตร สถานภาพของหลักสูตร
+	หลักสูตรปรับปรุง กําหนดเปิดสอน ภาคการศึกษาที่ 1 ปีการศึกษา 2565
+	ปรับปรุงจากหลักสูตรชื่อ หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์
+	เริ่มใช้มาตั้งแต่ปีการศึกษา 2528
+	ปรับปรุงครั้งสุดท้าย เมื่อปีการศึกษา 2560
+
+3.	หลักสูตรและอาจารย์ผู้สอน
+3.1 หลักสูตร
+3.1.1	จํานวนหน่วยกิต รวมตลอดหลักสูตร ไม่น้อยกว่า 124 หน่วยกิต
+3.1.2	โครงสร้างหลักสูตร
+
+(1) หมวดวิชาศึกษาทั่วไป ไม่น้อยกว่า 30 หน่วยกิต
+ 	กลุ่มสาระอยู่ดีมีสุข ไม่น้อยกว่า 3 หน่วยกิต
+	กลุ่มสาระศาสตร์แห่งผู้ประกอบการ ไม่น้อยกว่า 3 หน่วยกิต
+	กลุ่มสาระภาษากับการสื่อสาร ไม่น้อยกว่า 13 หน่วยกิต
+	กลุ่มสาระพลเมืองไทยและพลเมืองโลก ไม่น้อยกว่า 3 หน่วยกิต
+	กลุ่มสาระสุนทรียศาสตร์ ไม่น้อยกว่า 3 หน่วยกิต
+(2) หมวดวิชาเฉพาะ ไม่น้อยกว่า 88 หน่วยกิต
+	วิชาแกน 12 หน่วยกิต
+	วิชาเฉพาะบังคับ 58 หน่วยกิต
+	เฉพาะเลือก ไม่น้อยกว่า 18 หน่วยกิต
+(3) หมวดวิชาเลือกเสรี ไม่น้อยกว่า 6 หน่วยกิต
+
+3.1.3	รายวิชา
+(1) หมวดวิชาศึกษาทั่วไป ไม่น้อยกว่า 30 หน่วยกิต
+	กลุ่มสาระอยู่ดีมีสุข ไม่น้อยกว่า 3 หน่วยกิต
+01175xxx	กิจกรรมพลศึกษา	1(0-2-1)
+(Physical Education Activities)
+และเลือกเรียนอีกไม่น้อยกว่า 2 หน่วยกิต จากรายวิชาในหมวดวิชาศึกษาทั่วไป กลุ่มสาระอยู่ดีมีสุข
+	กลุ่มสาระศาสตร์แห่งผู้ประกอบการ ไม่น้อยกว่า 3 หน่วยกิต
+เลือกเรียนไม่น้อยกว่า 3 หน่วยกิต จากรายวิชาในหมวดวิชาศึกษาทั่วไป กลุ่มสาระศาสตร์แห่งผู้ประกอบการ
+	กลุ่มสาระภาษากับการสื่อสาร ไม่น้อยกว่า 13 หน่วยกิต
+วิชาภาษาไทย 3( - - )
+วิชาภาษาต่างประเทศ 1 ภาษา 9( - - )
+วิชาสารสนเทศ/คอมพิวเตอร์ ไม่น้อยกว่า 1( - - )
+	กลุ่มสาระพลเมืองไทยและพลเมืองโลก ไม่น้อยกว่า 3 หน่วยกิต
+01999111	ศาสตร์แห่งแผ่นดิน	2(2-0-4)
+(Knowledge of the Land)
+และเลือกเรียนอีกไม่น้อยกว่า 1 หน่วยกิต จากรายวิชาในหมวดวิชาศึกษาทั่วไป กลุ่มสาระพลเมืองไทยและ พลเมืองโลก
+	กลุ่มสาระสุนทรียศาสตร์ ไม่น้อยกว่า 3 หน่วยกิต
+เลือกเรียนไม่น้อยกว่า 3 หน่วยกิต จากรายวิชาในหมวดวิชาศึกษาทั่วไป กลุ่มสาระสุนทรียศาสตร์ 
+      และเลือกเรียนรายวิชาในหมวดวิชาศึกษาทั่วไปอีกไม่น้อยกว่า 5 หน่วยกิต
+
+(2) หมวดวิชาเฉพาะ ไม่น้อยกว่า 88 หน่วยกิต
+	วิชาแกน 12 หน่วยกิต
+01417111 แคลคูลัส 3(3-0-6) (Calculus I)
+01417322 พีชคณิตเชิงเส้นพื้นฐาน 3(3-0-6) (Basic Linear Algebra)
+01418131* การโปรแกรมทางสถิติ 3(3-0-6) (Statistical Programming)
+01418132** หลักมูลการคณนา 3(3-0-6) (Fundamentals of Computing)
+	วิชาเฉพาะบังคับ	58	หน่วยกิต
+กลุ่มประเด็นด้านองค์การและระบบสารสนเทศ
+01418141** ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ	3(3-0-6) (Intellectual Properties and Professional Ethics)
+01418371*	การบริหารโครงการและสตาร์ทอัพดิจิทัล	3(3-0-6) (Project Management and Digital Startup)
+
+กลุ่มเทคโนโลยีเพื่องานประยุกต์
+01418221**
+ระบบฐานข้อมูลเบื้องต้น
+3(3-0-6)
+(Fundamentals of Database Systems)
+
+01418261**
+หลักพื้นฐานของปัญญาประดิษฐ์
+3(3-0-6)
+(Fundamentals of Artificial Intelligence)
+
+01418321**
+การวิเคราะห์และการออกแบบระบบ
+3(2-2-5)
+(System Analysis and Design)
+
+01418390**
+การเตรียมความพร้อมสหกิจศึกษา
+1(1-0-2)
+(Co-operative Education Preparation)
+
+01418490
+สหกิจศึกษา
+6
+(Co-operative Education)
+
+01418497**
+สัมมนา
+1
+(Seminar)
+
+01418499
+โครงงานวิทยาการคอมพิวเตอร์
+3(0-9-5)
+(Computer Science Project)
+
+กลุ่มเทคโนโลยีและวิธีการทางซอฟต์แวร์
+01418112
+แนวคิดการโปรแกรมเบื้องต้น
+3(2-2-5)
+(Fundamental Programming Concepts)
+
+01418113**
+การโปรแกรมคอมพิวเตอร์
+3(2-2-5)
+(Computer Programming)
+
+01418211
+การสร้างซอฟต์แวร์
+3(2-2-5)
+(Software Construction)
+
+01418231** โครงสร้างข้อมูลและขั้นตอนวิธี	3(3-0-6) (Data Structures and Algorithms)
+01418232** การออกแบบและวิเคราะห์ขั้นตอนวิธี	3(3-0-6) (Design and Analysis of Algorithms)
+
+กลุ่มโครงสร้างพื้นฐานของระบบ
+01418111** วิทยาการคอมพิวเตอร์เบื้องต้น	2(2-0-4) (Introduction to Computer Science)
+01418236**  ระบบปฏิบัติการ	3(3-0-6)
+(Operating Systems)
+01418331**  ทฤษฎีการคํานวณ	3(3-0-6)
+(Theory of Computation)
+01418332** ความมั่นคงในระบบสารสนเทศ	3(3-0-6) (Information Systems Security)
+01418351** หลักการเครือข่ายคอมพิวเตอร์และการประมวลผลบนคลาวด์	3(3-0-6) (Computer Networks and Cloud Computing Principles)
+
+กลุ่มฮาร์ดแวร์และสถาปัตยกรรมคอมพิวเตอร์
+01418233** สถาปัตยกรรมคอมพิวเตอร์	3(3-0-6) (Computer Architecture)
+
+วิชาเฉพาะเลือก	ไม่น้อยกว่า	18	หน่วยกิต ให้เลือกเรียนรายวิชาในสาขาวิชาวิทยาการคอมพิวเตอร์ ไม่น้อยกว่า 18 หน่วยกิต โดยเป็นวิชา 014182xx ขึ้นไป
+01418212
+การโปรแกรมภาษาซี
+(C Programming)
+3(2-2-5)
+01418213
+การโปรแกรมภาษาโคบอล
+3(2-2-5)
+
+01418214
+(COBOL Programming)
+การฝึกปฏิบัติการพัฒนาซอฟต์แวร์
+
+1(0-3-2)
+
+(Practicum in Software Development)
+
+01418222*
+ระบบสารสนเทศวิสาหกิจ
+(Enterprise Information System)
+3(3-0-6)
+01418223
+วิทยาการข้อมูลและโปรแกรมประยุกต์
+(Data Science and Application Programs)
+3(2-2-5)
+01418234**
+การโปรแกรมอินเทอร์เน็ตของสรรพสิ่ง
+3(2-2-5)
+
+01418235
+(Programming Internet of Things)
+ระบบปฏิบัติการยูนิกซ์และการโปรแกรมเปลือกระบบ
+
+3(2-2-5)
+
+(Unix Operating System and Shell Programming)
+
+01418241**
+เทคโนโลยีสารสนเทศการเงินและการธนาคาร
+(Financial and Banking Information Technology)
+3(2-2-5)
+
+
+01418281**
+หลักการสร้างภาพเคลื่อนไหวด้วยคอมพิวเตอร์
+(Principles of Computer Animation)
+3(3-0-6)
+01418282**
+การประมวลผลภาพและวีดิทัศน์
+(Image and Video Processing)
+3(3-0-6)
+01418311
+การโปรแกรมเชิงคํานวณแบบท้าทาย
+3(2-2-5)
+
+01418322**
+(Challenging Computational Programming)
+วิทยาการข้อมูลเบื้องต้น
+
+3(2-2-5)
+
+(Introduction to Data Science)
+
+01418323**
+การจัดการคุณภาพข้อมูล
+(Data Quality Management)
+3(3-0-6)
+01418324
+ระบบสนับสนุนการตัดสินใจและอัจฉริยะทางธุรกิจ
+3(3-0-6)
+
+01418325*
+(Decision Support and Business Intelligent Systems)
+ข้อมูลจินตทัศน์
+
+3(2-2-5)
+
+(Data Visualization)
+
+01418333**
+เทคนิคตัวแปลโปรแกรม
+(Compiler Techniques)
+3(3-0-6)
+01418341**
+การออกแบบและการพัฒนาระบบการวางแผนทรัพยากรองค์กร
+3(2-2-5)
+             (Enterprise Resource Planning System Design and Development) 01418342** การออกแบบและพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์เคลื่อนที่ 3(2-2-5)
+(Mobile Application Design and Development)
+01418343** การคํานวณแบบขนานด้วยคูด้า	3(3-0-6) (Parallel Computing with CUDA)
+01418344	การจัดการมิติข้อมูลและรายงานทางธุรกิจ	3(2-2-5) (Business Data Dimension and Report Management)
+01418352**	การสื่อสารข้อมูลและเครือข่าย	3(3-0-6) (Data Communications and Networks)
+01418353** แนวคิดและบริการการคํานวณแบบคลาวด์	3(3-0-6) (Cloud Computing Concepts and Services)
+01418361** คอมพิวเตอร์วิทัศน์เบื้องต้น	3(3-0-6) (Introduction to Computer Vision)
+01418362*	การเรียนรู้ของเครื่องเบื้องต้น	3(3-0-6) (Introduction to Machine Learning)
+01418363*	การประมวลผลภาษาธรรมชาติ	3(3-0-6) (Natural Language Processing)
+01418381**	คอมพิวเตอร์กราฟิกส์เชิงโต้ตอบเบื้องต้น	3(3-0-6) (Introduction to Interactive Computer Graphics)
+01418382*	วิชวลเอฟเฟกส์	3(3-0-6)
+(Visual Effects)
+
+
+01418383*
+ความจริงขยาย
+(Extended Reality)
+3(3-0-6)
+01418421*
+การออกแบบประสบการณ์และส่วนเชื่อมประสานผู้ใช้
+(User Experience and User Interface Design)
+3(2-2-5)
+01418441
+เว็บเทคโนโลยีและเว็บบริการ
+3(2-2-5)
+
+01418451**
+(Web Technology and Web Services)
+การออกแบบและการบริหารเครือข่าย
+
+3(2-2-5)
+
+(Network Design and Administration)
+
+01418471*
+การออกแบบและพัฒนาซอฟต์แวร์
+(Software Design and Development)
+3(3-0-6)
+01418472*
+การบูรณาการกระบวนการเชิงอไจล์และเดฟอ็อปส์
+3(3-0-6)
+
+01418473
+(Integrated Agile Process and DevOps)
+การควบคุมและการตรวจสอบงานคอมพิวเตอร์
+
+3(3-0-6)
+
+(Computer Control and Audit)
+
+01418474
+การทดสอบและทวนสอบซอฟต์แวร์
+(Software Testing and Verification)
+3(3-0-6)
+01418496
+เรื่องเฉพาะทางวิทยาการคอมพิวเตอร์
+3
+
+(3) หมวดวิชาเลือกเสรี
+(Selected Topic in Computer Science)
+ไม่น้อยกว่า
+
+6	หน่วยกิต
+ความหมายของเลขรหัสประจําวิชา
+       ความหมายของเลขรหัสประจําวิชาในหลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ ประกอบด้วยเลข 8 หลัก มีความหมายดังนี้
+เลขลําดับที่
+1-2
+(01)
+หมายถึง
+บางเขน
+เลขลําดับที่
+3-5
+(418)
+หมายถึง
+สาขาวิชาวิทยาการคอมพิวเตอร์
+เลขลําดับที่
+6
+
+หมายถึง
+ระดับชั้นปี
+เลขลําดับที่	7	มีความหมายดังต่อไปนี้
+0	หมายถึง	กลุ่มวิชาทั่วไป สําหรับนิสิตนอกสาขาวิชาวิทยาการคอมพิวเตอร์
+1	หมายถึง	กลุ่มวิชาคอมพิวเตอร์เบื้องต้น ภาษาโปรแกรมคอมพิวเตอร์
+2	หมายถึง	กลุ่มวิชาวิศวกรรมสารสนเทศและฐานข้อมูล
+3	หมายถึง	กลุ่มวิชาระบบคอมพิวเตอร์ โครงสร้างข้อมูล
+4	หมายถึง	กลุ่มวิชาการประยุกต์ใช้คอมพิวเตอร์
+5	หมายถึง	กลุ่มวิชาการสื่อสาร เครือข่ายคอมพิวเตอร์
+6	หมายถึง	กลุ่มวิชาสารสนเทศอัจฉริยะและปัญญาประดิษฐ์
+7	หมายถึง	กลุ่มวิชาวิศวกรรมซอฟต์แวร์
+8	หมายถึง	กลุ่มวิชาระบบสื่อประสมและคอมพิวเตอร์กราฟิกส์
+              9	หมายถึง	กลุ่มวิชาสหกิจศึกษา เรื่องเฉพาะทาง สัมมนา ปัญหาพิเศษ และโครงงาน เลขลําดับที่	8	หมายถึง	ลําดับของวิชาในแต่ละกลุ่มวิชา
+
+3.1.4 แสดงตัวอย่างแผนการศึกษา
+3.1.4.1 บางเขน
+ปีที่ 1 ภาคการศึกษาที่ 1	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01417111
+แคลคูลัส I
+3(3-0-6)
+01418111
+วิทยาการคอมพิวเตอร์เบื้องต้น
+2(2-0-4)
+01418112
+แนวคิดการโปรแกรมเบื้องต้น
+3(2-2-5)
+01418141
+ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ
+3(3-0-6)
+01999111
+ศาสตร์แห่งแผ่นดิน
+2(2-0-4)
+
+วิชาภาษาไทย
+3( - - )
+
+วิชาภาษาต่างประเทศ 1 ภาษา
+3( - - )
+
+รวม
+19( - - )
+
+ปีที่ 1 ภาคการศึกษาที่ 2	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01417322
+พีชคณิตเชิงเส้นพื้นฐาน
+3(3-0-6)
+01418113
+การโปรแกรมคอมพิวเตอร์
+3(2-2-5)
+01418131
+การโปรแกรมทางสถิติ
+3(3-0-6)
+01418132
+หลักมูลการคณนา
+3(3-0-6)
+01175xxx
+กิจกรรมพลศึกษา
+1(0-2-1)
+
+วิชาศึกษาทั่วไปกลุ่มสาระศาสตร์แห่งผู้ประกอบการ
+3( - - )
+
+วิชาศึกษาทั่วไปกลุ่มสาระสุนทรียศาสตร์
+3( - - )
+
+รวม
+19( - - )
+
+ปีที่ 2 ภาคการศึกษาที่ 1	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01418211
+การสร้างซอฟต์แวร์
+
+3(2-2-5)
+01418231
+โครงสร้างข้อมูลและขั้นตอนวิธี
+
+3(3-0-6)
+01418233
+สถาปัตยกรรมคอมพิวเตอร์
+
+3(3-0-6)
+
+วิชาเฉพาะเลือก
+
+3( - - )
+
+วิชาสารสนเทศ/คอมพิวเตอร์
+
+1( - - )
+
+วิชาศึกษาทั่วไปกลุ่มสาระอยู่ดีมีสุข
+
+2( - - )
+
+วิชาศึกษาทั่วไปใน 5 กลุ่มสาระ
+
+3( - - )
+
+
+รวม
+18( - - )
+
+ปีที่ 2 ภาคการศึกษาที่ 2	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01418221
+ระบบฐานข้อมูลเบื้องต้น
+
+3(3-0-6)
+01418232
+การออกแบบและวิเคราะห์ขั้นตอนวิธี
+
+3(3-0-6)
+01418236
+ระบบปฏิบัติการ
+
+3(3-0-6)
+01418261
+หลักพื้นฐานของปัญญาประดิษฐ์
+
+3(3-0-6)
+
+วิชาเฉพาะเลือก
+
+3( - - )
+
+วิชาภาษาต่างประเทศ 1 ภาษา
+
+3( - - )
+
+
+รวม
+18( - - )
+
+ปีที่ 3 ภาคการศึกษาที่ 1	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01418321
+การวิเคราะห์และการออกแบบระบบ
+3(2-2-5)
+01418331
+ทฤษฎีการคํานวณ
+3(3-0-6)
+01418351
+หลักการเครือข่ายคอมพิวเตอร์และการประมวลผลบนคลาวด์
+3(3-0-6)
+01418390
+การเตรียมความพร้อมสหกิจศึกษา
+1(1-0-2)
+
+วิชาเฉพาะเลือก
+3( - - )
+
+วิชาภาษาต่างประเทศ 1 ภาษา
+3( - - )
+
+วิชาศึกษาทั่วไปกลุ่มสาระพลเมืองไทยและพลเมืองโลก
+1( - - )
+
+วิชาศึกษาทั่วไปใน 5 กลุ่มสาระ
+2( - - )
+
+รวม
+19( - - )
+
+ปีที่ 3 ภาคการศึกษาที่ 2	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01418332
+ความมั่นคงในระบบสารสนเทศ
+3(3-0-6)
+01418371
+การบริหารโครงการและสตาร์ทอัพดิจิทัล
+3(3-0-6)
+01418497
+สัมมนา
+1
+
+วิชาเฉพาะเลือก
+6( - - )
+
+วิชาเลือกเสรี
+3( - - )
+
+รวม
+16( - - )
+
+ปีที่ 4 ภาคการศึกษาที่ 1	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+01418490	สหกิจศึกษา	6
+รวม	6
+ปีที่ 4 ภาคการศึกษาที่ 2	จํานวนหน่วยกิต  (ชม.บรรยาย-ชม.ปฏิบัติการ-ชม.ศึกษาด้วยตนเอง)
+
+01418499	โครงงานวิทยาการคอมพิวเตอร์
+
+3(0-9-5)
+วิชาเฉพาะเลือก
+
+3( - - )
+วิชาเลือกเสรี
+
+3( - - )
+
+รวม
+9( - - )
+
+3.1.5 คําอธิบายรายวิชา
+3.1.5.1 รายวิชาที่เป็นรหัสวิชาของหลักสูตร
+ร	รายวิชาบริการ/ศึกษาทั่วไป
+
+01418101	การใช้งานคอมพิวเตอร์	1(0-2-1)
+(Computer Applications)
+      องค์ประกอบของระบบคอมพิวเตอร์ ฮาร์ดแวร์ ซอฟต์แวร์ ระบบปฏิบัติการ การใช้โปรแกรมประมวลคํา ฐานข้อมูลและโปรแกรมประยุกต์อื่น
+      Computer system, hardware, software, operating system, word processing, database and other application software.
+
+01418102	เทคโนโลยีสารสนเทศเพื่อผู้ประกอบการ	3(3-0-6)
+(Information Technology for Entrepreneurs)
+      ระบบคอมพิวเตอร์ อินเทอร์เน็ต เวิลด์ไวด์เว็บ การพัฒนาระบบการจัดการสารสนเทศ การพาณิชย์อิเล็กทรอนิกส์ ร้านค้าและการชําระเงินออนไลน์ ซอฟต์แวร์ประยุกต์ การตลาดอิเล็กทรอนิกส์ จริยธรรมและกฎหมายเกี่ยวกับพาณิชย์ อิเล็กทรอนิกส์
+      Computer system, Internet, World Wide Web, information management system development, electronic commerce, online shop and payment, application software, electronic marketing, ethics and electronic commerce laws.
+
+01418103	สุขภาพและสังคมดิจิทัล	2(2-0-4)
+(Health and Digital Society)
+      พฤติกรรม สุขภาพ และความเสี่ยงในการใช้อุปกรณ์ประมวลผล เสาหลักสุขภาพในยุคดิจิทัล การยศาสตร์และ การออกกําลังกาย การนอน อาหาร พิษในสิ่งแวดล้อมยุคดิจิทัล เครือข่ายสังคม สังคมดิจิทัล การกลั่นแกล้งทางไซเบอร์ การเสพติดอินเทอร์เน็ตและอุปกรณ์ไร้สาย อาชญากรรมคอมพิวเตอร์ จิตสํานึกในสังคมดิจิทัล
+      Behavior, health, and risks in computing device usage. Pillars of health in digital age. Ergonomics and exercise. Sleep. Food. Toxin in digital age environment. Social network. Digital society. Cyber bully. Internet and wireless device addiction. Computer crime. Conscience in digital society.
+
+01418104	รู้ทันไอที	2(2-0-4)
+(IT Updates)
+      บิ๊กดาต้า โปรแกรมประยุกต์แบบคลาวด์ การประยุกต์โซเชียลเน็ตเวิร์ก เทคนิคการค้นคืนสารสนเทศ ภาวะ ส่วนตัว ลิขสิทธิ์ซอฟต์แวร์และดิจิทัลคอนเทนต์ อาชญากรรมคอมพิวเตอร์
+Big data. Cloud applications. Social network applications. Information retrieval techniques.
+Privacy. Software and digital content copyrights. Computer crime.
+
+01418105	ศิลปะสร้างสรรค์ดิจิทัล	3(2-2-5)
+(Digital Creatives Arts)
+      เทคโนโลยีสื่อประสม หลักการถ่ายรูปดิจิทัล การจัดอุปกรณ์สําหรับการบรอดคาสต์ อักษรศิลป์ การวาดและการ แก้ไขตกแต่งภาพ เสียงและดนตรีดิจิทัล หลักการสร้างและปรับแต่งวิดีทัศน์ ภาพเคลื่อนไหว รูปสามมิติและความเป็น จริงเสริม งานศิลปะดิจิทัลด้านเอ็ดดูเทนเมนท์ เนื้อหาดิจิทัล รู้เท่าทันสื่อและสารสนเทศ ลิขสิทธิ์และสัญญาอนุญาต
+      Multimedia technology. Digital photography principle. Equipment setting for broadcasts. Word art. Digital image creation and editing. Digital sound and music. Video creation and editing. Animation. 3D images and augmented reality. Digital arts in edutainment. Digital content. Media and information literacy. Copyrights and licenses.
+
+01418106	ทักษะเทคโนโลยีดิจิทัล	3(2-2-5)
+(Digital Technology Skills)
+      แนวคิดพื้นฐานทางเทคโนโลยีดิจิทัล อินเทอร์เน็ตและเวิลด์ไวด์เว็บ คอมพิวเตอร์ฮาร์ดแวร์ ซอฟต์แวร์ระบบและ ประยุกต์ เครือข่ายคอมพิวเตอร์ ฐานข้อมูลและระบบสารสนเทศ การพัฒนาซอฟต์แวร์ ปัญญาประดิษฐ์ ความมั่นคง ปลอดภัยของคอมพิวเตอร์ กฏหมายและจริยธรรมทางคอมพิวเตอร์และความเป็นส่วนตัว วิทยาการข้อมูล ความจริง เสมือนและความเป็นจริงเสริม เทคโนโลยีดิจิทัลรูปแบบใหม่
+      Basic concepts of digital technology, internet and world wide web, computer hardware, system software and applications, computer networks, databases and information systems, software development, artificial intelligence, computer security, computer laws and ethics and privacy, data science, virtual reality and augmented reality, novel digital technologies.
+
+	รายวิชาในหลักสูตร
+
+01418111** วิทยาการคอมพิวเตอร์เบื้องต้น	2(2-0-4)
+(Introduction to Computer Science)
+      พัฒนาการของคอมพิวเตอร์ การแทนข้อมูลในคอมพิวเตอร์ ระบบจํานวน องค์ประกอบของฮาร์ดแวร์ คอมพิวเตอร์ ตัววัดสมรรถนะของคอมพิวเตอร์ ซอฟต์แวร์ระบบ ตัวแปลภาษาและภาษาการโปรแกรม ขั้นตอนวิธี ฐานข้อมูล เครือข่ายคอมพิวเตอร์ ความมั่นคงของสารสนเทศ การประยุกต์ระบบคอมพิวเตอร์ในปัจจุบัน จริยธรรมทาง คอมพิวเตอร์
+      Development of computers. Data representation in computers. Number systems. Computer hardware components. Computer performance metrics. System software. Compilers and programming languages. Algorithms. Database. Computer networks. Information security. Current applications of computer systems. Computer ethics.
+
+01418112	แนวคิดการโปรแกรมเบื้องต้น	3(2-2-5)
+(Fundamental Programming Concepts)
+วิชาที่ต้องเรียนมาก่อน: 01418111 หรือพร้อมกัน
+      การคิดเชิงคํานวณ การให้เหตุผลเชิงตรรกะ การแก้ปัญหา การออกแบบและพัฒนาโปรแกรมขั้นพื้นฐาน เครื่องมือการโปรแกรม เทคนิคการโปรแกรมโครงสร้าง โครงสร้างควบคุม การประมวลผลโปรแกรม การติดตามการ ทํางานและการตรวจหาข้อบกพร่องของโปรแกรม
+      Computational thinking. Logical reasoning. Problem solving. Basic program design and development. Programming tools. Structural programming techniques. Control structures. Program execution. Program tracing and debugging.
+
+01418113** การโปรแกรมคอมพิวเตอร์	3(2-2-5)
+(Computer Programming)
+      การโปรแกรมภาษาระดับสูง ชนิด ตัวแปร ข้อความสั่งรับเข้า/ส่งออก ข้อความสั่งเง่ือนไข ข้อความสั่งวนซํ้า ฟังก์ชัน การกําหนดสาระสําคัญเชิงกระบวนงาน การปรากฏซํ้า การนําเข้าและส่งออกแฟ้ม โครงสร้างข้อมูลพื้นฐาน การ กําหนดสาระสําคัญของข้อมูล การนิยามวัตถุและคลาส ลักษณะประจําและพฤติกรรมของวัตถุ การแก้จุดบกพร่องและ การทดสอบโปรแกรม แนวทางการโปรแกรมที่ดี
+      High-level language programming. Types. Variables. Input/output statements. Conditional statements. Repetition statements. Functions. Procedural abstractions. Recursion. File input and output. Basic data structures. Data abstractions. Objects and class definitions. Object attributes and behaviors. Program debugging and testing. Good programming practice.
+
+** วิชาปรับปรุง
+
+01418131* การโปรแกรมทางสถิติ	3(3-0-6)
+(Statistical Programming)
+      การประยุกต์ทางสถิติโดยใช้ซอฟต์แวร์คอมพิวเตอร์ การโปรแกรมเพื่อการออกแบบการทดลอง การทดสอบ สมมติฐาน การสุ่มตัวอย่าง การแจกแจงแบบเกาส์ การแจกแจงแบบทวินาม การแจกแจงแบบปัวซง วิธีกําลังสองน้อย สุด สหสัมพันธ์ การถดถอย การวิเคราะห์ความแปรปรวน การทดสอบด้วยไคกําลังสอง การรายงานผลและการสร้างภาพ ข้อมูล
+      Statistical applications using computer software. Programming for experiment design, hypothesis testing, sampling. Gaussian distribution. Binomial distribution. Poisson distribution. Least square method. Correlation. Regressions. Analysis of variance. Chi-square test. Data reporting and visualization.
+
+01418132** หลักมูลการคณนา	3(3-0-6)
+(Fundamentals of Computing)
+ทฤษฎีการคํานวณเชิงวิยุต ความน่าจะเป็นและสถิติ การทําให้เกิดผลและการประยุกต์ในวิทยาการคอมพิวเตอร์
+      Theory of discrete computing. Probability and statistics. Implementation and application in computer science.
+
+01418141** ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ	3(3-0-6) (Intellectual Properties and Professional Ethics)
+      ลักษณะของทรัพย์สินทางปัญญา ลิขสิทธิ์ การใช้โดยธรรม สัญญาอนุญาตซอฟต์แวร์เสรี ครีเอทีฟคอมมอนส์ สิทธิบัตร เครื่องหมายการค้า ข้อบังคับการคุ้มครองข้อมูลทั่วไป (จีดีพีอาร์) พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล (พี ดีพีเอ) นโยบายความเป็นส่วนตัว อาชญากรรมคอมพิวเตอร์ ความมั่นคงทางไซเบอร์ จรรยาบรรณวิชาชีพ
+      Characteristics of intellectual property. Copyright . Fair use. Free software license. Creative commons. Patent. Trademark. General Data Protection Regulation (GDPR). Personal Data Protection Act (PDPA). Privacy policy. Computer crime. Cyber security. Professional ethics.
+
+01418211	การสร้างซอฟต์แวร์	3(2-2-5)
+(Software Construction)
+วิชาที่ต้องเรียนมาก่อน: 01418113 หรือ 01418212
+      การโปรแกรมเชิงวัตถุ วัตถุ คลาส หลักการออกแบบเชิงวัตถุ การประกอบ ส่วนการรับทอด ภาวะพหุสัณฐาน ส่วนต่อประสาน คลาสเชิงนามธรรม สิ่งผิดปกติ ลําดับชั้นของชนิด แผนภาพการขึ้นต่อกันระหว่างคลาส ตัวยืนยงในการ แทนค่า โครงสร้างข้อมูลพลวัต การโปรแกรมเชิงเหตุการณ์ การรีแฟกเตอร์ แบบรูปการออกแบบ
+      Object-oriented programming. Objects. Classes. Object-oriented design principles. Composition. Inheritance. Polymorphisms. Interfaces. Abstract classes. Exceptions. Type hierarchy. Class dependency diagrams. Representation invariant. Dynamic data structures. Event-based programming. Refactoring. Design patterns.
+
+* วิชาเปิดใหม.
+** วิชาปรับปรุง
+
+01418212	การโปรแกรมภาษาซี	3(2-2-5)
+(C Programming)
+วิชาที่ต้องเรียนมาก่อน: 01418111 หรือ 01418112
+โครงสร้างและส่วนย่อยของภาษาซี หลักการโปรแกรมภาษาซี และการประยุกต์
+Structure and elements of C. Principles of programming in C and applications.
+
+01418213	การโปรแกรมภาษาโคบอล	3(2-2-5)
+(COBOL Programming)
+วิชาที่ต้องเรียนมาก่อน: 01418111 หรือ 01418112
+โครงสร้างและส่วนย่อยของภาษาโคบอล หลักการโปรแกรมภาษาโคบอล และการประยุกต์
+Structure and elements of COBOL. Principles of programming in COBOL and applications.
+
+01418214	การฝึกปฏิบัติการพัฒนาซอฟต์แวร์	1(0-3-2)
+(Practicum in Software Development)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      เทคนิคการโปรแกรมและพัฒนาซอฟต์แวร์ เครื่องมือ กระบวนการ การบ่มเพาะความคิด การพัฒนาซอฟต์แวร์ ต้นแบบ สภาพแวดล้อมการทํางานเป็นกลุ่ม
+Software programming and development techniques. Tools. Processes. Idea incubation.
+Software prototype development. Team working environment.
+
+01418221** ระบบฐานข้อมูลเบื้องต้น	3(3-0-6)
+(Fundamentals of Database Systems)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      ความรู้เบื้องต้นของระบบฐานข้อมูล ระบบจัดการฐานข้อมูล แนวคิดของฐานข้อมูลเชิงสัมพันธ์ ความซํ้าซ้อนของ ข้อมูล ความต้องกันของข้อมูล บูรณภาพข้อมูล ภาวะครบหน่วย แบบจําลองฐานข้อมูลเชิงสัมพันธ์และพจนานุกรมข้อมูล การทําให้เป็นบรรทัดฐาน กรณีศึกษาการวิเคราะห์และออกแบบฐานข้อมูลเชิงสัมพันธ์ การสร้างฐานข้อมูลเชิงสัมพันธ์ ด้วยเอสคิวแอล
+      Introduction to database systems. Database management systems. Relational database concepts. Data redundancy. Data consistency. Data integrity. Atomicity. Relational database model and data dictionary. Normalization. Case studies of relational database analysis and design. Relational database implementation with SQL.
+
+** วิชาปรับปรุง
+
+01418222* ระบบสารสนเทศวิสาหกิจ	3(3-0-6)
+(Enterprise Information System)
+วิชาที่ต้องเรียนมาก่อน: 01418112
+      แนวคิดของระบบสารสนเทศทางธุรกิจ ธุรกิจอัจฉริยะ พาณิชย์อิเล็กทรอนิกส์และธุรกิจอิเล็กทรอนิกส์ การพัฒนา ระบบสารสนเทศ การจัดการระบบสารสนเทศระดับสากล
+Business information system concepts. Business intelligence. E-commerce and E-business.
+Information system development. Managing global information system.
+
+01418223	วิทยาการข้อมูลและโปรแกรมประยุกต์	3(2-2-5)
+(Data Science and Application Programs)
+      แนวคิดด้านวิทยาการข้อมูล กระบวนการด้านวิทยาการข้อมูล โปรแกรมประยุกต์สําหรับวิทยาการข้อมูล ฐานข้อมูลพื้นฐาน การเชื่อมต่อข้อมูล การทําความสะอาดและปรับข้อมูล การประมวลผลวันที่และเวลา การสรุปข้อมูล สถิติพื้นฐาน การสร้างตัวแบบ การสร้างแผนภาพข้อมูลเชิงโต้ตอบ
+      Data science concepts. Data science processes. Application programs for data science. Database basics. Data connection. Data cleaning and manipulation. Date and time processing. Data summarization. Basic statistics. Data modeling. Interactive data visualization.
+
+01418231** โครงสร้างข้อมูลและขั้นตอนวิธี	3(3-0-6)
+(Data Structures and Algorithms)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      ชนิดข้อมูลพื้นฐาน ชนิดข้อมูลนามธรรม การดําเนินการบนเซต โครงสร้างข้อมูลเชิงเส้น โครงสร้างข้อมูลไม่เชิง เส้น การใช้งานโครงสร้างข้อมูล ขั้นตอนวิธีค้นหา ขั้นตอนวิธีการเรียงลําดับ ประสิทธิภาพของขั้นตอนวิธี
+      Basic data types. Abstract data types. Operations on sets. Linear data structures. Non-linear data structures. Implementation of data structures. Searching algorithms. Sorting algorithms. Algorithm efficiency.
+
+01418232** การออกแบบและวิเคราะห์ขั้นตอนวิธี	3(3-0-6)
+(Algorithm Design and Analysis)
+วิชาที่ต้องเรียนมาก่อน: 01418231
+      แนวคิดพื้นฐานของขั้นตอนวิธี ความถูกต้องของขั้นตอนวิธี การวิเคราะห์ความซับซ้อนเชิงเส้นกํากับ เทคนิคการ แบ่งแยกเพื่อเอาชนะ การโปรแกรมเชิงพลวัต ชั้นตอนวิธีเชิงละโมบ การย้อนรอย ขั้นตอนวิธีบนกราฟ ปัญหาเอ็นพี บริบูรณ์
+      Basic concepts of algorithms. Algorithm correctness. Asymptotic complexity analysis. Divide-and- conquer techniques. Dynamic programming. Greedy algorithms. Backtracking. Algorithms on Graphs. NP-complete problems.
+
+* วิชาเปิดใหม.
+** วิชาปรับปรุง
+
+01418233** สถาปัตยกรรมคอมพิวเตอร์	3(3-0-6)
+(Computer Architecture)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      พื้นฐานของสถาปัตยกรรมคอมพิวเตอร์ ภาษาแอสเซมบลี สถาปัตยกรรมชุดคําสั่ง ลําดับชั้นของหน่วยความจํา แคชและสมรรถนะของแคช การป้องกัน การแปลและการทําเสมือนของหน่วยความจํา ระบบตัวประมวลผล ระบบรับส่ง ข้อมูล การทํางานแบบสายท่อ สถาปัตยกรรมแบบมัลติคอร์ แบบหลายแกน และแบบหลายสายโยงใย การประสาน จังหวะ ความต้องกัน และความสอดคล้องกันของหน่วยความจํา การออกแบบเพื่อสมรรถนะที่ดี
+      Basics computer architecture. Assembly language. Instruction set architecture. Memory hierarchy. Cache and its performance. Memory protection, translation, and virtualization. Processor system. I/O system. Pipelining. Multicore/manycore/multithreaded architectures Memory synchronization, consistency, and coherence. Designing for performance.
+
+01418234** การโปรแกรมอินเทอร์เน็ตของสรรพสิ่ง	3(2-2-5)
+(Programming Internet of Things)
+วิชาที่ต้องเรียนมาก่อน: 01418112 หรือ 01418113 หรือ 01418212
+      ไมโครคอนโทรลเลอร์และระบบบนชิพ เครื่องมือการโปรแกรมไมโครคอนโทรลเลอร์ ข้อมูลเข้าออกแบบแอนะ ล็อกและดิจิทัล เซ็นเซอร์และตัวกระทํา การสื่อสาร การเชื่อมต่อเครือข่าย แพลตฟอร์มอินเทอร์เน็ตของสรรพสิ่ง การ ประยุกต์
+      Microcontroller and system-on-chip. Tools for programming microcontroller. Analog and digital input and output. Sensors and actuators. Communications. Networking. Internet of Things platform. Applications.
+
+01418235	ระบบปฏิบัติการยูนิกซ์และการโปรแกรมเปลือกระบบ	3(2-2-5) (Unix Operating System and Shell Programming)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      องค์ประกอบของระบบปฏิบัติการยูนิกซ์ ลักษณะการทํางาน ส่วนต่อประสานรายคําสั่ง การบริหารและจัดการ ระบบ โปรแกรมบรรณาธิการและอรรถประโยชน์ การเขียนโปรแกรมเปลือกระบบ ความแปรผันของระบบปฏิบัติการ ยูนิกซ์
+      Components of Unix operating system. Functionality. Command-line interfaces. System administration and management. Editors and Unix utilities. Shell programming. Variation of Unix operating systems.
+
+01418236** ระบบปฏิบัติการ	3(3-0-6)
+(Operating Systems)
+วิชาที่ต้องเรียนมาก่อน: 01418233
+      สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ โครงสร้างระบบปฏิบัติการ กระบวนการและสายโยงใย การจัด กําหนดการ การติดตาย การจัดการหน่วยความจํา หน่วยความจําเสมือน การจัดการระบบแฟ้ม การจัดการระบบรับเข้า/ ส่งออก ความมั่นคง การป้องกัน
+      Computer architecture and operating systems. Operating system structures. Processes and threads. Scheduling. Deadlocks. Memory management. Virtual memory. File system management. Input/output system management. Security. Protection.
+
+01418241** เทคโนโลยีสารสนเทศการเงินและการธนาคาร	3(2-2-5) (Financial and Banking Information Technology)
+วิชาที่ต้องเรียนมาก่อน: 01418111
+      แนวคิดเศรษฐกิจแบบดิจิทัล ธุรกิจการเงินและการธนาคารพื้นฐาน การจัดการโครงสร้างพื้นฐานและการ ปฏิบัติงานด้านองค์การการเงิน ผลิตภัณฑ์การเงินสําหรับลูกค้ารายย่อย แอปพลิเคชันหลักของธนาคาร ธนาคารออนไลน์ ธนาคารผ่านอุปกรณ์พกพา ธนาคารทางอินเทอร์เน็ต เทคโนโลยีด้านการเงิน บล็อกเชน หุ่นสนทนา แนวคิดพื้นฐานของ คลังข้อมูล เหมืองข้อมูลและวิทยาการวิเคราะห์ข้อมูลในธุรกิจการเงิน
+      Digital economy concept. Basic financial and banking business. Infrastructure management and office operations in financial organization. Retail financial products. Core banking applications. Online banking. Mobile banking. Internet banking. FinTech. Blockchain. Chatbot. Fundamental concepts of a data warehouse. Data mining and data analytics in financial business.
+
+01418261** หลักพื้นฐานของปัญญาประดิษฐ์	3(3-0-6)
+(Fundamentals of Artificial Intelligence)
+      ภาพรวมของปัญญาประดิษฐ์ การวิเคราะห์ข้อความ การรู้จํารูปแบบ การค้นพบความรู้ การประยุกต์ ปัญญาประดิษฐ์ ผลกระทบของปัญญาประดิษฐ์กับความมั่นคงทางไซเบอร์ เศรษฐกิจและสังคม
+      Overview of artificial intelligence. Text analytics. Pattern recognition. Knowledge discovery. Applications of artificial intelligence. Impacts of artificial intelligence on cybersecurity, economy and society.
+
+01418281** หลักการสร้างภาพเคลื่อนไหวด้วยคอมพิวเตอร์	3(3-0-6) (Principles of Computer Animation)
+วิชาที่ต้องเรียนมาก่อน: 01418112 หรือ 01418113
+      กระแสงานด้านการผลิต ส่วนต่อประสานกับผู้ใช้สําหรับซอฟต์แวร์การสร้างภาพเคลื่อนไหว การสร้างตัวแบบ การเคลือบลายผิว การขึ้นโครงและการทําให้เคลื่อนไหว การจัดแสงและการแรเงา การคํานวณแสงและเงา ผมและผ้า อนุภาคและของไหล พลศาสตร์ของวัตถุแข็งเกร็งและอ่อน
+      Production workflow. User interface for animation software. Modeling. Texturing. Rigging and animation. Lighting and shading. Rendering. Hair and cloth. Particles and fluids. Rigid and soft body dynamics.
+
+01418282** การประมวลผลภาพและวีดิทัศน์	3(3-0-6)
+(Image and Video Processing)
+วิชาที่ต้องเรียนมาก่อน: 01418112 หรือ 01418113
+      หลักการภาพดิจิทัล การปรับปรุงคุณภาพภาพ การกรองภาพ การบูรณะภาพ การแปลงเชิงเรขาคณิต การบิด และการหลอมภาพ การซ้อนทับภาพ การประมวลผลในโดเมนความถี่ การเรียนรู้ของเครื่องในการประมวลผลภาพ สมัยใหม่ การประยุกต์การประมวลผลภาพดิจิทัลในปัจจุบัน
+      Digital image principle. Image enhancement. Image filtering. Image restoration. Geometric transformation. Image warping and morphing. Image registration. Frequency domain processing. Machine learning in modern image processing. Current applications of digital image processing.
+
+01418311	การโปรแกรมเชิงคํานวณแบบท้าทาย	3(2-2-5)
+(Challenging Computational Programming)
+วิชาที่ต้องเรียนมาก่อน: 01418232
+      การโปรแกรมแบบใช้ฐานปัญหาเชิงคํานวณ การประยุกต์ใช้คณิตศาสตร์เชิงวิยุตในการแก้ปัญหาเชิงคํานวณ เทคนิคการทําให้เกิดผลทางโครงสร้างข้อมูล เทคนิคการแก้ปัญหาเชิงขั้นตอนวิธี การประมวลผลสายอักขระ เรขาคณิต เชิงคํานวณ เทคนิคการค้นหาขั้นสูง การปรับขั้นตอนวิธีให้มีประสิทธิภาพ เครื่องมือภาษาโปรแกรม
+      Computational problem-based programming. Application of discrete mathematics for solving computational problems. Data structure implementation techniques. Algorithmic solving techniques. String processing. Computational geometry. Advanced search techniques. Performance tuning for algorithms. Programming language toolkits.
+
+01418321** การวิเคราะห์และการออกแบบระบบ	3(2-2-5)
+(System Analysis and Design)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      ขั้นตอนวิเคราะห์เบื้องต้น เครื่องมือในการวิเคราะห์ระบบ ผังระบบงาน ตารางการตัดสินและต้นไม้การตัดสิน การศึกษาความเป็นไปได้ของปัญหา การวิเคราะห์ความคุ้มค่าในการลงทุน นําเข้า ส่งออกและการออกแบบ การ ออกแบบวิธีการประมวลผลด้วยคอมพิวเตอร์ การทําเอกสาร การนําไปใช้และการประเมินผล การพิสูจน์การออกแบบ กรณีศึกษา
+      Basic analysis steps. System analysis tools. Systems flowchart. Decision table and decision tree. Feasibility study. Cost effective analysis. Input, output and design. Computer process design. Documentation. Implementation and evaluation. Proving the design. Case studies.
+
+01418322** วิทยาการข้อมูลเบื้องต้น	3(2-2-5)
+(Introduction to Data Science)
+วิชาที่ต้องเรียนมาก่อน: 01418112
+      ข้อมูลและแหล่งข้อมูล กระบวนการและเครื่องมือทางวิทยาการข้อมูล การได้มาซึ่งข้อมูล การทําความสะอาด และการจัดระเบียบข้อมูล การประมวลผลขั้นต้น การวิเคราะห์และสร้างโมเดลจากข้อมูล การสร้างแผนภาพข้อมูล ข้อมูลขนาดใหญ่ จริยธรรมด้านข้อมูล
+      Data and data sources. Data science tools and processes. Data acquisition. Data cleaning and organization. Pre-processing. Data analysis and modeling. Data visualization. Big data. Data ethics.
+
+01418323** การจัดการคุณภาพข้อมูล	3(3-0-6)
+(Data Quality Management)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      หลักการของวงชีพคุณภาพข้อมูล ปัญหาคุณภาพข้อมูลในวิสาหกิจ การประเมินค่า นโยบายและการจัดการระบบ ข้อมูลขนาดใหญ่ ตัวแบบและเทคนิคในการนิยามมาตรฐานข้อมูล ข้อมูลเปิด การวัดผล การวิเคราะห์ และกระบวนการ ปรับปรุง
+      Principles of data quality life cycle. Problem of data quality in enterprise. Assessment. Policy and management in large scale information systems. Models and techniques for data quality standard. Open data. Measurement. Analysis and improvement procedure.
+
+01418324	ระบบสนับสนุนการตัดสินใจและอัจฉริยะทางธุรกิจ	3(3-0-6) (Decision Support and Business Intelligent Systems)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      แนวคิด การสร้างตัวแบบ การวิเคราะห์ และเทคโนโลยีของระบบสนับสนุนการตัดสินใจ เหมืองข้อมูลสําหรับ อัจฉริยะทางธุรกิจ เทคโนโลยีสนับสนุนการทํางานร่วมกัน ระบบสนับสนุนการทํางานกลุ่ม การจัดการความรู้ ปัญญาประดิษฐ์ ระบบผู้เชี่ยวชาญ
+      Concepts, modeling, analysis and technology of decision support systems. Data mining for business intelligent. Collaborative support technology. Group support systems. Knowledge management. Artificial intelligence. Expert systems.
+
+01418325* ข้อมูลจินตทัศน์	3(2-2-5)
+(Data Visualization)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      หลักการข้อมูลจินตทัศน์ แหล่งที่มาของข้อมูล การเชื่อมโยงข้อมูล การแสดงภาพข้อมูลช่วงเวลา การแสดงภาพ ข้อมูลแนวโน้ม การแสดงภาพข้อมูลแบบภูมิทัศน์ การบอกเล่าเรื่องด้วยข้อมูล กระดานข้อมูล
+Data visualization principle. Data source. Mapping data. Visualizing time series. Visualizing trends.
+Geographical data visualization. Data storytelling. Dashboard.
+
+01418331** ทฤษฎีการคํานวณ	3(3-0-6)
+(Theory of Computation)
+วิชาที่ต้องเรียนมาก่อน: 01418132
+      ออโตมาตาจํากัด ภาวะกําหนด ภาวะไม่กําหนด ความเป็นเรกูลาร์ ความไม่เป็นเรกูลาร์ พุชดาวน์ออโตมาตา เครื่องจักรทัวริง ความสามารถในการคํานวณ ความซับซ้อนเชิงการคํานวณ
+      Finite automata. Determinism. Non-determinism. Regularity. Non-regularity. Pushdown automata. Turing machines. Computability. Computational complexity.
+
+01418332** ความมั่นคงในระบบสารสนเทศ	3(3-0-6)
+(Information System Security)
+วิชาที่ต้องเรียนมาก่อน: 01418236
+      ความมั่นคงดิจิทัลเบื้องต้น การตรวจสอบ ภาวะรับผิดชอบและนโยบายความมั่นคง วิทยาการเข้ารหัสลับ ความ มั่นคงในการดําเนินการ ความมั่นคงทางกายภาพ เครือข่ายและระบบปฏิบัติการ ความมั่นคงในงานประยุกต์ต่างๆ: การ โปรแกรมแบบมั่นคง ความมั่นคงของเว็บและอินเทอร์เน็ตของสรรพสิ่ง
+      Introduction to digital security. Auditing. Accountability and security policy. Cryptography. Operation security. Physical, network and operating system security. Security in various applications: secure coding, web and Internet of Things security.
+
+* วิชาเปิดใหม.
+** วิชาปรับปรุง
+
+01418333** เทคนิคตัวแปลโปรแกรม	3(3-0-6)
+(Compiler Techniques)
+วิชาที่ต้องเรียนมาก่อน: 01418231
+      ตัวแปลโปรแกรมและโปรแกรมแปลภาษา เฟสของตัวแปลโปรแกรม สัญกรณ์และแนวคิดของภาษาและ ไวยากรณ์ การวิเคราะห์ศัพท์ ต้นไม้แจงส่วนและการแปลง ความกํากวม เทคนิคการแจงส่วน ตารางสัญลักษณ์ การแทน ระหว่างกลาง การวิเคราะห์ความหมายและการก่อกําเนิดรหัส
+      Compilers and translators. Phases of a compiler. Notation and concepts for languages and grammars. Lexical analysis. Parse trees and derivations. Ambiguity. Parsing techniques. Symbol table. Intermediate representation. Semantic analysis and code generation.
+
+01418341	การออกแบบและการพัฒนาระบบการวางแผนทรัพยากรองค์กร	3(2-2-5) (Enterprise Resource Planning System Design and Development)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      แนวคิดและพัฒนาการของระบบการวางแผนทรัพยากรองค์กร กรอบงานและสถาปัตยกรรมอีอาร์พี การสร้างตัว แบบและการวิเคราะห์ ระเบียบวิธีการพัฒนาและการทําให้เกิดผล กระบวนการการพัฒนา ปัจจัยความสําเร็จในการทํา ให้เกิดผล ระบบขององค์กรชั้นนํา กรณีศึกษาและแนวโน้มทางเทคโนโลยี
+      Concept and development of enterprise resource planning system. ERP framework and architecture. Modeling and analysis. Development and implementation methodologies. Development process. Implementation success factors. Leading enterprise systems. Case studies and technology trends.
+
+01418342** การออกแบบและพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์เคลื่อนที่	3(2-2-5) (Mobile Application Design and Development)
+วิชาที่ต้องเรียนมาก่อน: 01418211
+      แพลตฟอร์มอุปกรณ์เคลื่อนที่ การออกแบบส่วนต่อประสานกับผู้ใช้สําหรับอุปกรณ์เคลื่อนที่ ที่อยู่ทางภูมิศาสตร์ อากัปกิริยา ฐานข้อมูล สื่อประสม การแจ้งเตือนแบบพุช การเชื่อมต่อเครือข่าย ตัวรับรู้ เว็บสําหรับอุปกรณ์เคลื่อนที่ ข้อจํากัดของโปรแกรมประยุกต์สําหรับอุปกรณ์เคลื่อนที่
+Mobile platforms. Mobile user interface design. Geolocation. Gesture. Database. Multimedia.
+Push notification. Network connections. Sensors. Mobile web. Constraints of mobile applications.
+
+01418343** การคํานวณแบบขนานด้วยคูด้า	3(3-0-6)
+(Parallel Computing with CUDA)
+วิชาที่ต้องเรียนมาก่อน: 01418231
+      หลักการของการคํานวณแบบขนาน แบบจําลองคอมพิวเตอร์แบบขนาน ขั้นตอนวิธีแบบขนาน แพลตฟอร์มคู้ดา แบบจําลองการโปรแกรมบนคูด้า การโปรแกรมด้วยคูด้า ซี/ซีพลัสพลัส การจัดการเทรดในคูค้า การจัดการ หน่วยความจําในคูด้า การประยุกต์คูด้า
+     Principle of parallel computation. Parallel computer models. Parallel algorithms. CUDA platform. CUDA programming model. CUDA C/C++ programming. CUDA thread management. CUDA memory management. CUDA applications.
+
+01418344	การจัดการมิติข้อมูลและรายงานทางธุรกิจ	3(2-2-5) (Business Data Dimension and Report Management)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      รายงานและกระบวนการทางธุรกิจสําหรับองค์กร แนวคิดและพัฒนาการของมิติข้อมูล เครื่องมือและการสร้างตัว แบบสําหรับวิเคราะห์ข้อมูลทางธุรกิจ ปัจจัยความสําเร็จในการทําให้เกิดผล ระบบขององค์กรชั้นนํา กรณีศึกษาและ แนวโน้มทางเทคโนโลยี
+      Report and business process for enterprise. Concept and development of data dimension. Tools and modeling for business data analysis. Implementation success factor. Leading enterprise systems. Case studies and technology trends.
+
+01418351** หลักการเครือข่ายคอมพิวเตอร์และการประมวลผลบนคลาวด์	3(3-0-6) (Computer Networks and Cloud Computing Principles)
+วิชาที่ต้องเรียนมาก่อน: 01418236
+      แนวคิดของเครือข่ายการสื่อสารแบบมีสาย ไร้สาย และเซลลูลาร์ องค์ประกอบของการสื่อสารคอมพิวเตอร์และ เครือข่าย ชนิดของเครือข่ายคอมพิวเตอร์ มาตรฐานและระดับชั้นโพรโทคอล โพรโทคอลชั้นโปรแกรมประยุกต์ สถาปัตยกรรมและการโปรแกรมโปรแกรมประยุกต์บนเครือข่าย โพรโทคอลชั้นทรานสปอร์ต อินเทอร์เน็ตโพรโทคอล การกําหนดหมายเลขไอพี เครือข่ายแบบกําหนดโดยซอฟต์แวร์ การประมวลผลบนคลาวด์ องค์ประกอบและบริการ
+      Communication concepts: wired. Wireless and cellular networks. Components of computer communications and networks. Type of computer networks. Protocol standards and layers. Application layer protocols. Network application architectures and programming. Transport-layer protocols. The Internet Protocol. IP Addressing. Software defined networks. Cloud computing. Components and services.
+
+01418352** การสื่อสารข้อมูลและเครือข่าย	3(3-0-6)
+(Data Communications and Networks)
+วิชาที่ต้องเรียนมาก่อน: 01418351
+      ชั้นเครือข่าย ไอพีเวอร์ชัน 4 และไอพีเวอร์ชัน 6 และโพรโทคอลที่เกี่ยวข้อง วิศวกรรมการจราจรด้วยเครือข่าย แบบกําหนดโดยซอฟต์แวร์ ชั้นเชื่อมโยงข้อมูล เครือข่ายส่วนบุคคลเสมือน เครือข่ายการสื่อสารไร้สาย เครือข่ายการ สื่อสารโทรคมนาคม
+      Network layers. IPv4 and IPv6 and related protocols. Traffic Engineering with software defined networks. Data link layer. Virtual private networks. Wireless communication networks. Telecommunication networks.
+
+01418353** แนวคิดและบริการการคํานวณแบบคลาวด์	3(3-0-6) (Cloud Computing Concepts and Services)
+วิชาที่ต้องเรียนมาก่อน: 01418236
+      นิยามมาตรฐาน ลักษณะจําเป็น ตัวแบบบริการ ตัวแบบการติดตั้งใช้งาน สถาปัตยกรรมอ้างอิง ข้อดีข้อเสีย ทางเทคนิค คุณค่าทางธุรกิจและกรณีศึกษา การทําเสมือน เทคโนโลยีโครงสร้างพื้นฐาน การจัดการทรัพยากร การ นํามาใช้ การปกครอง ความมั่นคง ผู้ให้บริการคลาวด์สาธารณะหลัก บริการเคร่ืองบริการเสมือน บริการหน่วยเก็บ เสมือน บริการเครือข่ายเสมือน
+      Standard definitions. Essential characteristics. Service models. Deployment models. Reference architectures. Technical pros and cons. Business values and case studies. Virtualization. Infrastructure technologies. Resource management. Adoption. Governance. Security. Key public cloud providers. Virtual server services. Virtual storage services. Virtual network services.
+
+01418361** คอมพิวเตอร์วิทัศน์เบื้องต้น	3(3-0-6)
+(Introduction to Computer Vision)
+วิชาที่ต้องเรียนมาก่อน: 01418112 หรือ 01418113
+      แนวคิดพื้นฐานเกี่ยวกับคอมพิวเตอร์วิทัศน์ กระบวนการถ่ายภาพดิจิทัล สี แสงและการสร้างภาพ คอมพิวเตอร์ วิทัศน์ระดับต้น ระดับกลาง และระดับสูง คุณลักษณะในระดับตํ่า การสกัดคุณลักษณะ โมเดลการจําแนกรูปภาพ การ จับคู่คุณลักษณะ การตรวจจับวัตถุ การรู้จําวัตถุ การเรียนรู้เชิงลึกในคอมพิวเตอร์วิทัศน์ สาขาการประยุกต์งานหลักของ คอมพิวเตอร์วิทัศน์
+      Basic concepts in computer vision. Digital imaging process. Color, light and image formation. Early, mid- and high-level vision. Low-level features. Feature extraction. Image classification models. Feature matching. Object detection. Object recognition. Deep Learning in computer vision. Key application areas of computer vision.
+
+01418362* การเรียนรู้ของเครื่องเบื้องต้น	3(3-0-6)
+(Introduction to Machine Learning)
+วิชาที่ต้องเรียนมาก่อน: 01418231
+      การเรียนรู้แบบมีผู้สอน เพื่อนบ้านที่ใกล้ที่สุด เพอร์เซปตรอน การประมาณความน่าจะเป็น การถดถอยเชิงเส้น การถดถอยโลจิสติก การเรียนรู้แบบเบย์ โครงข่ายประสาทเทียม การเรียนรู้เชิงลึก
+Supervised learning. Nearest neighbours. Perceptron. Probability estimation. Linear regression.
+Logistic regression. Bayesian learning. Neural Networks. Deep learning.
+
+01418363* การประมวลผลภาษาธรรมชาติ	3(3-0-6)
+(Natural Language Processing)
+วิชาที่ต้องเรียนมาก่อน: 01418112
+      การประมวลผลภาษาธรรมชาติ ภาษาศาสตร์เชิงคํานวณ ทฤษฎีสารสนเทศ การวิเคราะห์หน่วยคํา ตัวแบบภาษา การแทนคํา การวิเคราะห์เชิงวากยสัมพันธ์ การวิเคราะห์เชิงความหมาย การประยุกต์งานการประมวลผลภาษา
+      Natural language processing. Computational linguistics. Information theory. Lexical analysis. Language models. Word representation. Syntactical analysis. Semantic analysis. Application of language processing.
+
+01418371* การบริหารโครงการและสตาร์ทอัพดิจิทัล	3(3-0-6)
+(Project Management and Digital Startup)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      วัฏจักรโครงการ การกําหนดเวลางานโครงการ การจัดองค์การของโครงการ การจัดการค่าใช้จ่ายโครงการ การ ควบคุมโครงการ การประเมินความก้าวหน้าโครงการ การจัดการขอบเขตงาน การจัดการคุณภาพโครงการ การบริหาร ความเสี่ยง การสื่อสารในโครงการ การบริหารทรัพยากรบุคคลในโครงการ สตาร์ทอัพ การคิดเชิงออกแบบ ตัวแบบธุรกิจ Project life-cycle. Project scheduling. Project organizing. Project cost management. Project control. Project progress assessment. Scope control. Project quality management. Risk management.
+Project communication. Project human resource management. Startup. Design thinking. Business model.
+
+01418381** คอมพิวเตอร์กราฟิกส์เชิงโต้ตอบเบื้องต้น	3(3-0-6)
+(Introduction to Interactive Computer Graphics)
+วิชาที่ต้องเรียนมาก่อน: 01418112 หรือ 01418113
+      การพัฒนาโปรแกรมคอมพิวเตอร์กราฟิกส์แบบทันที ตัวแบบเรขาคณิตด้วยรูปหลายเหลี่ยม การแปลงสองมิติ และสามมิติ ส่วนต่อประสานกราฟิกกับผู้ใช้ การจัดแสงและการแรเงา ภาษาสําหรับควบคุมการแรเงา การโปรแกรม หน่วยประมวลผลกราฟิกส์
+      Program development of real-time computer graphics. Geometric model with polygons. 2D and 3D transformations. Graphical user interfaces. Lighting and shading. Shading languages. Graphics Processing Unit programming.
+
+01418382* วิชวลเอฟเฟกส์	3(3-0-6)
+(Visual Effects)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      การจําลองการเคลื่อนไหวเชิงกายภาพ การจําลองอนุภาค การจําลองมวลและสปริง การจําลองวัตถุแข็งเกร็ง การจําลองของไหล การจําลองไฟและควัน การผสมภาพ การติดตามการเคลื่อนไหว
+Physically-based animation. Particle simulation. Mass-Spring simulation. Rigid body simulation.
+Fluid simulation. Pyro simulation. Compositing. Motion tracking.
+
+01418383* ความจริงขยาย	3(3-0-6)
+(Extended Reality)
+วิชาที่ต้องเรียนมาก่อน: 01418113
+      คอมพิวเตอร์กราฟิกส์ การรับรู้ทางภาพ เกมเอนจิน ความจริงเสมือน ความจริงเสริม ปัญญาประดิษฐ์ใน เทคโนโลยีสร้างสรรค์ เทคโนโลยีอุบัติใหม่
+      Computer graphics. Visual perception. Game engine. Virtual reality. Augmented reality. Artificial intelligence in creative technology. Emerging technologies.
+
+01418390** การเตรียมความพร้อมสหกิจศึกษา	1(1-0-2)
+(Cooperative Education Preparation)
+      หลักการ แนวคิด และกระบวนการของสหกิจศึกษา ระเบียบข้อบังคับที่เกี่ยวข้อง ความรู้พื้นฐานและเทคนิคใน การสมัครงานและปฏิบัติงาน การสื่อสารและมนุษยสัมพันธ์ การพัฒนาบุคลิกภาพ ระบบการบริหารคุณภาพในสถาน ประกอบการ เทคนิคการนําเสนอ การเขียนรายงาน
+      Principles. Concepts and processes of cooperative education. Related rules and regulations. Basic knowledge and techniques in job application and working. Basic knowledge. Communication and human relations. Personality development. Quality management system in workplace. Presentations techniques. Report writing.
+
+01418421* การออกแบบประสบการณ์และส่วนเชื่อมประสานผู้ใช้	3(2-2-5) (User Experience and User Interface Design)
+วิชาที่ต้องเรียนมาก่อน: 01418221
+      ประวัติการออกแบบประสบการณ์ผู้ใช้ การทําความเข้าใจผู้ใช้ แผนที่การเดินทางของผู้ใช้ การวิเคราะห์กิจกรรม สถาปัตยกรรมสารสนเทศ การออกแบบเชิงวิทัศน์ ต้นแบบและการประเมินผล
+History of user experience design. Understanding users. User journey map. Activity analysis.
+Information architecture. Visual design. Prototype and evaluation.
+
+01418441	เว็บเทคโนโลยีและเว็บบริการ	3(2-2-5)
+(Web Technology and Web Services)
+วิชาที่ต้องเรียนมาก่อน: 01418211
+      หลักการเว็บเทคโนโลยีและเว็บบริการ ข้อกําหนดมาตรฐานของเว็บเทคโนโลยี สถาปัตยกรรมและส่วนประกอบ ลักษณะการทํางานและกลไกของระบบเว็บบริการ การพัฒนาโปรแกรมสําเร็จรูปเว็บเทคโนโลยี ลักษณะการทํางานและ โครงแบบเอพีไอ
+      Principles of Web technology and services. Standard specification of technology. Architecture and components. Functionalities and mechanisms of Web services systems. Development of Web technology packages. API’s functionalities and configurations.
+
+01418451** การออกแบบและการบริหารเครือข่าย	3(2-2-5)
+(Network Design and Administration)
+วิชาที่ต้องเรียนมาก่อน: 01418235 และ 01418351
+      ฮาร์ดแวร์และเทคนิคการเดินสายเครือข่าย โครงแบบอุปกรณ์จัดเส้นทางและการออกแบบทอพอโลยีเครือข่าย แลนเสมือนและเครือข่ายส่วนบุคคลเสมือน การออกแบบทอพอโลยีแลนไร้สาย การบริหารและจัดการเครือข่าย การ ติดตั้งโปรแกรมบริการเครือข่าย เครือข่ายและระบบเสมือน ความมั่นคงของระบบและเครือข่าย
+      Networking hardware and wiring techniques. Router configuration and network topology design. Virtual LAN and virtual private network. Wireless LAN topology design. Network administration and management. Network server installation. Network and system virtualization.
+
+01418471* การออกแบบและพัฒนาซอฟต์แวร์	3(3-0-6)
+(Software Design and Development)
+วิชาที่ต้องเรียนมาก่อน: 01418211
+     หลักการออกแบบซอฟต์แวร์ การสร้างตัวแบบซอฟต์แวร์ แบบรูปการออกแบบ กลยุทธ์การออกแบบ การ ออกแบบสถาปัตยกรรมซอฟต์แวร์ แนวทางการพัฒนาซอฟต์แวร์ การพัฒนาเชิงทดสอบและการพัฒนาเชิงพฤติกรรม การพัฒนาซอฟต์แวร์ด้วยเฟรมเวิร์ก การพัฒนาซอฟต์แวร์ให้มีความมั่นคง การพัฒนาส่วนต่อประสานโปรแกรมประยุกต์ การพัฒนาซอฟต์แวร์ด้วยสถาปัตยกรรมไมโครเซอร์วิส เมตริกการออกแบบและพัฒนาซอฟต์แวร์ รีแฟกเตอร์ริ่ง ซอฟต์แวร์
+      Software design principles. Software modeling. Design patterns. Design strategies. Software architectural design. Software development approaches: test-driven development and behavior-driven development. Software development with frameworks. Secure software development. Application programming interface development. Software development with microservices architecture. Software design and development metrics. Software refactoring.
+
+01418472* การบูรณาการกระบวนการเชิงอไจล์และเดฟอ็อปส์	3(3-0-6) (Integrated Agile Process and DevOps)
+วิชาที่ต้องเรียนมาก่อน: 01418211
+      กระบวนการเชิงอไจล์ ความต้องการและเรื่องราวผู้ใช้ การวางแผนและติดตามงาน ระบบควบคุมเวอร์ชันและ กระแสงาน การทดสอบอย่างอัตโนมัติ การวิเคราะห์รหัสต้นฉบับ เดฟอ็อปส์ กระบวนการสร้างซอฟต์แวร์ การทํางาน แบบสายท่อ การรวมซอฟต์แวร์อย่างต่อเนื่อง การส่งมอบและติดตั้งซอฟต์แวร์อย่างต่อเนื่อง การจัดการที่เก็บอาติเฟค คอนเทนเนอร์และการประสานคอนเทนเนอร์ โครงสร้างพื้นฐานตามรหัสคําสั่ง การเฝ้าสังเกตและลงบันทึกซอฟต์แวร์
+      Agile process. Requirements and user stories. Work planning and tracking. Version control system and workflow. Automated testing. Source code analysis. DevOps. Software build process. Pipeline. Continuous software integration. Continuous software delivery and deployment. Artifact repository management. Container and container orchestration. Infrastructure as code. Software monitoring and logging.
+
+01418473	การควบคุมและการตรวจสอบงานคอมพิวเตอร์	3(3-0-6) (Computer Control and Audit)
+วิชาที่ต้องเรียนมาก่อน: 01418321
+      สภาวะแวดล้อมของการตรวจสอบงานคอมพิวเตอร์ การควบคุมเบื้องต้น การควบคุมบริหาร การควบคุมการ ดําเนินงาน การควบคุมการทําเอกสาร การควบคุมความมั่นคง การวิเคราะห์ต้นทุน-ประสิทธิผลในการควบคุม เทคนิค การตรวจสอบงานคอมพิวเตอร์
+      The computer audit environment. Introduction to controls. Administrative controls. Operation controls. Documentation controls. Security controls. Cost-effectiveness analysis of controls. Computer audit techniques.
+
+01418474	การทดสอบและทวนสอบซอฟต์แวร์	3(3-0-6)
+(Software Testing and Verification)
+วิชาที่ต้องเรียนมาก่อน: 01418211
+      พื้นฐานการทดสอบและทวนสอบ ระดับการทดสอบ ชนิดการทดสอบ เทคนิคการทดสอบ การตรวจสอบ การ สร้างการทดสอบ เครื่องมือในการทดสอบ การวางแผนและการจัดการการทดสอบ วิธีเชิงรูปนัย การวิเคราะห์คุณภาพ ซอฟต์แวร์
+      Basics of testing and verification, test levels, test types, testing techniques, inspection, test implementation, test tools, test planning and management, formal methods, software quality analysis.
+
+01418490	สหกิจศึกษา	6
+(Cooperative Education)
+วิชาที่ต้องเรียนมาก่อน: 01418390
+      การปฏิบัติงานในลักษณะพนักงานชั่วคราว ตามโครงงานที่ได้รับมอบหมายตลอดจนการจัดทํารายงานและการ นําเสนอ
+      On the job training as a temporary employee according to the assigned project including report and presentation.
+01418496	เรื่องเฉพาะทางวิทยาการคอมพิวเตอร์	3
+(Selected Topic in Computer Science)
+เรื่องเฉพาะทางวิทยาการคอมพิวเตอร์ในระดับปริญญาตรี หัวข้อเปลี่ยนไปในแต่ละภาคการศึกษา
+      Selected topics in computer science at the bachelor’s degree level. Topics are subject to change each semester.
+01418497** สัมมนา	1
+(Seminar)
+การนําเสนอและอภิปรายหัวข้อที่น่าสนใจทางวิทยาการคอมพิวเตอร์ ในระดับปริญญาตรี
+      Presentation and discussion on current interesting topics in computer science at the bachelor’s degree level.
+
+01418499	โครงงานวิทยาการคอมพิวเตอร์	3(0-9-5)
+(Computer Science Project)
+วิชาที่ต้องเรียนมาก่อน: 01418321
+โครงงานที่น่าสนใจในแขนงต่างๆ ของวิทยาการคอมพิวเตอร์
+Project of practical interest in various fields of computer science.
+
+3.1.5.2 รายวิชาที่เป็นรหัสวิชานอกหลักสูตร
+
+01417111	แคลคูลัส I	3(3-0-6)
+(Calculus I)
+      ลิมิตและความต่อเนื่อง อนุพันธ์ของฟังก์ชันและการประยุกต์ ค่าเชิงอนุพันธ์และการประยุกต์ ปริพันธ์และการ ประยุกต์
+      Limits and continuity, derivatives and applications, differentials and applications, integration and applications.
+
+01417322	พีชคณิตเชิงเส้นพื้นฐาน	3(3-0-6)
+(Basic Linear Algebra)
+      ปริภูมิเวกเตอร์ การแปลงเชิงเส้นและเมตริกซ์ ระบบของสมการเชิงเส้น ค่าลักษณะเฉพาะ เวกเตอร์ลักษณะ เฉพาะ การทําให้เป็นแนวทแยงมุม การประยุกต์
+      Vector spaces, linear transformations and matrices, systems of linear equations, eigenvalues, eigenvectors, diagonalization, applications.
+
+3.2 ชื่อ สกุล ตําแหน่งและคุณวุฒิของอาจารย์
+3.2.1 บางเขน
+3.2.1.1 อาจารย์ประจําหลักสูตร
+
+ลําดับ
+ชื่อ-นามสกุล
+ผลงานทางวิชาการ
+ภาระงานสอน
+ที่
+ตําแหน่งทางวิชาการ
+คุณวุฒิ (สาขาวิชา)
+ชื่อสถาบัน, ปีที่สําเร็จการศึกษา
+
+ปัจจุบัน
+หลักสูตร ปรับปรุง
+1
+นายชาคริต วัชโรภาส
+ผู้ช่วยศาสตราจารย์ วท.บ. (สถิติประยุกต์)
+มหาวิทยาลัยธรรมศาสตร์, 2535
+M.S. (Computer Science) University of Southern California, U.S.A., 2540 Ph.D. (Computer Science)
+Clemson University, U.S.A., 2547
+งานวิจัย
+Global Thresholding based on Improved Histogram for Chalk area Segmentation in Rice Quality Evaluation, 2563
+01418113
+01418219
+01418381
+01418382
+01418383
+01418481
+01418482
+01418490
+01418496
+01418497
+01418499
+01418105
+01418113
+01418281
+01418381
+01418490
+01418497
+01418499
+2
+นายเทพฤทธิ์ บัณฑิตวัฒนาวงศ์ อาจารย์
+วศ.บ. (วิศวกรรมคอมพิวเตอร์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้า คุณทหาร ลาดกระบัง, 2540 M.Eng. (Computer Science)
+Asian Institute of Technology, 2543
+Ph.D. (Informatics)
+The Graduate University for Advanced Studies, Japan, 2550
+งานวิจัย
+On Formulation of Online Algorithm and Framework of Near-optimally Tractable Eviction for Nonuniform Caches, 2563
+01418101
+01418215
+01418221
+01418351
+01418353
+01418354
+01418497
+01418499
+01418101
+01418221
+01418353
+01418497
+01418499
+
+หมวดที่ 5 หลักเกณฑ์ในการประเมินผลนิสิต
+1.	กฎระเบียบหรือหลักเกณฑ์ในการให้ระดับคะแนน (เกรด)
+ตามข้อบังคับมหาวิทยาลัยเกษตรศาสตร์ ว่าด้วยการศึกษาระดับปริญญาตรี มหาวิทยาลัยเกษตรศาสตร์ ดังนี้
+14. การวัดและประเมินผลการศึกษา
+14.1 การประเมินผลการศึกษาของแต่ละรายวิชาจะกระทําได้เป็นระดับต่าง ๆ ซึ่งมีความหมาย และแต้มคะแนนดังต่อไปนี้
+
+ระดับคะแนน
+ความหมาย
+แต้มคะแนน
+A ดีเยี่ยม (excellent) 4.0
+B+ ดีมาก (very good) 3.5
+B ดี (good) 3.0
+C+ ค่อนข้างดี (fairly good) 2.5
+C พอใช้ (fair) 2.0
+D+ อ่อน (poor) 1.5
+D อ่อนมาก (very poor) 1.0
+F ตก (fail) 0.0
+
+I ยังไม่สมบูรณ์ (incomplelte)
+
+S พอใจ (satisfactory)
+
+U ไม่พอใจ (unsatisfactory)
+
+P ผ่าน (passed)
+
+NP ไม่ผ่าน (mot passed)
+
+N ยังไม่ทราบระดับคะแนน (grade not reported)
+
+            ระดับคะแนน I ใช้เฉพาะกรณีที่นิสิตมีงานบางส่วนในวิชานั้นยังไม่สมบูรณ์ แต่มีการวัดผลอย่างอื่นของวิชานั้นตลอกภาค การศึกษา และเป็นที่พอใขของอาจารย์ผู้สอน
+ระดับคะแนน S และ U ใช้สําหรับรายวิชาที่นิสิตลงทะเบียนประเภทไม่นับหน่วยกิต (Audit)
+            ระดับคะแนน P ใช้สําหรับรายวิชาที่ไม่นําค่าของหน่วยกิตมาคํานวณแต้มคะแนนเฉลี่ยสะสม การฝึกงานที่ไม่มีหน่วยกิต หรือรายวิชาที่มีการเทียบโอนจากการลงทะเบียนเรียนข้ามสถาบัน
+ระดับคะแนน N ใช้เฉพาระกรณีที่ยังไม่ได้รับรายงานการประเมินผลการศึกษา
+       14.2 นิสิตต้องดําเนินการขอแก้ไขระดับคะแนน I และ N ให้เสร็จสิ้นภายมน 30 วันหลังวันส่งคะแนนวันสุดท้ายของภาค การศึกษานั้น การผ่อนผันต้องได้รับความเห็นชอบจากอาจารย์ผู้รับผิดชอบรายวิชา และได้รับนุมัติจากคณบดีเจ้าสังกัดรายวิชานั้น ทั้งนี้ ต้องไม่เกินสิ้นภาคการศึกษาปกติถัดไป หากไม่ปฏิบัติตามให้ถือว่านิสิตผู้นั้นได้ระดับคะแนน F หรือ U ในรายวิชานั้น
+       14.3 การแก้ไขระดับคะแนนต้องมีเหตุผลความจําเป็น พร้อมเอกสารประกอบการพิจารณา โดยต้องได้รับความเห็นชอบจาก อาจารย์ผู้รับผิดชอบรายวิชา คณะกรรมการประจําคณะเจ้าสังกัดรายวิชานั้น และได้รับอนุมัติจากรองอธิการบดีที่ได้รับมอบหมายให้ดูแล งานด้านวิชาการ
+14.4 การคิดแต้มคะแนนเฉลี่ยสะสม
+            14.4.1 การคิดแต้มคะแนนเฉลี่ยสะสมของนิสิต ให้คิดจากแต้มคะแนนทุกรายวิชาที่นิสิตลงทะเบียนเรียนประเภทนับ หน่วยกิต (credit) ทั้งรายวิชาที่สอบได้ และรายวิชาที่สอบตก
+     
+            14.4.2 การคิดแต้มคะแนนเฉลี่ยสะสมของนิสิตที่ย้ายสาขาวิชาเอก ย้ายหลักสูตร ย้ายคณะ ให้คิดแต้มคะแนนของทุก รายวิชาที่มีปรากฏในหลักสูตรสาขาวิชาเอกที่รับเข้า ไม่ว่าจะเป็นรายวิชาที่เทียบให้หรือไม่ก็ตาม ส่วนรายวิชาที่ไม่ปรากฏในหลักสูตร สาขาวิชาเอกที่รับเข้า ไม่สามารถนํามาคิดแต้มคะแนนเฉลี่ยสะสม
+            14.4.3 การคิดแต้มคะแนนเฉลี่ยสะสมของนิสิตของนิสิตที่โอนมาจากสถานศึกษาอื่น และนิสิตที่จบอนุปริญญา หรือ เทียบเท่า และได้รับอนุมัติให้เข้าศึกษาต่อ ให้คิดเฉพาะแต้มคะแนนของรายวิชาที่เยนใหม่เท่านั้น
+14.4.4 การคิดแต้มคะแนนเฉลี่ยสะสม เพื่อพิจารณาถานภาพทางการศึกษาของนิสิตตามเกณฑ์ในข้อ 26.4.9 และ
+26.4.10 นั้น ให้คิดปีละสองครั้งคือเมื่อสิ้นสุดภาคการศึกษาภาคต้นและภาคปลาย ส่วนผลการศึกษาในภาคฤดูร้อน ให้นําไปรวมกับผล การศึกษาภาคต้นถัดไป เว้นแต่กรณีผู้จบการศึกษาในภาคฤดูร้อน
+14.5 คณะสามารถระงับการประกาษ หรือการคัดผลการศึกษาให้นิสิต หากนิสิตค้างชําระหนี้สินในภาควิชา และในคณะนั้น ๆ
+       14.6 มหาวิทยาลัยสามารถระงับหรือเพิกถอนการออกใบแสดงผลการศึกษา และใบรับรองใด ๆ ให้แก่นิสิต หากนิสิตค้างชําระ หนี้สินภายใน หรือภายนอกมหาวิทยาลัยที่มหาวิทยาลัยรับทราบ ถึงแม้ได้มีการประกาศผลการศึกษาไปแล้วก็ตาม
+2. กระบวนการทวนสอบมาตรฐานผลสัมฤทธิ์ของนิสิต
+2.1 การทวนสอบระดับรายวิชา ขณะนิสิตยังไม่สําเร็จการศึกษา
+       ดําเนินการโดยผู้รับผิดชอบหลักสูตร ผู้ที่ได้รับการแต่งตั้งจากผู้รับผิดชอบหลักสูตร หรือผู้มีส่วนเกี่ยวข้องในแต่ละภาคการศึกษา ประกอบด้วย
+1.	วางแผน กําหนดระยะเวลา รายวิชา วิธีการ เครื่องมือที่เหมาะสมสําหรับการทวนสอบ
+2.	ทวนสอบจากการให้นิสิตประเมินการสอนของอาจารย์
+3. ทวนสอบผลการเรียนรู้ของนิสิตในการสะท้อนคุณลักษณะบัณฑิตที่พึงประสงค์ตามความรับผิดชอบหลัก/รองในมาตรฐาน ผลการเรียนรู้ของรายวิชา
+4. ทวนสอบผลลัพธ์การเรียนรู้ที่คาดหวังของรายวิชาตามที่กําหนดในวัตถุประสงค์ในการพัฒนา/ปรับปรุงรายวิชา
+5. ทวนสอบผลลัพธ์การเรียนรู้ที่คาดหวังของหลักสูตร คุณลักษณะพิเศษของนิสิตในหลักสูตร
+6. วิเคราะห์ผลการประเมินเพื่อสะท้อนกลับไปยังอาจารย์ผู้สอนรายวิชา และ/หรือผู้รับผิดชอบหลักสูตร
+2.2 การทวนสอบระดับหลักสูตร หลังจากนิสิตสําเร็จการศึกษา
+ดําเนินการโดยผู้รับผิดชอบหลักสูตรหรือผู้ที่ได้รับการแต่งตั้งจากผู้รับผิดชอบหลักสูตร ประกอบด้วย
+1.	การสํารวจความคิดเห็นและความพึงพอใจของบัณฑิต
+2. การสํารวจความคิดเห็นและความพึงพอใจของผู้ใช้บัณฑิต ผู้ทรงคุณวุฒิภายนอก ผู้มีส่วนได้ส่วนเสีย หรือ สถาบันอุดมศึกษาที่บัณฑิตไปศึกษาต่อ
+3. การประกันคุณภาพการศึกษาภายใน ระดับหลักสูตร
+4. การวิจัยภาวะการมีงานทําของบัณฑิต
+3. เกณฑ์การสําเร็จการศึกษาตามหลักสูตร
+ตามข้อบังคับมหาวิทยาลัยเกษตรศาสตร์ ว่าด้วยการศึกษาระดับปริญญาตรี มหาวิทยาลัยเกษตรศาสตร์ ดังนี้
+28. การขอจบและอนุมัติปริญญา หรืออนุปริญญา
+       28.1 นิสิตต้องยื่นคําร้องแสดงความจํานงขอจบการศึกษาต่ออาจารย์ที่ปรึกา และคณบดีเจ้าสังกัดนิสิตภายใน 30 วัน นับแต่ วันเปิดเรียนของภาคการศึกษาสุดท้าย ที่นิสิตคาดว่าจะสอบได้หน่วยกิตครบถ้วนตามหลักสูตร
+       28.2 นิสิตที่มีสิทธ์ิขอรับปริญญา ต้องศึกษารายวิชาและปฏิบัติตามข้อกําหนดครบถ้วนตามความต้องการแห่งหลักสูตร โดยมี แต้มคะแนนเฉลี่ยสะสมตลอดหลักสูตรตั้งแต่ 2.00 ขึ้นไป และมีเวลาศึกษาในมหาวิทยาลัยไม่ตํ่ากว่า 6 ภาคการศึกษาปกติสําหรับ
+หลักสูตร 4 ปี หรือไม่ตํ่ากว่า 8 ภาคการศึกษาปกติสําหรับหลักสูตร 5 ปี และไม่ตํ่ากว่า 10 ภาคการศึกษาสําหรับหลักสูตร 6 ปี ทั้งนี้ ยกเว้นผู้ที่ได้รับการเทียบรายวิชาและโอนหน่วยกิต
+
+       28.3 นิสิตต้องสอบได้ทุกรายวิชาที่ลงทะเบียนเรียนไว้ โดยความเห็นชอบของอาจารย์ที่ปรึกษา อาจารย์ผู้รับผิดชอบหลักสูตร หรือหัวหน้าภาควิชา และคณบดีเจ้าสังกัดนิสิต
+       28.4 นิสิตอาจยื่นคําร้องขอรับอนุปริญญาได้ กรณีเมื่อเรียนครบหลักสูตรและเงื่อนไขว่าด้วยอนุปริญญาที่กําหนดไว้ในแต่ละ หลักสูตร หรือกรณีที่นิสิตเรียนครบตามหลักสูตรในข้อ 28.2 และปฏิบัติครบตามข้อกําหนดและรัเบียบ แต่ได้แต้มคะแนนเฉลี่ยสะสมตํ่า กว่า 2.00
+       28.5 นิสิตต้องชําระหนี้สินทั้งหมดที่มีต่อมหาวิทยาลัย คณะ หรือต่อภาควิชาให้เรียบร้อยเสร็จสิ้นก่อน จึงจะได้รับการเสนอชื่อ เพื่อขอรับปริญญา หรืออนุปริญญา
+       28.6 นิสิตที่สมควรได้รับการเสนอชื่อให้ได้รับปริญญาหรืออนุปริญญาต้องเป็นผู้ที่มีความประพฤติที่ไม่ขัดต่อระเบียบของ   มหาวิทยาลัยและวินัยของนิสิต
+28.7 สภามหาวิทยาลัย เป็นผู้พิจารณาอนุมัติหรืออนุปริญญา
+       28.8 ผู้สําเร็จการศึกษาที่จะได้รับการเสนอชื่อเพื่อขอเข้ารับพระราชทานปริญญาหรืออนุปริญญาได้ต้องผ่านการเข้าร่วม   กิจกรรมนิสิตและต้องเข้าร่วมทดสอบความรู้หรือทักษะอื่นตามที่มหาวิทยาลัยกําหนด
+28.9 พิธีประสาทปริญญากําหนดปีละหนึ่งครั้ง

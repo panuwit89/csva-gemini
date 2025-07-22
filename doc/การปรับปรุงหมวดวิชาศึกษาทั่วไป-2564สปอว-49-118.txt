@@ -1,0 +1,916 @@
+﻿
+       
+
+1.1 กิจกรรมพลศึกษา
+คณะศึกษาศาสตร
+401175111 กรีฑาลู-ลาน เพื่อสุขภาพ (Track and Field for Health)	1(0-2-1)
+      การออกกําลังกายดวยกรีฑาลู-ลาน ทักษะและความรูพื้นฐานการวิ่ง การทุม การพุง และการขวาง การประยุกตกิจกรรมกรีฑาลู-ลานไปสูการเคลื่อนไหวใน ชีวิตประจําวันเพื่อสงเสริมสุขภาพ
+      Exercise with track and field. Fundamental running, throwing skills and knowledge. Applying track and field activities to movement lifestyle for promoting health.
+401175112 แบดมินตันเพื่อสุขภาพ (Badminton for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาแบดมินตัน ทักษะและความรูพื้นฐานการเลน แบดมินตัน การประยุกตกีฬาแบดมินตันไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพใน ชีวิตประจําวัน
+     Exercise with badminton sport. Fundamental badminton skills and knowledge. Applying badminton sport to promote health with exercise lifestyle in daily lives.
+401175113 เทนนิสเพื่อสุขภาพ (Tennis for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาเทนนิส ทักษะและความรูพื้นฐานการเลนเทนนิส การประยุกตกีฬาเทนนิสไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+      Exercise with tennis sport. Fundamental tennis skills and knowledge. Applying tennis sport to promote health with exercise lifestyle in daily lives.
+
+
+
+
+หมายเหตุ :	1 มีเปดสอนทวิทยาเขตกําแพงแสน
+2 มีเปดสอนที่วิทยาเขตศรีราชา
+3 มีเปดสอนที่วิทยาเขตเฉลิมพระเกียรติ จ.สกลนคร
+4 มีเปดสอนที่โครงการจัดตั้งวิทยาเขตสุพรรณบุรี
+
+401175114 เทเบิลเทนนิสเพื่อสุขภาพ (Table Tennis for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาเทเบิลเทนนิส ทักษะและความรูพื้นฐานการเลน เทเบิลเทนนิส การประยุกตกีฬาเทเบิลเทนนิสไปสูการออกกําลังกายเพื่อสงเสริม สุขภาพในชีวิตประจําวัน
+  Exercise with table tennis sport. Fundamental table tennis skills and knowledge. Applying table tennis sport to promote health with exercise lifestyle in daily lives.
+
+401175115 ฝกสมาธิดวยกิจกรรมยิงปน (Meditation with Shooting Activity)	1(0-2-1)
+      การพัฒนาสมาธิดวยกิจกรรมยิงปน ทักษะและความรูพื้นฐานการยิงปน การประยุกตกิจกรรมยิงปนเพื่อพัฒนาสมาธิไปสูวิถีชีวิตการออกกําลังกายและ การสงเสริมสุขภาพในชีวิตประจําวัน
+     Meditation development with shooting activity. Fundamentals shooting skills and knowledge. Applying shooting activity to improve meditation into exercise lifestyle and promote health in daily lives.
+
+401175117 ฝกสมาธิดวยกิจกรรมยิงธนู (Meditation with Archery Activity)	1(0-2-1)
+      การพัฒนาสมาธิดวยกิจกรรมยิงธนู ทักษะและความรูพื้นฐานการยิงธนู การประยุกตกิจกรรมยิงธนูเพื่อพัฒนาสมาธิไปสูวิถีชีวิต การออกกําลังกายและ การสงเสริมสุขภาพในชีวิตประจําวัน
+     Meditation development with archery activity. Fundamentals archery skills and knowledge. Applying archery activity to improve meditation into exercise lifestyle and promote health in daily lives.
+
+301175118 แชรบอลเพื่อสุขภาพ (Chair Ball for Health)	1(0-2-1)
+        การออกกําลังกายดวยกีฬาแชรบอล ทักษะและความรูพื้นฐานกีฬาแชรบอล การประยุกตกีฬาแชรบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+      Exercise with chair ball sport. Fundamental chair ball skills and knowledge. Applying chair ball sport to promote health with exercise lifestyle in daily lives.
+    
+01175119 เปตองเพื่อสุขภาพ (Petanque for Health)	1(0-2-1)
+       การออกกําลังกายดวยกีฬาเปตอง ทักษะและความรูพื้นฐานกีฬาเปตอง การประยุกตกีฬาเปตองไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+       Exercise with Pétanque sport. Fundamental Petanque skills and knowledge. Applying Petanque sport to promote health with exercise lifestyle in daily lives.
+401175121 บาสเกตบอลเพื่อสุขภาพ (Basketball for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาบาสเกตบอล ทักษะและความรูพื้นฐานกีฬา บาสเกตบอล การประยุกตกีฬาบาสเกตบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพ ในชีวิตประจําวัน
+     Exercise with basketball sport. Fundamental basketball skills and knowledge. Applying basketball sport to promote health with exercise lifestyle in daily lives.
+
+401175122 ฟุตบอลเพื่อสุขภาพ (Soccer for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาฟุตบอล ทักษะและความรูพื้นฐานกีฬาฟุตบอล การประยุกตกีฬาฟุตบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+    Exercise with soccer sport. Fundamental soccer skills and knowledge. Applying soccer sport to promote health with exercise lifestyle in daily lives.
+401175123 วอลเลยบอลเพื่อสุขภาพ (Volleyball for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาวอลเลยบอล ทักษะและความรูพื้นฐานกีฬา วอลเลยบอล การประยุกตกีฬาวอลเลยบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพ ในชีวิตประจําวัน
+     Exercise with volleyball sport. Fundamental volleyball skills and knowledge. Applying volleyball sport to promote health with exercise lifestyle in daily lives.
+    
+401175124 แฮนดบอลเพื่อสุขภาพ (Handball for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาแฮนดบอล ทักษะและความรูพื้นฐานกีฬาแฮนดบอล การประยุกตกีฬาแฮนดบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิต ประจําวัน
+     Exercise with handball sport. Fundamental handball skills and knowledge. Applying handball sport to promote health with exercise lifestyle in daily lives.
+401175125 ซอฟทบอลเพื่อสุขภาพ (Softball for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาซอฟทบอล ทักษะและความรูพื้นฐานกีฬาซอฟทบอล การประยุกตกีฬาซอฟทบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Exercise with softball sport. Fundamental softball skills and knowledge. Applying softball sport to promote health with exercise lifestyle in daily lives.
+401175126 ตะกรอเพื่อสุขภาพ (Takraw for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาตะกรอ ทักษะและความรูพื้นฐานกีฬาตะกรอ การประยุกตกีฬาตะกรอไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+      Exercise with Takraw sport. Fundamental Takraw skills and knowledge. Applying Takraw sport to promote health with exercise lifestyle in daily lives.
+
+401175127 ฮอกกี้เพื่อสุขภาพ (Hockey for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาฮอกกี้ ทักษะและความรูพื้นฐานกีฬาฮอกกี้ การประยุกตกีฬาฮอกกี้ไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Exercise with hockey sport. Fundamental hockey skills and knowledge. Applying hockey sport to promote health with exercise lifestyle in daily lives.
+401175128 รักบี้ฟุตบอลเพื่อสุขภาพ (Rugby Football for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬารักบี้ฟุตบอล ทักษะและความรูพื้นฐานกีฬารักบี้ ฟุตบอล การประยุกตกีฬารักบี้ฟุตบอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพใน ชีวิตประจําวัน
+    
+     Exercise with rugby football sport. Fundamental rugby football skills and knowledge. Applying rugby football sport to promote health with exercise lifestyle in daily lives.
+
+401175129 ฟุตซอลเพื่อสุขภาพ (Futsal for Health)	1(0-2-1)
+      การออกกําลังกายดวยกีฬาฟุตซอล ทักษะและความรูพื้นฐานกีฬาฟุตซอล การประยุกตกีฬาฟุตซอลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+    Exercise with futsal sport. Fundamental futsal skills and knowledge. Applying futsal sport to promote health with exercise lifestyle in daily lives.
+
+401175131 วายน้ําเพื่อสุขภาพ (Swimming for Health)	1(0-2-1)
+      คุณคาและประโยชนของการวายน้ํา ความปลอดภัยทางน้ํา ทักษะพื้นฐาน การวายน้ํา ทาวายน้ําพื้นฐานสําหรับผูเริ่มตน การกําหนดกิจกรรมการออกกําลังกาย การประยุกตการวายน้ําเพื่อการออกกําลังกาย
+      Values and benefits of swimming. Water safety. Basic swimming skills. Swimming strokes for beginner. Exercise prescription. Applying swimming for exercise.
+
+401175133 กระโดดนํ้า (Diving)	1(0-2-1)
+      ประวัติความเปนมา เทคนิคและทักษะเบื้องตนของการกระโดดน้ํากระดานแข็ง และกระโดดน้ํากระดานสปริง วิธีการและขั้นตอนของการกระโดดน้ําในระดับความสูง ตาง ๆ กัน การกระโดดน้ําในทาตาง ๆ การรักษาความปลอดภัยและกติกาการแขงขัน
+      History, basic skills and techniques in diving, how to be saved from diving, regular and rules.
+
+401175134 โปโลน้ํา (Water Polo)	1(0-2-1)
+     ประวัติความเปนมา เทคนิคและทักษะเบื้องตนของโปโลน้ํา การสง การรับและ การเลี้ยงลูกโปโล การยิงประตู การเปนผูรักษาประตู กลวิธีการเลนเปนทีม การรักษา อุปกรณ ความปลอดภัยในการเลน กติกาการแขงขัน
+    
+     History, basic skills and techniques in water-polo, passing, receiving, dribbling, shooting and how to be the goalkeepers, strategies in team playing and how to be saved while playing in the water, regular and rules.
+401175141 การเตนแอโรบิกเพื่อสุขภาพ (Aerobic Dance for Health)	1(0-2-1)
+      คุณคาและประโยชนของเตนแอโรบิก ทักษะพื้นฐานการเตนแอโรบิก ประเภท การเตนแอโรบิก การกําหนดกิจกรรมการออกกําลังกาย การประยุกตรูปแบบการเตน แอโรบิกเพื่อออกกําลังกาย
+      Values and benefits of aerobic dance. Basic of aerobic dance. Aerobic dance in different styles. Exercise prescription. Applying aerobic dance for exercise.
+401175142 การเตนรําพื้นเมืองเพื่อสุขภาพ (Folk Dance for Health)	1(0-2-1)
+      คุณคาและประโยชนของการเตนรําพื้นเมือง พื้นฐานในการเตนรํา การเตนรํา พื้นเมืองในหลากหลายรูปแบบ การกําหนดกิจกรรมการออกกําลังกาย การประยุกตการ เตนรําพื้นเมือง เพื่อการออกกําลังกาย
+      Values and benefits of folk dance. Basic movements in dance. Folk dance in various styles. Exercise prescription. Applying folk dance for exercise.
+401175143 การเตนลีลาศเพื่อสุขภาพ (Social Dance for Health)	1(0-2-1)
+      คุณคาและประโยชนของการเตนลีลาศ การเคลื่อนไหวพื้นฐานสําหรับการเตน ลีลาศ การเตนลีลาศแบบมาตรฐานและลาตินอเมริกัน Uการกําหนดกิจกรรมการ ออกกําลังกายU การประยุกตการเตนลีลาศเพื่อการออกกําลังกาย
+       Values and benefits of social dance. Basic movements in dance. Standard ballroom dancing and Latin American ballroom dancing. Exercise prescription. Applying social dance for exercise.
+401175144 รําไทยเพื่อสุขภาพ (Thai Classical Dance for Health)	1(0-2-1)
+      คุณคาและประโยชนของการรําไทย ทักษะการเคลื่อนไหวพื้นฐานของทารํา การรําวงมาตรฐาน กU ารกําหนดกิจกรรมการออกกําลังกายU การประยุกตรําไทยเพื่อการ ออกกําลังกาย
+    
+       Values and benefits of Thai folk dance. Basic movement skills of Thai classical dancing. Exercise prescription. Applying Thai folk dance for exercise.
+
+401175151 ศิลปะการปองกันตัวและการตอสูดวยดาบไทย (Martial Arts with Thai Sword) 1(0-2-1)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยดาบไทย ทักษะ และความรูพื้นฐานการเลนดาบไทย การประยุกตศิลปะการปองกันตัวและการตอสู ดวยดาบไทยไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of Thai sword martial art. Fundamental Thai sword skills and knowledge. Applying Thai sword martial art to promote health with exercise lifestyle in daily live.
+401175152 ศิลปะการปองกันตัวและการตอสูดวยดาบสากล (Martial Arts with Fencing)	1(0-2-1)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยดาบสากล ทักษะและความรูพื้นฐานการเลนดาบสากล การประยุกตศิลปะการปองกันตัวและการ ตอสูดวยดาบสากลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of fencing martial art. Fundamental fencing skills and knowledge. Applying fencing martial art to promote health with exercise lifestyle in daily lives.
+401175153 ศิลปะการปองกันตัวและการตอสูดวยมวยไทย (Martial Arts with Thai Boxing)1(0-2-1)
+      คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยมวยไทย ทักษะ และความรูพื้นฐานมวยไทย การประยุกตศิลปะการปองกันตัวและการตอสูดวยมวย ไทยไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of Thai boxing martial art. Fundamental Thai boxing skills and knowledge. Applying Thai boxing martial art to promote health with exercise lifestyle in daily lives.
+401175154 ศิลปะการปองกันตัวและการตอสูดวยมวยสากล (Martial Arts with Boxing)	1(0-2-1)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยมวยสากล ทักษะ และความรูพื้นฐานมวยสากล การประยุกตศิลปะการปองกันตัวและการตอสูดวยมวย สากลไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of boxing martial art. Fundamental boxing skills and knowledge. Applying boxing martial art to promote health with exercise lifestyle in daily lives.
+    
+401175155 ศิลปะการปองกันตัวและการตอสูดวยยูโด (Martial Arts with Judo)	1(0-2-1)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยยูโด ทักษะและ ความรูพื้นฐานยูโด การประยุกตศิลปะการปองกันตัวและการตอสูดวยยูโดไปสูการออก กําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of judo martial art. Fundamental judo skills and knowledge. Applying judo martial art to promote health with exercise lifestyle in daily lives.
+401175156 ศิลปะการปองกันตัวและการตอสูดวยไอคิโด (Martial Arts with Aikido)	1(0-2-1)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยไอคิโด ทักษะ และความรูพื้นฐานไอคิโด การประยุกตศิลปะการปองกันตัวและการตอสูดวยไอคิโด ไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+      Values and benefits of aikido martial art. Fundamental aikido skills and knowledge. Applying aikido martial art to promote health with exercise lifestyle in daily lives.
+401175157 ศิลปะการปองกันตัวและการตอสูดวยกระบี่กระบอง	1(0-2-1) (Martial Arts with Krabi-Krabong)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยกระบี่กระบอง   ทักษะและความรูพื้นฐานการเลนกระบี่กระบอง การประยุกตศิลปะการปองกันตัวและ การตอสูดวยกระบี่กระบองไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน Values and benefit of krabi-krabong martial art. Fundamental krabi- krabong skills and knowledge. Applying krabi-krabong martial art to
+promote health with exercise lifestyle in daily lives.
+401175159 ศิลปะการปองกันตัวและการตอสูดวยคาราเต (Martial Arts with Karate)	1(0-2-1)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยคาราเต ทักษะ และความรูพื้นฐานคาราเต การประยุกตศิลปะการปองกันตัวและการตอสูดวยคาราเต ไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+      Values and benefits of karate martial art. Fundamental karate skills and knowledge. Applying karate martial art to promote health with exercise lifestyle in daily lives.
+    
+401175161 ฝกสมองดวยการเลนบริดจ (Brain Training with Playing Bridge)	1(0-2-1)
+       การพัฒนาสมองดวยกิจกรรมการเลนบริดจ ความรูพื้นฐานการเลนบริดจ การ ประยุกตกิจกรรมบริดจไปสูการออกกําลังกายเพื่อพัฒนาสมองและสงเสริมสุขภาพใน ชีวิตประจําวัน
+     Developing brain with bridge activity. Fundamental bridge player. Applying bridge activity for brain development with exercise lifestyle and promote health in daily lives.
+401175162 โบวลิ่งเพื่อสุขภาพ (Bowling for Health)	1(0-2-1)
+      คุณคาและประโยชนของกีฬาโบวลิ่ง ทักษะและความรูพื้นฐานกีฬาโบวลิ่ง การประยุกตกีฬาโบวลิ่งไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพ
+     Values and benefits of bowling sport. FU undamental bowling sport skills and basic knowledge. Applying bowling sport for exercise to promote health.U
+401175163 กอลฟเพื่อสุขภาพ (Golf for Health)	1(0-2-1)
+      คุณคาและประโยชนของกีฬากอลฟ ทักษะและความรูพื้นฐานกีฬากอลฟ การประยุกตกีฬากอลฟไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+Values and benefits of golf sport. Skill and basic knowledge of golf.
+Applying golf sport to promote health with exercise lifestyle in daily lives.
+401175164 จักรยานเพื่อสุขภาพ (Cycling for Health)	1(0-2-1)
+      คุณคาและประโยชนของการขี่จักรยาน ทักษะและความรูพื้นฐานการขี่จักรยาน การประยุกตการขี่จักรยานไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of cycling. Skills and basic knowledge of cycling. Applying cycling to promote health with exercise lifestyle in daily lives.
+401175165 การฝกดวยน้ําหนักเพื่อสุขภาพ (Weight Training for Health)	1(0-2-1)
+      การออกกําลังกายดวยกิจกรรมการฝกดวยน้ําหนัก ทักษะและความรูพื้นฐาน การฝกดวยน้ําหนัก การประยุกตใชกิจกรรมการฝกดวยน้ําหนักไปสูการออกกําลังกาย เพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+    
+      Exercise with weight training activity. Fundamental weight training skills and knowledge. Applying weight training activity to promote health with exercise lifestyle in daily lives.
+401175166 ศิลปะการปองกันตัวและการตอสูดวยเทควันโด	1(0-2-1) (Martial Arts with Taekwondo)
+       คุณคาและประโยชนของศิลปะการปองกันตัวและการตอสูดวยเทควันโด ทักษะ และความรูพื้นฐานเทควันโด การประยุกตศิลปะการปองกันตัวและการตอสูดวย เทควันโดไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพในชีวิตประจําวัน
+     Values and benefits of taekwondo martial art. Fundamental taekwondo skills and knowledge. Applying taekwondo martial art to promote health with exercise lifestyle in daily lives.
+01175167 โยคะเพื่อสุขภาพ (Yoga for Health)	1(0-2-1)
+     การออกกําลังกายดวยกิจกรรมโยคะ ทักษะและความรูพื้นฐานโยคะ การ ประยุกตกิจกรรมโยคะไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพแตละบุคคล ในชีวิตประจําวันและสุขภาพสังคม
+    Exercise with yoga activity. Fundamental yoga skills and knowledge. Applying yoga activity to promote personal and social health with exercise lifestyle in daily lives.
+401175168 การวิ่งเหยาะเพื่อสุขภาพ (Jogging for Health)	1(0-2-1)
+      การออกกําลังกายดวยกิจกรรมการวิ่งเหยาะ ทักษะและความรูพื้นฐานการ วิ่งเหยาะ การประยุกตกิจกรรมการวิ่งเหยาะไปสูการออกกําลังกายเพื่อสงเสริมสุขภาพ แตละบุคคลในชีวิตประจําวันและสุขภาพสังคม
+     Exercise with jogging activity. Fundamental jogging skills and knowledge. Applying jogging activity to promote personal and social health with exercise lifestyle in daily lives.
+    
+401175169 การออกกําลังกายเพื่อพัฒนาสุขภาพแบบองครวม	2(1-2-3) (Exercise for Developing Holistic Health)
+     หลักการและวิธีการออกกําลังกาย การบูรณาการการออกกําลังกายและสราง โปรแกรมการออกกําลังกายแบบองครวมเพื่อพัฒนาสุขภาพ รวมทั้งการประเมิน สมรรถภาพทางกายดวยตนเอง เพื่อคงไวซึ่งการมีสมรรถภาพทางกายและสุขภาพที่ดี
+     Principle and methods of exercise, integrates, and creation of holistic exercise program for health, including self-assessment of physical fitness and good health.
+คณะศิลปศาสตรและวิทยาการจัดการ
+04355185 จานรอนเพื่อสุขภาพ (Flying Disc for Health)	1(0-2-1)
+      ความรูทั่วไปเกี่ยวกับกีฬาจานรอน ประวัติความเปนมา ประเภท กติกาพื้นฐาน ทักษะพื้นฐานของจานรอนประเภทอัลติเมท เทคนิคและรูปแบบการเลนเพื่อสุขภาพ
+     General knowledge about flying disc sport. History. Categories of flying disc. Basic rules. Basic skills of ultimate flying disc. Techniques and patterns of play for health.
+04837111 กีฬาเพื่อสุขภาพที่ดี (Sports for Well-being)	2(1-2-3)
+      การประเมินสมรรถภาพทางกาย การเสริมสรางสมรรถภาพทางกาย สัดสวน รางกายและการควบคุมน้ําหนัก การปองกันและการปฐมพยาบาลการบาดเจ็บจากการ เลนกีฬา การปฏิบัติตนสําหรับออกกําลังกายและเลนกีฬาเพื่อพัฒนาสุขภาพ การ ประยุกตความรูวิทยาศาสตรการกีฬาเบื้องตน
+     Physical fitness assessment. Enhancing physical fitness. Body composition and weight control. Prevention and first aid. Exercise practice for health. Basic sports science application.
+    
+1.2 รายวิชาอื่น ๆ ในกลุมสาระอยูดีมีสุข
+
+คณะศึกษาศาสตร
+401173151 เอดสศึกษา (AIDS Education)	2(2-0-4)
+      ประวัติความเปนมาของโรคเอดส สาเหตุของโรค การติดเชื้อ การแพรเชื้อเอชไอวี ลักษณะอาการของผูปวยโรคเอดส การแบงการติดเชื้อเอชไอวีในระยะตาง ๆ สถานการณ ของโรคเอดส เอดสกับสังคม การดูแลผูติดเชื้อเอชไอวี ความกาวหนาในการศึกษาและวิจัย โรคเอดส เทคโนโลยีทางการแพทยที่เกี่ยวของกับการรักษาโรคเอดสในปจจุบันและ สวัสดิการการรักษาพยาบาล การปฏิบัติตนใหปลอดภัยจากโรคเอดส การประชาสัมพันธ ใหความรูเรื่องโรคเอดสแกกลุมเพื่อน ครอบครัวและชุมชน
+      History of AIDS. Cause, infection, HIV transmission, sign and symptom. Stages of HIV infection. AIDS prevalence. AIDS and society. Taking care of HIV-infected person. Progress of AIDS education and research. Current medical technology for AIDS treatment. Medical benefit scheme. Keeping oneself safe from AIDS. Public relations and AIDS education for friends, family and community.
+
+01174123  คายพักแรมนันทนาการ (Recreation Camp)	2(1-2-4)
+     ประวัติ ปรัชญา และประโยชนของคายพักแรมและนันทนาการ ประเภทของ คายพักแรม กิจกรรมนันทนาการในคายพักแรม การอนุรักษธรรมชาติและสิ่งแวดลอม อุปกรณคายพักแรม การเลือกสถานที่ตั้งคายพักแรม กฎการอยูคายพักแรม การประกอบอาหารในคายพักแรม การเตรียมเสื้อผาและสิ่งจําเปนในการอยูคาย พักแรม การปฐมพยาบาล การเตรียมยานพาหนะในการเดินทางไปคายพักแรม
+      History, philosophy, and benefits of camping and recreation, camping types. Recreational activities in the camp. Nature and environment conservation. Camping equipments. Choosing camp site, camping rules, food cooking in the camp, cloths and camping essentials preparation. First aid. Vehicle preparation for the trip.
+401174231 นันทนาการเบื้องตน (Introduction to Recreation)	2(2-0-4)
+     ประวัติ ปรัชญา ความหมาย แนวคิดและทฤษฎีเกี่ยวกับนันทนาการและ การใชเวลาวาง การศึกษาการใชเวลาวาง นันทนาการและการใชเวลาวางในแตละชวง ชีวิต นันทนาการบําบัด การจัดการนันทนาการและการใชเวลาวาง กีฬาเชิงนันทนาการ
+    
+นันทนาการเชิงพาณิชยและการทองเที่ยว นันทนาการเพื่อคุณภาพชีวิต บทบาทของผูนํา นันทนาการ โปรแกรมนันทนาการและการใชเวลาวาง นันทนาการกลางแจงและ คายพักแรม การเรียนรูวัฒนธรรมอาเซียน
+      History, philosophy definitions, concepts and theory of recreation and leisure. Leisure education. Recreation and leisure across the life span. Therapeutic recreation. Recreation and leisure management. Recreation sports. Commercial recreation and tourism. Recreation for quality of life. Roles of recreation leaders. Recreation and leisure programs. Outdoor recreation and camping. Learning ASEAN cultural.
+
+01176141 การวางแผนชีวิตและอาชีพสําหรับคนรุนใหม	2(2-0-4) (Life and Career Planning for the New Generation)
+     สภาวการณของการเปลี่ยนแปลงสภาพเศรษฐกิจ สังคม การเมืองและ สิ่งแวดลอม รวมถึงวิทยาศาสตรและเทคโนโลยีมีผลตอพฤติกรรม คนในรุนตาง ๆ ความตางระหวางรุน ทั้งจุดแข็งและจุดออนของคนในแตละรุน รวมทั้งการเชื่อมรอย ความตางระหวางรุน ใหเปนบทเรียนในการวางแผนพัฒนาอาชีพและการวางแผนชีวิต ตลอดจนสามารถพัฒนาทักษะการวางแผนเพื่อพัฒนาอาชีพของคนหนุมสานในอนาคต รวมไปถึงการดํารงตนใหเปนแบบอยางที่ดี สามารถประเมินตนเอง สามารถวางแผน อาชีพและกําหนดเปาหมายในชีวิต จัดการชีวิตของตนเอง แกไขปญหาชีวิตอยาง สรางสรรคโดยยึดหลักเหตุผลและคุณธรรม
+     Changing of economy, social, political, environment, science and technology situation effect to human behavior in each generation. Strong points and weak points of generation differentiation. Bridging the gap among generation as a lesson to occupation development plan and self-future plan including to planning skill development for future occupation development and being a good example for young generation. Able to self-evaluate, plan future occupation and define target direction in their life. Life management, creatively solve problems in their everyday life and work life according to reasoning and moral principle.
+    
+คณะมนุษยศาสตร
+
+01350103  ชีวิตยืดหยุนได (Resilient life)	3(3-0-6)
+      ความสําคัญของความสามารถในการปรับตัวและฟนตัวกลับสูภาวะปกติ การรูเทา ทันบริบทและสถานการณไนปจจุบัน การจัดการความเครียด เครื่องมีอการมองอนาคต และการแกไขปญหาในอนาคตอยางสรงสรรค การวิเคราะหตนเองเพื่อกําหนดเปาหมาย ในชีวิต การออกแบบชีวิตที่ยืตหยุนได
+     Importance of Resilience. Context and current situation literacy. Stress Management. Foresight toolkits and creative future problem- solving. Self-analysis for setting life goals. Resilient life design.
+01387101 ศิลปะการอยูรวมกับผูอื่น (The Art of Living with Others)	3(3-0-6)
+      ศิลปะการอยูรวมกับผูอื่นดวยดี ธรรมเนียมไทยและธรรมเนียมสากล เกี่ยวกับ มารยาทในสังคม การรูจักตัวเองเพื่อปรับปรุงตัวเอง การฝกการพัฒนาจิตใจ
+The art of living well with others. Thai and international etiquette.
+Self-cognition for self-improvement. Training in mental development.
+
+01387103 ปรัชญาเศรษฐกิจพอเพียงกับพุทธศาสนา	3(3-0-6) (Philosophy of Sufficiency Economy and Buddhism)
+     ลักษณะทั่วไปของพุทธศาสนากับปรัชญาเศรษฐกิจพอเพียง เศรษฐกิจพอเพียงตาม แนวพระราชดําริของพระบาทสมเด็จพระเจาอยูหัว รัชกาลที่ 9 คําสอนในพุทธศาสนากับ เศรษฐกิจพอเพียง ความสัมพันธระหวางคําสอนในพุทธศาสนากับปรัชญาเศรษฐกิจ พอเพียงตามแนวพระราชดําริ การประยุกตเศรษฐกิจพอเพียงกับชีวิตและสังคม เศรษฐกิจพอเพียงในกระแสโลกาภิวัตน
+     General characteristics of Buddhism and philosophy of sufficiency economy. Sufficiency economy according to His Majesty King Rama IX’s initiation. Teachings in Buddhism concerned with sufficiency economy. Relationship between Buddhist teachings and the King’s Philosophy of Sufficiency Economy. Applying sufficiency economy in life and society. Sufficiency economy in globalization.
+    
+01390103  การทองเที่ยวเพื่อความผาสุก  (Tourism for Well-Being)	3(3-0-6)
+       ความหมายและลักษณะของการทองเที่ยวเพื่อความผาสุก รูปแบบ และกิจกรรม ทางการทองเที่ยวเพื่อการฟนฟูสุขภาพ การทองเที่ยวเพื่อการกินดีอยูดี การทองเที่ยว ทางกีฬา การทองเที่ยวเพื่อการฟนฟูจิตใจ การทองเที่ยวเชิงศาสนา และการทองเที่ยว เพื่อการเสริมความงาม การวางแผนเพื่อแกไขปญหาสุขภาพกายและสุขภาพใจ การวางแผนเพื่อการพัฒนาบุคลิกภาพภายในและภายนอก กรณีศึกษา มีการศึกษา นอกสถานที่
+Meaning and characteristics of tourism for well-being. Types and
+tourism activities related to tourism for good health, tourism for well-being, sports tourism, rehabilitation tourism, religious tourism and tourism for aesthetic purposes. Planning for improvement of physical and mental health problems. Planning for internal and external personality development. Case studies. Field trips required.
+คณะวิทยาศาสตร
+01402101 การรูเทาทันผลิตภัณฑเสริมความงาม (Beauty Products Literacy)	3(3-0-6)
+      ความรูทั่วไปเกี่ยวกับความงาม เคมีภัณฑและความปลอดภัยในการใชเครื่องสําอาง สารทางชีวเคมีและอนุพันธที่เกี่ยวของกับความงาม สารตานอนุมูลอิสระ สมุนไพรและ สารออกฤทธิ์ที่ใชในเวชสําอาง อาหารเสริมเพื่อสุขภาพและความงาม เทคโนโลยีเพื่อ ความงาม การเลือกใชเครื่องสําอางในชีวิตประจําวัน
+     General Knowledge on beauty, chemicals and safety in use of cosmetics, biochemical substances and their derivatives related to beauty, antioxidants, herbs and active ingredients in cosmeceuticals, dietary supplement for health and beauty, technology for beauty, choice of cosmetics in daily life.
+01416101 พันธุศาสตรในสื่อ (Genetics in media)	3(3-0-6)
+       การนําเสนอพันธุศาสตรในสื่อสาธารณะ การถายทอดขอมูลทางพันธุกรรม พันธุกรรมและความแตกตางระหวางบุคคล การตรวจพิสูจนบุคคล การสรางสิ่งมีชีวิต ดัดแปรพันธุกรรม พันธุศาสตรกับสุขภาพ
+      Genetics presentation in public media. Inheritance of genetic materials. Genetics and individual differences. Proof of identity. Creation of genetically modified organisms. Genetics and health.
+    
+01418103 สุขภาพและสังคมดิจิทัล	2(2-0-4)
+(Health and Digital Society)
+      พฤติกรรม สุขภาพ และความเสี่ยงในการใชอุปกรณประมวลผล เสาหลักสุขภาพ ในยุคดิจิทัล การยศาสตรและการออกกําลังกาย การนอน อาหาร พิษในสิ่งแวดลอม ยุคดิจิทัล เครือขายสังคม สังคมดิจิทัล การกลั่นแกลงทางไซเบอร การเสพติดอินเทอรเน็ต และอุปกรณไรสาย อาชญากรรมคอมพิวเตอร จิตสํานึกในสังคมดิจิทัล
+      Behavior, health, and risks in computing device usage. Pillars of health in digital age. Ergonomics and exercise. Sleep. Food. Toxin in digital age environment. Social network. Digital society. Cyber bully. Internet and wireless device addiction. Computer crime. Conscience in digital society.
+
+01421201  รังสี ชีวิตและสิ่งแวดลอม (Radiation, Life and Environment)	2(2-0-4)
+      รังสีในชีวิตประจําวัน รังสีชนิดที่ไมกอไอออนและชนิดกอไอออน ผลทางชีววิทยา ของรังสีชนิดตาง ๆ ที่มนุษยไดรับในแตละวัน ผลกระทบของคลื่นโทรศัพทมือถือ รังสีใน สิ่งแวดลอม การกําหนดปริมาณรังสีที่ยอมใหมนุษยรับได พลังงานและมนุษย การใช พลังงาน พลังงานทางเลือก พลังงานนิวเคลียรสําหรับภูมิภาคอาเซียนและผลกระทบตอ สิ่งแวดลอม บทเรียนจากอุบัติเหตุทางนิวเคลียรและรังสี การใชประโยชนจากพลังงาน นิวเคลียรในทางสันติ
+     Radiation common in our daily lives, ionizing and non-ionizing radiation. Biological effects of radiations in everyday life, effects of cellular phone radiation, environmental radiations, justification of permissible dose in man. Energy and human, energy consumption, alternative energy, nuclear energy for ASEAN Community and effects on environment, lesson learned from nuclear and radiation accidents. The uses of nuclear energy for peace.
+คณะสังคมศาสตร
+01453102 กฎหมายในชีวิตประจําวัน (Law in Everyday Life)	3(3-0-6)
+      กฎหมายที่ประชาชนควรรู สิทธิและหนาที่ตามกฎหมายที่เกี่ยวของในชีวิต ประจําวัน กฎหมายแพงและพาณิชย กฎหมายอาญา สิทธิและหนาที่ของนายจางและ ลูกจาง และสิทธิของผูบริโภค
+      Laws that people should know, rights and duties related to laws in daily life, civil and commercial law, fundamental of criminal law, rights and duties of employers and employees and consumer rights.
+    
+01459101  จิตวิทยาเพื่อชีวิตสมัยใหม (Psychology for Modern Life)	3(3-0-6)
+     การรักษาสมดุลของวิถีชีวิตเพื่อสุขภาพที่ดี การเขาใจและควบคุมอารมณ การฝกสมอง การหากลยุทธที่มีประสิทธิภาพเพื่อการเรียน การเสริมสรางการเห็น คุณคาในตนเอง การปรับตัวสูสังคมสมัยใหม การรักษาความรักและความสุขในชีวิต สมัยใหมและการเปนพลเมืองดีในโลกสมัยใหม
+     Balancing life style for healthy living, understanding and controlling emotion, exercising brain, finding effective strategy for studying, enhancing self-esteem, adjusting to modern society, keeping love and happiness in modern life, and being a good citizen in modern world.
+01459102 จิตวิทยากับความหลากหลายของมนุษย (Psychology and Human Diversity) 3(3-0-6)
+     การประยุกตแนวคิดและทฤษฎีทางจิตวิทยาเพื่อความเขาใจความหลากหลาย ของมนุษยในดานชาติพันธุ วัฒนธรรมและทัศนคติ เพื่อความผาสุกในชีวิต
+      Application of psychological concepts and theories for understanding human diversity in ethnic, culture and attitude to enhance human well – being.
+วิทยาลัยบูรณาการศาสตร
+01999011 อาหารเพื่อมนุษยชาติ (Food for Mankind)	3(3-0-6)
+      ความสัมพันธของการผลิตอาหารกับความตองการอาหารของประชากร ชนิด และแหลงอาหาร ระบบการผลิตอาหารและการสูญเสียระหวางการผลิต พฤติกรรม การบริโภค หลักโภชนาการและความสําคัญของการบริโภคอาหารตอสุขภาพ การถนอมอาหารและการเก็บรักษา บทบาทขององคกรตาง ๆ ที่เกี่ยวกับการจัดการเรื่อง อาหารของมนุษยชาติ
+     Relationship between food production and requirement based on population, varieties and sources of food supply. Food production systems and losses. Consumer preference. Principle of nutrition and importance of food consumption for health. Food preservation and storage. Organization and their roles concerning food policy.
+    
+01999012 สุขภาพเพื่อชีวิต (Health for Life)	3(3-0-6)
+      กลไกการกําเนิดและพัฒนาการของมนุษย บทบาททางเพศ การดูแลสงเสริม สุขภาพกายและสุขภาพจิต การปองกันภาวะการเสี่ยงของบุคคลวัยตาง ๆ สุขภาพ ผูบริโภค สิ่งแวดลอมและสุขภาพ ปจจัยทางครอบครัวที่สงผลตอสุขภาพ ความกาวหนา ทางวิทยาศาสตรสุขภาพ มีการศึกษานอกสถานที่
+     Fertilization and human development, sex roles, physical and mental health care promotion, human risk prevention, consumer health, environment and health, family factors influencing health, health science innovation, field trip.
+01999033 ศิลปะการดําเนินชีวิต (Arts of Living)	3(3-0-6)
+      การคิดอยางมีเหตุผล มีจริยธรรม ความคิดสรางสรรค ความเขาใจชีวิต ความเขาใจตนเองและผูอื่น การพัฒนาบุคลิกภาพและมารยาทสังคม ครอบครัวกับ ศิลปะการดําเนินชีวิต ศิลปะการทํางาน และการรูเทาทันสื่อในชีวิตประจําวัน
+      Rational and ethical thinking, creative thinking, life understanding, understanding oneself and others, personality development and social etiquette, family and arts of living, arts of working and media literacy in everyday life.
+201999036 ความสุขในพลวัตของชีวิต (Happiness amongst Life Dynamics)	3(3-0-6)
+      แนวคิดของความสุข พลวัตของชีวิต การเห็นคุณคาตนเอง การคิดบวก การดูแล สุขภาพ การสรางครอบครัวใหอบอุนและมีความสุข การสรางนิสัยที่ดีผานกิจวัตร ประจําวัน ปฏิสัมพันธที่ดีกับบุคคลรอบขาง ความสุขจากสิ่งแวดลอม การใชเทคโนโลยี สารสนเทศอยางมีความสุข ความสุขทางการเงิน สัมมาทิฐิ
+     Concept of happiness, dynamics of life, appreciating self-worth, positive thinking, caring for health, cultivating warm and happy family, cultivating good habits from everyday activities, good interaction with surrounding people, happiness from the environment, using information technology with happiness, financial happiness, the right views.
+    
+01999048 นวัตกรรมเพื่อสิ่งแวดลอมและสุขภาวะ	3(3-0-6) (Innovation for Environment and Well-being)
+      พลวัตการพัฒนาและผลกระทบตอสิ่งแวดลอมและสุขภาวะ บทบาทของ นวัตกรรมตอการแกปญหาสิ่งแวดลอม การออกแบบและวิเคราะหนวัตกรรม กรณีศึกษาเกี่ยวกับการใชนวัตกรรมที่ประสบความสําเร็จ
+     Dynamics of development and their impact on environment and well-being. Role of innovation in environment problems. Innovation design and analysis. Successful innovation case studies.
+01999051 การพัฒนาสมรรถนะหลักผานสุขภาพหนึ่งเดียว	2(2-0-4) (Development of Core Competency through One Health)
+      แนวคิดสุขภาพหนึ่งเดียว สถานการณของสุขภาพหนึ่งเดียวในประเทศไทย การ พัฒนาสมรรถนะหลักทั้ง 7 สมรรถนะประกอบดวย ความรูเกี่ยวกับสุขภาพหนึ่งเดียว ความรวมมือและการเปนหุนสวน/พันธมิตร ภาวะผูนํา การคิดเชิงระบบ วัฒนธรรมและ จริยธรรม การสื่อสารและสารสนเทศศาสตร Uและการวางแผนและการจัดการ การจัดทํา โครงการเพื่อแกปญหาผานแนวคิดสุขภาพหนึ่งเดียว
+Concept of one health. Situation of one health in Thailand.
+Developing seven core competencies consisting of One Health knowledge; collaboration and partnership, leadership, system thinking, culture and ethics. Communication and informaticsU andU planning and management, project creation for problem solving through the concept of One Health.
+01999213 สิ่งแวดลอม เทคโนโลยีและชีวิต (Environment, Technology and Life)	3(3-0-6)
+      ความรูเบื้องตนเกี่ยวกับสิ่งแวดลอมและการวิเคราะหปฏิสัมพันธเกี่ยวกับ สิ่งแวดลอม วิทยาศาสตร เทคโนโลยี และคุณภาพชีวิต การอนุรักษสิ่งแวดลอมโดยการ ใชวิทยาศาสตรและเทคโนโลยี การศึกษา จริยธรรม กฎหมาย และเศรษฐศาสตร ความ หลากหลายทางชีวภาพ และการพัฒนาสิ่งแวดลอม การปรับตัวตอการเปลี่ยนแปลง ของสภาพภูมิอากาศของโลก
+     Basic knowledge of environment and relationship analysis of environment, science, technology, and quality of life. Environmental conservation by science, technology, education, ethics, laws and economics. Biodiversity and environmental development. Adaptation to global climate change.
+    
+คณะเกษตร กําแพงแสน
+02032303 การเกษตรกับคุณภาพชีวิตที่ดี (Agriculture and Quality of Life)	3(3-0-6)
+     ความสําคัญของภาคการเกษตรกับการดํารงชีวิตของมนุษย การผลิตทาง การเกษตรอยางยั่งยืน สุขภาวะทางกายและทางใจ การเลือกบริโภคผลผลิตทางการเกษตร อยางปลอดภัย สมุนไพรกับการดูแลสุขภาพ การสรางโอกาสและเพิ่มรายไดจาก การเกษตร
+     Importance of agricultural sector to human life. Sustainability for agricultural production. Physical and mental health. Selection of agricultural products for safe consumption. Herbs and health care. Building opportunities and increasing income from agriculture.
+
+02032304 เกษตรเพื่อโลกสีเขียว (Agriculture for Green Earth)	2(2-0-4)
+     สถานการณและผลกระทบทางการเกษตรตอสังคม แนวคิด ความหมายและ หลักการของเกษตรสีเขียว ลักษณะและรูปแบบการผลิตของเกษตรสีเขียว ความสําคัญ และประโยชนของเกษตรสีเขียว ผลิตภัณฑและตลาดสินคาเกษตรสีเขียว และหวงโซคุณคา สีเขียวในสังคม
+Agricultural situations and impacts on society. Concepts, definition, and
+principles of green agriculture. Characteristics and patterns of green agriculture production. Importance and advantages of green agriculture. Green agricultural products and markets, and green value chain in society.
+คณะศิลปศาสตรและวิทยาศาสตร
+02717011 ตนและการพัฒนาตน (Self and Self Development)	3(3-0-6)
+      ทฤษฎีความเปนตัวตน ปฏิสัมพันธทางสังคม การปรับตัวใหเขากับการ เปลี่ยนแปลงอยางรวดเร็วทางสังคม บทบาททางสังคมและสถานภาพของตนเองและ ผูอื่น มนุษยสัมพันธ จริยธรรม การทํางานเปนทีม การจัดการความขัดแยง และการพัฒนาตน
+     Theories of self, social interaction, adaptation to rapid change in society. Social roles and status of ourselves and others. Human relation, ethics, teamwork, conflict management and self development.
+    
+02724012 การพัฒนาบุคลิกภาพ (Personality Development)	3(3-0-6)
+     หลักการพัฒนาบุคลิกภาพ ศิลปะการแตงกาย การปรากฏตัวและการแสดง อิริยาบถใหเหมาะสม การทรงทาที่ถูกสุขลักษณะ หลักและศิลปะการสรางมนุษยสัมพันธ และการพูดในที่สาธารณะ การใชอวัจนภาษา มารยาทสังคมและการสมาคม
+     Principles of personality development, art of dressing, proper appearance and performance, normal posture, principles and art of human relationship building and public speaking, non-verbal language usage, social etiquettes and association.
+
+02727104 สิ่งมีชีวิตกับภัยพิบัติทางธรรมชาติ (Living Things and Natural Disasters)	3(3-0-6)
+      ประเภทและสาเหตุของภัยพิบัติทางธรรมชาติ บทบาทของพืชและสัตวใน การเตือนภัย การวิเคราะหและแกไขปญหาเพื่อการเอาตัวรอดและการใหความชวยเหลือ แกมนุษย สัตว พืช และสิ่งแวดลอม การปองกันและการชะลอความรุนแรงโดยใช ประโยชนจากพืช การดํารงชีวิต การปรับตัวของพืช สัตว มนุษย และการเปลี่ยนแปลง ของสิ่งแวดลอมเมื่อประสบภัยพิบัติทางธรรมชาติ
+      Types and causes of natural disaster. Role of plants and animals for warning. Problem analysis and troubleshooting for survival and helping people, animals, plants and environment. Preventing and retarding violence by utilization of plants. Living, adaptation of plants, animals, human and environmental change when encountering natural disasters.
+02728101 เคมีในชีวิตสมัยใหม (Chemistry in Modern Life)	3(3-0-6)
+     ความหมายและความสําคัญของเคมี เคมีในอาหาร เคมีในสุขภาพและความงาม เคมีในศิลปะ เคมีในศรัทธาและความเชื่อ เคมีในอาชญากรรม เคมีกับความรุนแรง เคมี ในการผลิตสื่อ กรณีศึกษาในประเด็นดานสิ่งแวดลอม
+    Chemistry definition and its importance. Chemistry in food. Chemistry in health and beauty. Chemistry in art. Chemistry in faith and belief. Chemistry in crime. Chemistry and violence. Chemistry in media production. Case study on environmental issues.
+    
+โครงการบูรณาการ วิทยาเขตกําแพงแสน
+02999038 ความสุขในศตวรรษที่ 21 (Happiness in 21st Century)	3(3-0-6)
+      การสรางความสุขดวยความคิดในเชิงบวก ความพอใจในชีวิต การมีจิตใจที่ เขมแข็ง และพัฒนาความรักที่มีตอผูอื่น การมีจิตอาสาเพื่อที่จะดํารงชีวิตอยูในสังคมได อยางมีความสุข ทั้งความสุขทางกายและความสุขทางจิตใจ การประยุกตใชความสุข การ รูจักและเขาใจตนเอง การสรางกิจกรรมกระตุนความสุข การเรียนรูประสบการณตาง ๆ ในศตวรรษที่ 21 การใชสื่อดิจิทัล และการมีจิตอาสาในฐานะผูใหและผูรับ
+     Creating happiness with positive thinking, life satisfaction, having strong mind, developing love for others. Good volunteer work for social and mental happiness. Application of happiness, knowing and understanding oneself. Activity-based creation of happiness urging students to be happy with their learning and experiences in the 21st Century. Using social digital. Having service minded.
+
+02999044 เศรษฐกิจพอเพียงเพื่อการดํารงชีวิต (Sufficiency Economy for Living)	3(3-0-6)
+      แนวคิด หลักปรัชญาเศรษฐกิจพอเพียง การประยุกตปรัชญาเศรษฐกิจพอเพียง ในการดําเนินชีวิตในระดับบุคคล ครอบครัว องคกรและสังคม ความเชื่อ วัฒนธรรม ขนบธรรมเนียมประเพณีของชุมชน แนวคิด หลักศาสนาในการดําเนินชีวิตของชุมชน อัตลักษณของชุมชนในแตละทองถิ่น ภูมิปญญาทองถิ่นกับการประกอบอาชีพ การใช ทรัพยากรอยางยั่งยืน กรณีศึกษา
+     Concepts, Sufficiency Economy Philosophy. Application of Sufficiency Economy Philosophy at level of individuals, family, community and society. Beliefs, cultures, customs and traditions of community. Linkage between religion and community way of living. Community identity. Application of local wisdom for living, career and sustainable management of resources. Case study required.
+
+02999045 การเพิ่มคุณคาชีวิตดวยวิถีชุมชน	3(3-0-6) (Enhancement of Living Value through Community Path)
+       การสรางความรูใหมผานกระบวนการเรียนรูวิถีชีวิตจากผูนําและชุมชน การวิเคราะหตนเอง การวางแผนชีวิต และการกําหนดเปาหมายภายใตปรัชญา เศรษฐกิจพอเพียง การนําเสนอและอภิปราย
+    
+     Knowledge construction through learning process of living path from leader and community. Self analysis. Life planning and goal setting under the Sufficiency Economy Philosophy. Presentation and discussion.
+คณะพาณิชยนาวีนานาชาติ
+03521101 ทะเลกับชีวิต (Sea and Life)	3(3-0-6)
+      ความสําคัญของทรัพยากรทางทะเลและชายฝง อาณาเขตทางทะเล การใชประโยชน จากทรัพยากรทางทะเล ผลประโยชนและความมั่นคงทางทะเล ผลกระทบของการ เปลี่ยนแปลงทางทะลและชายฝงที่สงผลกระทบตอมนุษย มลพิษทางทะเล ความปลอดภัย ทางทะเล อันตรายจากสิ่งมีชีวิตในทะเลและการปฐมพยาบาล
+     Importance of marine and coastal resources. Territorial sea. Utilization of marine resources. Maritime national interests and national security. Impacts of sea and coastal change effecting to human. Marine pollution. Marine safety. Marine lives hazard and first aid.
+คณะวิทยาศาสตรศรีราชา
+03654112 สมุนไพรไทยใหคุณ (Thai Herbs and Benefits)	3(3-0-6)
+      ประเภทและลักษณะของสมุนไพรไทย ประโยชนของสมุนไพรไทยเพื่อการดูแล สุขภาพ ความงาม และ สุนทรียภาพ การอนุรักษสมุนไพรไทยจากภูมิปญญาทองถิ่น สรรพคุณของสมุนไพรไทย การปลูก การเก็บเกี่ยว และการเก็บรักษาสมุนไพร การพัฒนาผลิตภัณฑจากสมุนไพรไทย และขอควรระวังในการใชสมุนไพร
+     Type and characteristics of Thai herbs. Benefits of Thai herbs for health care, beauty and aesthetics. Conservation of Thai herbs from local knowledge. Thai herb properties. Planting, harvesting and storage of herbs. Thai herbs product development and awareness of using herbs.
+03654113 กิจกรรมทางกายเพื่อชีวิตสมัยใหม (Physical Activities for Modern Life)	3(3-0-6)
+     ความสําคัญและประเภทของกิจกรรมทางกาย พฤติกรรมในการดําเนินชีวิตกับ สุขภาพ กิจกรรมทางกายสําหรับอโรคยา โภชนาการกับรูปแบบการดําเนิน ชีวิตประจําวัน รูปรางและการควบคุมน้ําหนักตัว การสรางแรงจูงใจของกิจกรรมทางกาย เพื่อสุขภาพ การเลือกกิจกรรมทางกาย การปฐมพยาบาลเบื้องตนจากการบาดเจ็บใน กิจกรรมทางกาย กิจกรรมทางกายในยามวาง
+    
+      Significance and types of physical activities. Lifestyle behavior and health. Physical activities for illness free life without sickness. Nutrition and daily life. Shape and weight control. Motivation of physical activities for health. Physical activity selection. First aid for injury of physical activities. Physical activities in free time.
+303654114 โมบายแอปพลิเคชันสําหรับชีวิตยุคใหม	3(3-0-6) (Mobile Applications for Modern Life)
+      หลักการและความสําคัญของแอปพลิเคชันในโทรศัพทเคลื่อนที่เพื่อชีวิตยุคใหม การเลือกใชแอปพลิเคชันใหเหมาะสมกับตนเอง การประยุกตใชโซเชียลเน็ตเวิรก และคลาวดบนสมารทโฟน การนําแอปพลิเคชันไปใชประโยชนในการดําเนินชีวิต จรรยาบรรณและกฎหมายที่เกี่ยวของ แนวโนมของแอปพลิเคชันในอนาคต
+     Principles and importance of mobile applications for modern life. Choosing appropriate mobile applications. Application of social networks and cloud on smartphones. Application of mobile applications in daily life. Related ethics and laws. Future trends in mobile applications.
+คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร
+04101201 วิถีชีวิตเศรษฐกิจพอเพียง (Life Style of Sufficiency Economy)	3(3-0-6)
+      หลักคิด บทบาท และความสําคัญของเศรษฐกิจพอเพียง การประยุกตเศรษฐกิจ พอเพียงในชีวิตประจําวัน และการบูรณาการเศรษฐกิจพอเพียงในการประกอบอาชีพตาง ๆ Concept, role and importance of sufficiency economy. Applications
+of sufficiency economy in daily life and integration of sufficiency economy in various occupations.
+
+คณะศิลปศาสตรและวิทยาการจัดการ
+04355181  กิจกรรมยามวางเพื่อสุขภาพ (Leisure Activity for Health)	3(3-0-6)
+      หลักการทฤษฎีกิจกรรมยามวาง การประกอบกิจกรรมและการออกกําลังกาย เพื่อพัฒนาสุขภาพ สมรรถภาพกายและจิตใจ และการผอนคลายความเครียดจาก ภารกิจประจําวัน
+Leisure activity theory; Engaging in activities and exercise to
+improve health, fitness and relieve stress from routine daily tasks.
+    
+
+       
+
+คณะเกษตร
+01005101  เทคโนโลยีเกษตรสมัยใหม (Modern Agricultural Technology)	3(3-0-6)
+      ผลกระทบจากโลกาภิวัตนตอการเกษตร การเกษตรสมัยใหม เทคโนโลยีพื้นฐาน ทางการเกษตร การใชเทคโนโลยีกาวหนาในการเกษตร สินคาเกษตรปลอดภัย พลังงาน สีเขียว
+     Impact of globalization on agriculture. Modern agriculture. Basic agricultural technologies. Use of advanced technologies in agriculture. Safe agricultural commodities. Green energy.
+คณะเศรษฐศาสตร
+01101101 เศรษฐศาสตรทั่วไปในกระแสโลกาภิวัตน	3(3-0-6) (General Economics in Globalization)
+      เศรษฐศาสตรและโลกรอบตัวเรา ระบบเศรษฐกิจ และรูปแบบการประกอบ ธุรกิจ การประยุกตตลาด อุปสงคและอุปทานในชีวิตประจําวัน พฤติกรรมผูบริโภค หนวยผลิต ความเชื่อมโยงเศรษฐกิจไทยและเศรษฐกิจโลก ปญหาทางเศรษฐกิจ ที่สําคัญ การเงินการธนาคารและการคลังในชีวิตประจําวัน เศรษฐกิจไทยในกระแส โลกาภิวัตน และเศรษฐกิจดิจิทัล
+     Economics and the world around us. Economic systems and business forms. Applications of markets, demand and supply in daily life. Behaviors of consumers and firms. Relationship between Thai and world economy. Importance of economic problems. Money, banking and public finance in daily life. Thai economy in globalization and digital economy.
+คณะบริหารธุรกิจ
+301131111 การเงินสําหรับผูประกอบการ (Finance for Entrepreneurs)	3(3-0-6)
+        ความสัมพันธของเงินทุนตอการดําเนินธุรกิจ แหลงเงินทุนและการพยากรณ ความตองการเงินทุน การแสวงเงินทุน การจัดสรรเงินทุนอยางมีประสิทธิภาพ การ บริหารความเสี่ยงทางการเงิน สําหรับผูประกอบการจะชวยใหผูประกอบการสามารถ ดําเนินธุรกิจไปไดอยางราบรื่น
+       The relationship of funds on business, sources of funds, anticipation, acquisition and effective financial allocation, risk management would encourage on the business long term existence.
+    
+คณะศึกษาศาสตร
+01177141  การแสวงหาความรู (Knowledge Acquisition)	3(3-0-6)
+      ความสําคัญและความจําเปนของความรูในโลกยุคใหม วิวัฒนาการของ การแสวงหาความรูในแตละยุคสมัย การแสวงหาความรูดวยวิธีการสืบเสาะ การเรียนรู ตามอัธยาศัย และกระบวนการวิจัยเพื่อมุงสูเปาหมายที่กําหนด การพัฒนาทักษะ ที่จําเปนในการแสวงหาความรู การนําแนวคิดการแสวงหาความรูไปใชเพื่อวางแผน การเปนผูประกอบการที่มีศักยภาพในอนาคต
+     Importance and necessity of knowledge in the modern world. Evolution of knowledge acquisition in each age. Knowledge acquisition by the inquiry method, informal learning, and research process towards the goal. Development of skills needed for knowledge acquisition. Concept of knowledge acquisition used in planning for potential entrepreneurs in the future.
+คณะวิศวกรรมศาสตร
+01200101 การคิดเชิงนวัตกรรม (Innovative Thinking)	3(3-0-6)
+      การคิดเชิงออกแบบ การหยั่งรูความตองการ การระบุปญหาที่แทจริง และการ แกปญหาอยางสรางสรรค การทําตนแบบและทดสอบตนแบบ การพัฒนานวัตกรรม เครื่องมือความคิด ความผิดพลาดที่ทําใหเกิดนวัตกรรมเชิงสรางสรรค จริยธรรมของ นวัตกร โครงงานเชิงนวัตกรรม
+     Design thinking: empathizing, defining, and creative solving problems. Prototyping and testing. Innovation development. Thinking tools. Creative failure. Ethics of innovators. Innovative project.
+คณะสถาปตยกรรมศาสตร
+01242001 การออกแบบและธุรกิจผลิตภัณฑแนวสรางสรรค	3(2-2-5) (Design and Business of Creative Products)
+      การพัฒนาแนวคิดเพื่อผลิตภัณฑแนวสรางสรรค โอกาสและชองวางทาง การตลาด การออกแบบและจัดการผลิตภัณฑแนวสรางสรรค การผลิตสินคาทํามือและ สินคาแนวคิด ธุรกิจเบื้องตนเพื่อการพัฒนาผลิตภัณฑแนวสรางสรรค การนําสูตลาดและ การขายผลิตภัณฑแนวสรางสรรค
+    
+     Development of idea for creative products. Opportunity and market finding, and management. Production for handmade and idea product. Introduction to business for creative product development. Commercialization and marketing of creative products.
+
+คณะมนุษยศาสตร
+01387105 พุทธจริยศาสตรในการดําเนินธุรกิจ	3(3-0-6) (Buddhist Ethics of Business Operations)
+     ความหมาย ขอบเขต ความสําคัญและวิธีการศึกษาวิถีพุทธเพื่อการดําเนินธุรกิจ ระบบเศรษฐกิจแบบทุนนิยม ปญหาจริยธรรมในการดําเนินธุรกิจ ลักษณะเฉพาะและคํา สอนหลักของระบบพุทธจริยศาสตร เศรษฐศาสตรเชิงพุทธศาสนา การเปรียบเทียบทุน นิยมกับเศรษฐศาสตรเชิงพุทธศาสนา การคิดเชิงวิพากษเกี่ยวกับปญหาทางจริยธรรมใน ธุรกิจ ทั้งในบริบทตอตนเอง สังคม สรรพสัตวและสภาวะแวดลอม
+     Meaning, scope, significance and learning methods of Buddhist ways of business operation. Capitalism economic system. Ethics problems in business operations. Characteristics and main teachings of Buddhist ethics. Buddhist economics. Comparison between capitalistic economics and Buddhist economics. Critical thinking in business ethics problems in context for oneself, society, animals and environment.
+01390104 การพัฒนาบุคลิกภาพเพื่อการเปนผูประกอบการสมัยใหม	3(3-0-6) (Personality Development for Modern Entrepreneur)
+      องคประกอบของบุคลิกภาพ หลักการและแนวทางการพัฒนาบุคลิกภาพภายใน และภายนอก การวิเคราะหตนเองใหเหมาะสมกับบริบทการปรากฏตัวในพื้นที่สาธารณะ ยุคดิจิทัล เรื่องเฉพาะของการสื่อสารผานสื่อสังคมออนไลน คุณลักษณะ และองคประกอบ ของความเปนผูประกอบการ กรณีศึกษา
+     Component of personality. Principles and pavements for internal and external personality development. Contextual based self-analysis. Appearing in digital era. Current issues in social-media communication. Attributes and components of entrepreneur. Case studies.
+    
+คณะวิทยาศาสตร
+301418102 เทคโนโลยีสารสนเทศเพื่อผูประกอบการ	3(3-0-6) (Information Technology for Entrepreneurs)
+      ระบบคอมพิวเตอร อินเทอรเน็ต เวิรลไวดเว็บ การพัฒนาระบบการจัดการ สารสนเทศ การพาณิชยอิเล็กทรอนิกส รานคาและการชําระเงินออนไลน ซอฟตแวร ประยุกต การตลาดอิเล็กทรอนิกส จริยธรรมและกฎหมายเกี่ยวกับพาณิชยอิเล็กทรอนิกส
+    Computer system, Internet, World Wide Web, information management system development, electronic commerce, online shop and payment, application software, electronic marketing, ethics and electronic commerce laws.
+คณะสังคมศาสตร
+01453103 กฎหมายสําหรับผูประกอบการใหม (Laws for New Entrepreneur)	3(3-0-6)
+     การจดทะเบียนจัดตั้งธุรกิจ การทําสัญญา ซื้อขายออนไลน การโฆษณา การจัดการภาษี สิทธิหนาที่ของผูทรงสิทธิบัตร การละเมิดทรัพยสินทางปญญา ความสัมพันธของนายจาง-ลูกจาง หลักประกันทางธุรกิจ การแบงทรัพยสินและ เลิกกิจการ การลมละลาย การฟนฟูกิจการ
+     Registration for establishing business organization. Contract concluding. Online commerce. Advertising. Tax management. Right and obligation of a patent holder. Intellectual property infringement. Relationship between employers and employees. Business security. Property dividing and winding-up. Bankruptcy. Reorganization.
+วิทยาลัยบูรณาการศาสตร
+01999041  เศรษฐศาสตรเพื่อการดําเนินชีวิตที่ดี (Economics for Better Living)	3(3-0-6)
+      ความสัมพันธระหวางเศรษฐศาสตรและบริหารธุรกิจกับการดําเนินชีวิตที่ดี บทบาทและการดําเนินชีวิตของมนุษยในสังคม เศรษฐกิจระดับครัวเรือน ชุมชนและสังคม เรียนรูความเปนผูประกอบการ การจัดการองคประกอบทางเศรษฐกิจ รูปแบบและ ประเด็นสําคัญในทางเศรษฐศาสตรและการจัดการ กรณีศึกษาเกี่ยวกับเศรษฐศาสตรและ การจัดการในปจจุบัน
+    
+      Relationship between economics and business administration with better living. Humans role and their lifestyle in society, household economy, community economy, and social economy. Learn how to be an entrepreneur and what to do for business management. Understanding in economic components, patterns, and modern issues in economics and management. A case study of current issues in economics and management.
+
+01999043 การคิดสรางสรรคเพื่อการจัดการคุณคา	3(3-0-6) (Creativity for Value Management)
+      ความรูเบื้องตนเกี่ยวกับการคิดสรางสรรค วิวัฒนาการและโลกทัศนของแนวคิด ยุคใหม การจัดการคุณคา หลักการในการวิเคราะหปญหาดวยจิตสํานึก กรณีศึกษาการ ประยุกตใชทฤษฎี และการจัดการองคกรใหเกิดศักยภาพการแขงขันสูงสุด
+     Introduction to creative thinking, evolution and perspective of thought in the new age, value management, principle of problem analysis with awareness, case studies in applying theories to practice, and organization management for maximum efficiency.
+01999112 แนวคิดเศรษฐกิจหมุนเวียนเพื่อความยั่งยืน	3(2-3-6) (Circular Economy Concept for Sustainability)
+      การเรียนรูคุณ คาธรรมชาติตอการดํารงชีวิตของมนุษยในดานการนํา ทรัพยากรธรรมชาติมาใชประโยชน การสรางความตื่นรูและตระหนักเกี่ยวกับสถานการณ และภาวะวิกฤตทางธรรมชาติที่สงผลกระทบตอการดํารงชีวิตของมนุษย ความเขาใจ เกี่ยวกับระบบความคิดเชิงวิเคราะหโดยตลอดวัฏจักร การผลิตวัตถุดิบ กระบวนการผลิต สินคาและการบรรจุภัณฑ การใชงาน การซอมบํารุง การนํากลับมาใชซ้ํา อัพไซเคิล รีไซเคิล และการจัดการของเสียขั้นสุดทาย แนวคิดขยะเหลือศูนย กระบวนการคิดการ วิเคราะหและออกแบบธุรกิจภายใตแนวคิดเศรษฐกิจหมุนเวียนเพื่อความยั่งยืน
+     Learning the value of natural for human life in the use of natural resources. Raising awareness and recognition of situations and crises of nature that affect human life. Understanding critical thinking systems throughout the cycle; raw material production, product and packaging processes, usage, maintenance, reuse, upcycling, recycling and final waste management. Zero waste concepts. Thinking, analyzing and business design processes under the concept of circular economy for sustainability.
+    
+คณะศิลปศาสตรและวิทยาศาสตร
+02714101 การคิดเชิงวิพากษและการแกปญหา	3(3-0-6) (Critical Thinking and Problem Solving)
+         กระบวนการคิด การคิดเชิงเหตุผล วิธีการคิดเชิงวิพากษและสรางสรรค การแกปญหาดวยความคิดสรางสรรค ความคิดสรางสรรคและนวัตกรรมในวิชาชีพ ของบุคคลในศตวรรษที่ 21
+       Process of thinking, logical thinking, method of critical and creative thinking. Creative problem solving, creativity and innovation in 21st century professional.
+
+02721121 การจัดการธุรกิจเพื่อสังคมที่ยั่งยืน	3(3-0-6) (Business Mangagement for Social Sustainability)
+      ความสัมพันธระหวางธุรกิจและสังคม ความรับผิดชอบของธุรกิจตอสังคมกับ ความยั่งยืน แนวคิดและกระบวนการของการจัดการธุรกิจเพื่อความยั่งยืน กิจกรรม ความรับผิดชอบตอสังคม บทบาทของผูนํา การประยุกตใชหลักเศรษฐกิจพอเพียงกับ ความยั่งยืนของธุรกิจและสังคม
+     Relationship between business and society. Business social responsibility and sustainability. Concepts and process of organization management for sustainability. Social responsibility activities. Roles of leaders. Application of sufficiency economy with sustainability of business and society.
+
+คณะวิศวกรรมศาสตรศรีราชา
+03600014 การแกปญหาเชิงสรางสรรคและทักษะการคิดเชิงวิพากษ	3(3-0-6) (Creative Problem Solving and Critical Thinking Skills)
+      การทําความเขาใจปญหาและปจจัยที่เกี่ยวของ ระเบียบวิธีการแกปญหาอยาง เปนระบบ ความคิดเชิงสรางสรรคและการคิดแนวขวาง เทคนิคและเครื่องมือชวยสราง แนวคิดและคําตอบ การรูจักสังเกตและสงสัย ขอเท็จจริงและความคิดเห็น ตรรกะและ เหตุผลวิบัติ การรับฟงอยางมีวิจารณญาณและการโตแยงดวยเหตุผล
+      Understanding problems and their related factors. Systematic problem solving methodologies. Creative mindset and lateral thinking. Techniques and tools for creating ideas and solutions. Observant and questioning mind. Facts and opinions. Logic and fallacy. Critical listening and rational argument.
+    
+คณะวิทยาการจัดการ
+103757123 คณิตศาสตรสําหรับธุรกิจ (Mathematics for Business)	3(3-0-6)
+      คณิตศาสตรเบื้องตนที่จําเปนสําหรับธุรกิจ การคํานวณหาดอกเบี้ย การคิดคา เสื่อมราคา มูลคาปจจุบันและเงินงวด คณิตศาสตรสําหรับการซื้อและการขาย การประกันภัย การตัดสินใจภายใตความเสี่ยงและความไมแนนอน ฟงกชัน อนุพันธ และปริพันธ และการประยุกตเพื่อการตัดสินใจทางธุรกิจ
+     The essential, fundamental mathematics for business, interest calculation, depreciation, present value and annuity, mathematics for buying and selling, insurance, decision-making under risk and uncertainty, derivative and integral functions, and application for decision-making in business.
+    
+
+       
+
+3.1 วิชาภาษาไทย
+คณะมนุษยศาสตร
+01361101 การใชภาษาไทยเบื้องตน (Introductory Thai Usage)	3(3-0-6)
+      การใชภาษาไทยในทักษะการฟง การอาน การพูด และการเขียน ทักษะการ ฟงสารอยางมีประสิทธิภาพและมีวิจารณญาณ ทักษะการอานสารตามหลักการและ อานแบบวินิจสาร ทักษะการพูดในชีวิตประจําวันและการพูดเพื่อการประชาสัมพันธ และทักษะการเขียนในชีวิตประจําวันและการเขียนโครงการ
+     Use of Thai language in listening reading, speaking and writing skills. Efficient and critical listening skill, principle and critical reading skill, daily life and public relation speaking skill, and daily life and project writing skill.
+01361102 การเขียนภาษาไทยเชิงปฏิบัติ (Thai Practical Writing)	3(3-0-6)
+      พื้นฐานการใชภาษาไทย การเขียนยอหนา การเขียนตอบคําถาม การเขียน เรียงความ การเขียนหนังสือราชการ การเขียนเพื่อกิจธุระ การเขียนรายงานการ ประชุม และการเขียนรายงานทางวิชาการ
+      Fundamental of Thai usage, paragraph writing, answer writing, essay writing, official document writing, business writing, minutes writing, and academic report writing.
+01361103 การอานภาษาไทยเชิงวิจารณ (Thai Critical Reading)	3(3-0-6)
+       หลักการอานแบบ SQ3R ความรูเบื้องตนเกี่ยวกับการอานเชิงวิจารณ การอาน เชิงวิเคราะห การอานจับใจความสําคัญ การอานตีความ การประเมินคาตัวบท และ การวิจารณตัวบทหลากหลายประเภท
+      SQ3R reading method, basic knowledge of critical reading, analytical reading, reading for searching the main idea, interpretive reading, textual evaluation and criticism of various types of texts.
+    
+วิทยาลัยบูรณาการศาสตร
+01999021 ภาษาไทยเพื่อการสื่อสาร (Thai Language for Communication)	3(3-0-6)
+      ภาษาไทยในการสื่อสาร และการพัฒนาทักษะการใชภาษาไทยในการฟง การพูด การอาน การเขียนดวยการคิดอยางมีวิจารณญาณและรูเทาทันสื่อ
+      Thai language in communication and development of Thai language usage skills in terms of listening, speaking, reading, and writing based on critical thinking and media literacy.
+01999022 ภาษาไทยในบริบทวัฒนธรรม (Thai Language in Cultural Context)	3(3-0-6)
+      ความสัมพันธระหวางภาษา ความคิด สังคมและวัฒนธรรม ลักษณะของ ภาษาไทยตามการจัดประเภท ความหมายทางวัฒนธรรมที่แฝงอยูในคําและ วลีภาษาไทย คําไทยที่ไมสามารถแปลขามวัฒนธรรม
+     Relationship between language, thought, society and culture. Characteristics of the Thai language based on classifying criteria. Hidden cultural meanings in Thai words and phrases. Thai words that are untranslatable cross-culturally.
+คณะศิลปศาสตรและวิทยาศาสตร
+02701011 การใชภาษาไทยเพื่อธุรกิจ วิทยาศาสตรและเทคโนโลยี	3(3-0-6) (Thai Usage for Business, Science and Technology)
+      การใชภาษาไทยเพื่อการสื่อสาร กระบวนการคิดแบบวิทยาศาสตรกับการใช ภาษาไทย การฝกการอานและการฟงโดยเนนการเก็บใจความสําคัญ ฝกอานเชิง วิเคราะหงานเขียนทางธุรกิจ วิทยาศาสตรและเทคโนโลยี รูปแบบและวิธีการเขียน รายงานทางวิชาการและรายงานทางธุรกิจ
+      Thai usage for communication, scientific thinking process and Thai usage; reading and listening practice with emphasis on finding main ideas; critical reading of business, scientific and technological articles; formats and methods of academic and business report writing.
+    
+3.2 วิชาภาษาตางประเทศ
+คณะมนุษยศาสตร
+01354101 ภาษาเขมรเพื่อการสื่อสาร I (Communicative Khmer I)	3(3-0-6)
+      ตัวอักษรเขมร ระบบเสียงภาษาเขมร โครงสรางและไวยากรณภาษาเขมรเบื้องตน ทักษะการฟง พูด อาน เขียนขั้นพื้นฐาน คําศัพทและสํานวนที่ใชในชีวิต ประจําวัน
+     Khmer script. Sound system of Khmer. Elementary structure and grammar. Basic listening, speaking, reading and writing skills. Vocabulary and expressions used in everyday life.
+01354102 ภาษาเขมรเพื่อการสื่อสาร II (Communicative Khmer II)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01354101
+      ไวยากรณภาษาเขมรระดับกลาง ทักษะการฟง พูด อาน เขียนระดับกลาง คําศัพทและสํานวนที่ใชในชีวิตประจําวัน
+     Intermediate Khmer grammar. Intermediate listening, speaking, reading, writing skills. Vocabulary and expressions used in everyday life.
+
+01354103 ภาษาเขมรเพื่อการสื่อสาร III (Communicative Khmer III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01354102
+      การใชภาษาเขมรขั้นสูง ฝกการฟง พูด อาน เขียนสารขนาดยาวประเภทตาง ๆ คําศัพทและสํานวนที่ ใชในสถานการณการติดตอสื่อสาร
+      Advanced level of Khmer usage. Practice of listening, speaking, reading and writing long message in various Khmer messages. Vocabulary and expressions in communicative situations.
+
+01355101 ภาษาอังกฤษในชีวิตประจําวัน (English for Everyday Life)	3(3-0-6)
+      การใชภาษาอังกฤษในชีวิตประจําวันในหัวขอตาง ๆ โดยเนนทักษะการสื่อสาร โดยเฉพาะการฟง และการพูด สงเสริมการเรียนรูดวยตนเองและการทํางานรวมกับผูอื่น การไดเรียนรูภาษาอังกฤษจากสื่อที่เปนของจริง
+Use of English in daily life on various topics with a focus on
+communicative skills especially listening and speaking. Encouraging independent learning and collaborative work. Exposure to English through authentic materials.
+    
+01355102 ภาษาอังกฤษในมหาวิทยาลัย (English for University Life)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355101  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การใชภาษาอังกฤษในบริบทเชิงวิชาการ โดยเนนทักษะที่จําเปนในการเรียน การอภิปรายและการนําเสนอ สงเสริมการเรียนรูดวยตนเองและการทํางานรวมกับผูอื่น
+     Use of English in academic contexts with a focus on study skills, discussion and presentation. Encouraging independent learning and collaborative work.
+01355103 ภาษาอังกฤษเพื่อโอกาสในการทํางาน (English for Job Opportunities)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355102  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การใชภาษาอังกฤษเพื่อโอกาสในการทํางาน ทักษะการสื่อสาร การใชภาษาอังกฤษ เพื่อการทํางานในบริบทของความหลากหลายทางวัฒนธรรม ความเขาใจจริยธรรมและ มารยาทในการทํางาน
+     Use of English for job opportunities. Communication skills in multicultural contexts. Understanding of workplace ethics and etiquettes.
+01355104  ภาษาอังกฤษสําหรับนิสิตเตรียมแพทย I (English for Pre-Medical Students I)	3(3-0-6)
+      ฝกอานบทความดานวิทยาศาสตรการแพทยจากตํารา เอกสารทางวิชาการ วารสารตลอดจนสิ่งตีพิมพอื่น ๆ ที่เกี่ยวของ ดวยเทคนิคการอานที่สอดคลองกับ ลักษณะของบทความนั้น ๆ ฝกเขียนตลอดจนสรุปสาระสําคัญของบทความ
+     Practice reading articles on medical science from textbooks, technical documents, journals and other related publications using reading techniques relevant to each type of article. Practice writing and summarizing articles.
+01355105 ภาษาอังกฤษสําหรับนิสิตเตรียมแพทย II (English for Pre-Medical Students II)  3(3-0-6)
+       ฝกอานบทความทางการแพทย จับใจความสําคัญ จดบันทึกยอ ศึกษาโครงสราง ทางภาษาอังกฤษทางการแพทย ฝกเขียนสรุป และความเรียงสั้น ๆ ทางการแพทย
+        Practice reading medical texts, looking for main ideas, and note- taking. Study medical English structures. Practice writing summaries and compositions on topics related to medicine.
+01355106 การสื่อสารภาษาอังกฤษทางการแพทย	3(3-0-6) (Communicative English in Medicine)
+วิชาที่ตองเรียนมากอน : 01355105
+      ทักษะภาษาอังกฤษดานการฟง พูด เขียนและความสามารถในการสื่อสารในบริบท ทางวิชาการทางการแพทยและบริบทอื่น ๆ ที่เกี่ยวของ
+    
+     Development of English listening, speaking, reading, and writing skills in medical academics and other related contexts.
+01355107 ทักษะการเขียนภาษาอังกฤษที่จําเปน (Essential English Writing Skills)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+การเขียนความเรียงโดยใชไวยากรณ โครงสรางของยอหนาและคําศัพทที่เหมาะสม Writing English texts using appropriate grammar, paragraph organization
+and vocabulary.
+01355108 ภาษาอังกฤษและวัฒนธรรมจากเพลง	3(3-0-6) (English and Culture through Songs)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      ฝกทักษะการฟงและการพูดภาษาอังกฤษ โดยเนนการใชเพลงภาษาอังกฤษเปน สื่อชวยใหเกิดความตระหนักรูถึงความหลากหลายทางวัฒนธรรม และเสริมสรางทักษะ ในการสื่อสารระหวางวัฒนธรรม การนําไวยกรณ คําศัพท สํานวนและการออกเสียงที่ ถูกตองจากบทเพลงไปใชไดอยางเหมาะสมในชีวิตประจําวัน เพื่อใหสามารถสื่อสาร ความหมายไดอยางมีประสิทธิภาพ
+      Practice in English listening and speaking skills by focusing on English songs as means of enhancing awareness of cultural variation and developing intercultural communication skills. Application of grammar, vocabulary, idioms and correct pronunciation in everyday life for conveying meaning effectively.
+
+01355109 ทักษะการฟง-การพูดภาษาอังกฤษที่จําเปน	3(3-0-6) (Essential English Listening-Speaking Skills)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การฝกทักษะฟง-พูด โดยใชกิจกรรมหลากหลายรูปแบบในหัวขอตาง ๆ และใน ปริบทตาง ๆ การฟงเพื่อจับใจความสําคัญและรายละเอียด
+      Practicing listening and speaking skills through various activities in a variety of topics and contexts. Listening for gist and details.
+    
+01355119 ทักษะการอานภาษาอังกฤษที่จําเปน	3(3-0-6) (Essential English Reading Skills)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+       การอานในใจใหสามารถเขาใจโดยตรงจากภาษาอังกฤษ โดยไมตองอาศัย การคิดหรือพูดแปลเปนภาษาไทย ทักษะการอานเพื่อขยายวงศัพทและความเขาใจ ความเรียงภาษาอังกฤษ
+      Silent reading for direct comprehension in English without resorting to mental or verbal translation into Thai. Reading skills for vocabulary expansion and text comprehension.
+
+01355121 คําและการออกเสียงในภาษาอังกฤษ	3(3-0-6) (English Words and Pronunciation)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การใชพจนานุกรมภาษาอังกฤษ-ภาษาอังกฤษ คําในภาษาอังกฤษและความหมาย กระบวนการสรางคําในภาษาอังกฤษ คําศัพทภาษาอังกฤษในชีวิตประจําวัน การสะกด และการออกเสียงในภาษาอังกฤษ ตัวอักษรและเสียงในภาษาอังกฤษ พยางค และ การเนนหนักในภาษาอังกฤษ ลักษณะของการออกเสียงตอเนื่องกันในบทสนทนา การเขาใจความแตกตางของภาษาอังกฤษนานาชนิด
+      Using English-English dictionary. English words and their meaning. English word formation processes. English words in daily life. English spelling and pronunciation. English letters and sounds. Syllables and stress in English. Connected speech features in conversations. Recognizing differences between varieties of English.
+
+01355201 การอานและเขียนภาษาอังกฤษอยางมีวิจารณญาณ	3(3-0-6) (Critical Reading and Writing in English)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+       ความหมายและลักษณะสําคัญของการอานและการเขียนอยางมีวิจารณญาณ บูรณาการทักษะการอานและการเขียน ขอโตแยงและคุณภาพของขอสนับสนุนของ ขอโตแยงในงานเขียน การอานและการเขียนอยางมีวิจารณญาณในระดับยอหนาและ เรียงความ การปรับปรุงงานเขียนอยางมีวิจารณญาณ
+      Definitions and key characteristics of critical reading and writing. Integration of reading and writing skills. Arguments and the quality of their support in a text. Critical reading and writing at a paragraph level and an essay level. Critical editing.
+    
+01355202 การเขียนรายงานภาษาอังกฤษ (Report Writing in English)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การเขียนรายงานที่เปนทางการ การหาและการรวบรวมขอมูลจากแหลงตาง ๆ การเรียบเรียงขอมูล และการเขียนรายงาน
+Writing formal reports: locating and collecting data from various
+sources, compiling data, and writing a finished report.
+
+01355203 โครงสรางภาษาอังกฤษ (English Language Structure)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      ประเภทของประโยคในภาษาอังกฤษ การวิเคราะหรูปและหนาที่ในโครงสราง ประโยค ประโยคหลักและอนุประโยค การระบุสวนประกอบหลักของประโยค การแยก และรวมประโยค การวิเคราะหโครงสรางของนามวลี
+     Types of English sentences. Analyzing forms and functions in sentence structure. Main clauses and subordinate clauses. Identifying the core of the sentences. Sentence breaking and combining. Analyzing the structure of noun phrases.
+01355204  การนําเสนอโครงงานเปนภาษาอังกฤษ (Project Presentation in English)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      โครงสรางของการนําเสนอแบบปากเปลา ทักษะการนําเสนอรวมถึงการใช วัจนและอวัจนภาษา สื่อโสตทัศน และวิธีการสรางความมีสวนรวมของผูฟง การฝกการ นําเสนอโครงงานแบบปากเปลา
+     Structure of oral presentation. Presentation skills including using verbal and non-verbal language, visual aids and audience engagement techniques. Practice in delivering oral presentation projects.
+01355205 การอานภาษาอังกฤษดานสื่อสารมวลชน	3(3-0-6) (Reading for Mass Communication in English)
+วิชาที่ตองเรียนมากอน  :  01355103    หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การอานภาษาอังกฤษผานสื่อที่ใชในการสื่อสารมวลชน หนังสือพิมพ นิตยสาร และอินเทอรเน็ต ฝกฝนทักษะอานที่หลากหลายเพื่อเขาใจขอมูลในสื่อ
+     Reading English through a variety of mass media platforms, newspapers, magazines, and the Internet. Practicing various reading skills to understand information in the media.
+    
+01355206 ภาษาอังกฤษวิชาการ (Academic English)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      ฝกฝนทักษะการอานเพื่อใหนิสิตไดคุนเคยกับศัพทในตําราเรียน วารสาร และ สิ่งตีพิมพอื่น ๆ เกี่ยวกับวิชาการตาง ๆ
+     Practicing reading skill in order to familiarize the students with technical terms found in technical textbooks of various fields, periodicals and other printed matter.
+01355207  การเขียนโตตอบภาษาอังกฤษ (English Correspondence)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      การเขียนจดหมายประเภทตาง ๆ เนนในเรื่องแบบฟอรม ศัพท สํานวน ศิลปะ การเขียนจดหมายสมัครงานและวิธีการทําประวัติสวนตัว
+    Writing of various types of letters with emphasis on form, vocabulary and idiomatic and conventional expressions, including how to write letters of application and prepare resumes.
+01355208 การพัฒนาทักษะภาษาอังกฤษผานเกม	3(3-0-6) (English Skill Development through Games)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      คําศัพท ประโยค สํานวน และถอยคําภาษาผานกิจกรรมหลากหลายที่เกี่ยวของ กับเกม ทักษะการแกปญหา การฝกฝนและพัฒนาทักษะภาษาอังกฤษแบบองครวม
+     Vocabulary, sentences, idioms and expressions through various activities related to games Problem-solving skills. Practicing and enhancing integrated English skills.
+01355209 ภาษาอังกฤษเพื่อการสื่อสารในงานอาชีพ	3(3-0-6) (Communicative English for Careers)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      ศัพท สํานวนที่ใชในงานอาชีพโดยทั่วไป บันทึกขอความ โฆษณา แบบฟอรม เอกสารตาง ๆ ที่เกี่ยวของ
+     Vocabulary and expressions used in many career areas. Memos, advertisements, and other career documents.
+    
+01355303 ภาษาอังกฤษเพื่อการสมัครงาน (English for Employment)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      ฝกฟง พูดและเขียนภาษาที่ใชในการสมัครงานอาชีพตาง ๆ เทคนิคการพูด โตตอบในการสอบสัมภาษณและการเขียนใบสมัครงาน ตลอดจนเตรียมความพรอม ดานความรูและทักษะที่จําเปนในการสื่อสารระหวางวัฒนธรรมในที่ทํางาน
+            Listening, speaking, and writing based on the components of language necessary for job application for various careers and professions including strategies and techniques for job interviews and the completion of application forms. Providing students with knowledge and skills required for intercultural communication at workplaces.
+01355307 ทักษะรวมภาษาอังกฤษเพื่อการสื่อสาร	3(3-0-6) (Integrated English Language Skills for Communication)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+     ทักษะรวมภาษาอังกฤษโดยอาศัย การเขียนเรียงความเชิงอธิบายและการนําเสนอ การเขียนเรียงความเชิงโนมนาวและการนําเสนอ การถกเถียง/อภิปราย การถายทอด ผานการเขียนรายงานสั้น การคัดลอกขอความและการถอดความ การสรุปความ การทํา บทวิจารณหนังสือและการนําเสนอ
+     Integrated English language skills through expository essay and presentation, persuasive essay and presentation, presenting a pair debate/discussion, writing and delivering a short report, quoting and paraphrasing, summarizing, book review and presentation.
+301356101 ภาษาฝรั่งเศสเบื้องตน I (Elementary French I)	3(3-0-6)
+       หลักไวยากรณเบื้องตน ฟง พูด อาน และเขียนประโยคพื้นฐาน ศัพทและสํานวนใน ชีวิตประจําวัน
+      Basic grammar. Listening, speaking, reading and writing elementary sentences. Vocabulary and expressions in daily life.
+301356102 ภาษาฝรั่งเศสเบื้องตน II (Elementary French II)	3(3-0-6)
+วิชาทีต่องเรียนมากอน : 01356101
+      หลักไวยากรณเบื้องตน ฟง พูด อาน และเขียนประโยคพื้นฐานในระดับที่สูงขึ้น ศัพทและสํานวนในชีวิตประจําวันเพื่อการสื่อสาร
+    
+      Basic grammar. Listening, speaking, reading and writing elementary sentences at a higher level. Vocabulary and expressions in daily life.
+
+301356103 ภาษาฝรั่งเศสเบื้องตน III (Elementary French III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01356102
+      หลักไวยากรณระดับกลาง ฟง พูด อาน และเขียนในระดับที่สูงขึ้นสนทนา โตตอบในชีวิตประจําวัน
+      Intermediate grammar. Listening, speaking, reading and writing at a higher level. Conversations in daily life.
+301356104 ภาษาฝรั่งเศสเบื้องตน IV (Elementary French IV)	3(3-0-6)
+วิชาที่ตองเรียนมากอน: 01356103
+      หลักไวยากรณระดับกลางที่สูงขึ้น สนทนาโตตอบเรื่องทั่วไป อานเรื่องสั้น ๆ เพื่อ เขาใจเนื้อหาและโครงสรางของประโยค
+      Upper-intermediate grammar level. General conversations. Reading shorts texts in order to understand the content and language structure.
+01357101 ภาษาเยอรมันเบื้องตน I (Elementary German I)	3(3-0-6) โครงสรางที่สําคัญของภาษาเยอรมัน ฝกการฟง การพูด การอานและการเขียน Presentation of significant structures of the German language.
+Practice in listening, speaking, reading and writing.
+
+01357102  ภาษาเยอรมันเบื้องตน II (Elementary German II)	3(3-0-6)
+วิชาที่ตองเรียนมากอน: 01357101
+      โครงสรางที่สําคัญของภาษาเยอรมัน ฝกการฟง การพูด การอาน และการเขียน ในระดับที่สูงขึ้น
+Presentation of significant structures of the German language.
+Practice in listening, speaking, reading and writing at a higher level.
+01357103 ภาษาเยอรมันเบื้องตน III (Elementary German III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01357102
+      โครงสรางของภาษาเยอรมัน หลักไวยากรณ คําศัพท สํานวน การฟง การพูด การอาน และการเขียนในระดับที่สูงขึ้น
+    
+     Presentation of language structure and grammatical rules of the German language, vocabulary, idioms. Practice in listening, speaking, reading and writing at a higher level.
+01357104  ภาษาเยอรมันเบื้องตน IV (Elementary German IV)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01357103
+      โครงสรางของภาษาเยอรมัน หลักไวยากรณ คําศัพท สํานวน การฟง การพูด การอาน และการเขียนในระดับที่สูงขึ้น
+Presentation of significant structures of the German language.
+Practice in listening, speaking, reading and writing at a higher level.
+301358101 ภาษาญี่ปุนเบื้องตน I (Elementary Japanese I)	3(3-0-6)
+      อักษรฮิระงะนะ คะตะคะนะ และคันจิ หลักไวยากรณเบื้องตน ฟง พูด อานและ เขียนประโยคพื้นฐาน ศัพทและสํานวนในชีวิตประจําวัน
+     Hiragana, Katakana, and Kanji writing systems. Basic grammar. Listening, speaking, reading and writing at the fundamental sentence level. Vocabulary and expressions common in daily life.
+301358102 ภาษาญี่ปุนเบื้องตน II (Elementary Japanese II)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01358101
+      หลักไวยากรณและรูปประโยคขั้นพื้นฐานในระดับที่สูงขึ้น ฟง พูด อานและเขียน ศัพทและสํานวนในชีวิตประจําวัน ศึกษาอักษรคันจิเพิ่มขึ้น
+      Grammar and basic sentence patterns at a higher level. Listening, speaking, reading and writing. Vocabulary and expressions in daily life. Further study of Kanji.
+
+301358103 ภาษาญี่ปุนเบื้องตน III (Elementary Japanese III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01358102
+      หลักไวยากรณและรูปประโยคขั้นพื้นฐานในระดับที่สูงขึ้น สนทนาโตตอบใน ชีวิตประจําวัน เขียนขอความสั้น ๆ ศึกษาอักษรคันจิเพิ่มขึ้น
+      Grammar and basic sentence patterns at a higher level. Conversation on everyday topics. Writing short passages. Further study of Kanji.
+    
+301358104 ภาษาญี่ปุนเบื้องตน IV (Elementary Japanese IV)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01358103
+      หลักไวยากรณและรูปประโยคขั้นพื้นฐานในระดับที่สูงขึ้น อานเรื่องสั้น ๆ เพื่อใหเขาใจเนื้อหาและโครงสรางของประโยค สนทนาโตตอบเรื่องทั่วไป ศึกษาอักษร คันจิเพิ่มขึ้น
+     Elementary language structure at a higher level. Reading short texts in order to understand the content and language structure. Conversation on general topics. Further study of Kanji.
+
+01362101 ภาษาจีน I (Chinese I)	3(3-0-6)
+      ระบบพินอิน หลักการเขียนตัวอักษรจีน โครงสรางและหลักไวยากรณเบื้องตน การฟง การพูด การอานและการเขียนประโยคขั้นพื้นฐาน คําศัพทและสํานวนใน ชีวิตประจําวัน
+     Pinyin system. Writing rules of Chinese characters. Elementary structure and grammar. Listening, speaking, reading and writing basic sentence patterns. Vocabulary and expressions in daily life.
+01362102 ภาษาจีน II (Chinese II)	3(3-0-6)
+วิชาที่ตองเรียนมากอน: 01362101
+      หลักไวยากรณและรูปประโยคขั้นพื้นฐานในระดับที่สูงขึ้น การฟง การพูด การ อานและการเขียน ศัพทและสํานวนในชีวิตประจําวัน
+      Grammar and basic sentence patterns at a higher level. Listening, speaking, reading and writing. Vocabulary and expressions in daily life.
+01362201 ภาษาจีน III (Chinese III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน: 01362102
+      หลักไวยากรณและรูปประโยคขั้นพื้นฐานที่ซับซอน  การสนทนาโตตอบใน ชีวิตประจําวัน
+Grammar and basic sentence patterns at a complex level.
+Conversation on everyday life’s topics.
+01362202 ภาษาจีน IV (Chinese IV)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01362201
+หลักไวยากรณและรูปประโยคซับซอน การสนทนาโตตอบเรื่องทั่วไป
+      Grammar and complex sentence patterns. Conversation on general topics.
+    
+01362301 ภาษาจีน V (Chinese V)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01362202
+      หลักไวยากรณและรูปประโยคซับซอนในระดับที่สูงขึ้น การอานงานเขียนขนาด สั้นเพื่อทําความเขาใจเนื้อหาและโครงสรางของประโยค การสนทนาโตตอบเรื่องทั่วไป
+     Grammar and complex sentence patterns at a higher level. Reading short texts to understand content and structure. Conversation on general topics.
+301395101 ภาษาเกาหลีเพื่อการสื่อสาร I (Communicative Korean I)	3(3-0-6)
+      อักษรเกาหลี ระบบเสียงภาษาเกาหลี โครงสรางและหลักไวยากรณเบื้องตน ทักษะการฟง พูด อาน เขียนประโยคขั้นพื้นฐาน คําศัพทและสํานวนที่ใชใน ชีวิตประจําวัน
+     Korean script. Korean sound. Elementary structure and grammar. Skills of listening, speaking, reading and writing basic sentence patterns. Vocabulary and expressions in daily life.
+301395102 ภาษาเกาหลีเพื่อการสื่อสาร II (Communicative Korean II)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01395101
+      โครงสรางและหลักไวยากรณเบื้องตน ทักษะการฟง พูด อาน และเขียน ประโยคขั้นพื้นฐาน คําศัพทและสํานวนในชีวิตประจําวัน
+     Elementary structure and grammar. Skills of listening, speaking, reading and writing basic sentence patterns. Vocabulary and expressions in daily life.
+301395103 ภาษาเกาหลีเพื่อการสื่อสาร III (Communicative Korean III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01395102
+      โครงสรางและหลักไวยากรณพื้นฐาน คําศัพทและสํานวนในสถานการณเพื่อการ ติดตอสื่อสาร สนทนาโตตอบในชีวิตประจําวัน เขียนขอความสั้น ๆ
+      Fundamental structure and grammar. Vocabulary and expressions in communicative situations. Conversation on everyday topics. Writing short passages.
+    
+301395104 ภาษาเกาหลีเพื่อการสื่อสาร IV (Communicative Korean IV )	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01395103
+      โครงสรางและหลักไวยากรณในระดับที่สูงขึ้น อานเรื่องสั้น ๆ เพื่อใหเขาใจ เนื้อหา สํานวนและโครงสรางของประโยค สนทนาโตตอบเรื่องทั่ว ๆ ไป
+     Structure and grammar at a higher level. Reading short texts in order to understand the content, expressions and language structure. Conversation on general topics.
+01395105 การอานและรายงานภาษาเกาหลี (Korean Reading and Oral Report)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01395104
+      หลักการอาน เพื่อการอานบทคัดสรรภาษาเกาหลีที่เกี่ยวกับชีวิตประจําวัน เพื่อ จับใจความสําคัญ และพูดรายงาน
+      Principles of reading. Reading selected articles related to daily life to grasp main ideas and giving oral reports.
+01399101 ภาษาเวียดนามเพื่อการสื่อสาร I (Communicative Vietnamese I)	3(3-0-6)
+      อักษรเวียดนาม ระบบเสียงภาษาเวียดนาม โครงสรางและหลักไวยากรณ เบื้องตน ทักษะการฟง พูด อาน เขียนประโยคขั้นพื้นฐาน คําศัพทและสํานวนที่ใชใน ชีวิตประจําวัน
+      Vietnamese script. Vietnamese sound system. Elementary structure and grammar. Skills of listening, speaking, reading and writing basic sentence patterns. Vocabulary and expressions in daily life.
+01399102 ภาษาเวียดนามเพื่อการสื่อสาร II (Communicative Vietnamese II)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01399101
+      โครงสรางและหลักไวยากรณเบื้องตน ทักษะการฟง พูด อาน และเขียนประโยค ขั้นพื้นฐาน คําศัพทและสํานวนในชีวิตประจําวัน
+     Elementary structure and grammar. Skills of listening, speaking, reading and writing basic sentence patterns. Vocabulary and expressions in daily life.
+01399103 ภาษาเวียดนามเพื่อการสื่อสาร III (Communicative Vietnamese III)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01399102
+      โครงสรางและหลักไวยากรณ คําศัพทและสํานวนในสถานการณเพื่อการติดตอ สื่อสาร สนทนาโตตอบในชีวิตประจําวัน เขียนขอความสั้น ๆ
+    
+      Structure and grammar. Vocabulary and expressions in communi- cative situations. Conversation on everyday topics. Writing short passages.
+01399104 ภาษาเวียดนามเพื่อการสื่อสาร IV (Communicative Vietnamese IV)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01399103
+      โครงสรางและหลักไวยากรณในระดับที่สูงขึ้น อานเรื่องสั้น ๆ เพื่อใหเขาใจ เนื้อหา สํานวนและโครงสรางของประโยค สนทนาโตตอบเรื่องทั่ว ๆ ไป
+     Structure and grammar at a higher level. Reading short texts in order to understand the content, expressions and language structure. Conversation on general topics.
+01399105  การอานภาษาเวียดนาม (Vietnamese Reading)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01399104
+      หลักการอาน การอานบทคัดสรรภาษาเวียดนามที่เกี่ยวกับชีวิตประจําวันเพื่อจับ ใจความสําคัญและพูดรายงาน
+      Principles of reading. Reading selected Vietnamese articles related to daily life to grasp main ideas and giving oral reports.
+01399106  การฟง-พูดภาษาเวียดนาม (Vietnamese Listening and Speaking)	3(3-0-6)
+วิชาที่ตองเรียนมากอน : 01399104
+      ทักษะการฟงและพูดภาษาเวียดนาม เนนการใชศัพทสํานวนและประโยคใน ชีวิตประจําวัน
+Listening and speaking skills in Vietnamese with emphasis on
+vocabulary, expressions and sentences in daily life.
+
+คณะศิลปศาสตรและวิทยาศาสตร
+02724011  การสื่อสารระหวางวัฒนธรรม (Intercultural Communication)	3(3-0-6)
+      ความสัมพันธระหวางการสื่อสารกับวัฒนธรรม มิติทางวัฒนธรรม ปจจัยทาง วัฒนธรรมที่มีอิทธิพลตอการสื่อสาร การสื่อสารดวยอวัจนภาษา การสื่อสารที่เหมาะสม กับกลุมสังคม
+    Relationship between communication and culture, cultural dimensions, cultural factors which influence communications, non- verbal communication, appropriate communication for social groups.
+    
+คณะวิทยาการจัดการ
+03754221 การออกเสียงภาษาอังกฤษขั้นพื้นฐาน (Basic English Pronunciation)	3(3-0-6)
+     หลักการออกเสียงขั้นพื้นฐานทั้งเสียงสระและพยัญชนะในภาษาอังกฤษ สัญลักษณทางสัทศาสตรและการถอดเสียงภาษาอังกฤษเบื้องตน การฝกออกเสียง เบื้องตนในภาษาอังกฤษทั้งในแบบอเมริกันและแบบอังกฤษ
+     Basic of pronunciation of English vowels and consonants. Basic English phonetic symbols and transcription including pronunciation. Practices in American and British English.
+03754231  การอานภาษาอังกฤษในชีวิตประจําวัน (English Reading in Daily Life)	3(3-0-6)
+      การฝกทักษะการอานในหัวขอตาง ๆ ที่เกี่ยวของกับชีวิตประจําวัน โดยเนนการ อานเร็ว กลวิธีในการอาน การสรางคําศัพท เทคนิคการอานเพื่อทําความเขาใจ การอาน เชิงวิเคราะห การอานออกเสียง การอานแบบเลาเร่ือง และการอานเชิงกวาง
+      Practicing reading skills in a variety of topics relevant to daily life with an emphasis on speed reading, reading strategies, vocabulary building, reading comprehension techniques, critical reading, reading aloud, as well as narrative and extensive reading.
+03754241 โครงสรางทางไวยากรณภาษาอังกฤษ (English Grammatical Structure)	3(3-0-6)
+      สวนประกอบหลักของประโยคภาษาอังกฤษ ประเภทของคํา ไวยากรณ ภาษาอังกฤษและชนิดของประโยค หนาที่ของ คํา วลี อนุประโยค และประโยค
+      Principal elements of English sentences. Parts of speech. English syntax and sentence types. Functions of words, phrases, clauses and sentences.
+03754251 การเขียนยอหนาภาษาอังกฤษ (English Paragraph Writing)	3(3-0-6)
+      ความหมายและความสําคัญของการเขียนยอหนา คุณลักษณะของยอหนาที่ดี ขั้นตอนในการเขียนยอหนา ชนิดของการเขียนยอหนา การฝกเขียนยอหนาสั้น
+     Definition and importance of paragraph writing. Characteristics of a good paragraph. Steps in writing a paragraph. Types of paragraph writing. Practice of writing short paragraphs.
+    
+03754271 ภาษาอังกฤษเพื่องานอาชีพ (English for Careers)	3(3-0-6)
+วิชาที่ตองเรียนมากอน  :  01355103  หรือกําหนดจากผลคะแนนสอบวัดมาตรฐานทักษะทางภาษาอังกฤษ
+      ศัพทและสํานวนภาษาอังกฤษที่ใชในงานอาชีพ บันทึกขอความ ประกาศ ตารางเวลา โฆษณา อีเมล และเอกสารตาง ๆ ที่เกี่ยวของ การฟงและพูดบทสนทนา พื้นฐานที่เกี่ยวของกับการทํางาน
+      English vocabulary and language expressions used in professional careers. Memos, notices, schedules, advertisements, email and other relevant documents. Listening and speaking in basic work-related conversations.
+3.3 วิชาสารสนเทศ/คอมพิวเตอร
+คณะมนุษยศาสตร
+01371111  สื่อสารสนเทศเพื่อการเรียนรู (Information Media for Learning)	1(1-0-2)
+      ทักษะการรูสารสนเทศ ความสําคัญของสื่อสารสนเทศตอการเรียนรู แหลงสื่อสาร สนเทศ การสืบคนและการเขาถึงสื่อสารสนเทศ การประเมินสื่อสารสนเทศ การใชอยางมี จริยธรรม
+      Information literacy skill. Importance of information media to learning. Information media sources. Searching and access to information media. Information media assessment. Ethical use of information.
+คณะวิทยาศาสตร
+301418101 การใชงานคอมพิวเตอร (Computer Applications)	1(0-2-1)
+       องคประกอบของระบบคอมพิวเตอร ฮารดแวร ซอฟตแวร ระบบปฏิบัติการ การใชโปรแกรมประมวลคํา ฐานขอมูลและโปรแกรมประยุกตอื่น
+     Computer system, hardware, software, operating system, word processing, database and other application software.
+
+01418104 รูทันไอที (IT Updates)	2(2-0-4)
+      บิ๊กดาตา โปรแกรมประยุกตแบบคลาวด การประยุกตโซเชียลเน็ตเวิรก เทคนิคการ คนคืนสารสนเทศ ภาวะสวนตัว ลิขสิทธิ์ซอฟตแวรและดิจิทัลคอนเทนต อาชญากรรม คอมพิวเตอร
+    
+      Big data. Cloud applications. Social network applications. Information retrieval techniques. Privacy. Software and digital content copyrights. Computer crime.
+
+      
+01418106 ทักษะเทคโนโลยีดิจิทัล (Digital Technology Skills)
+      แนวคิดพื้นฐานทางเทคโนโลยีดิจิทัล อินเทอรเน็ตและเวิลดไวดเว็บ คอมพิวเตอร ฮารดแวร ซอฟตแวรระบบและประยุกต เครือขายคอมพิวเตอร ฐานขอมูลและระบบ สารสนเทศ การพัฒนาซอฟตแวร ปญญาประดิษฐ ความมั่นคงปลอดภัยของคอมพิวเตอร กฎหมายและจริยธรรมทางคอมพิวเตอรและความเปนสวนตัว วิทยาการขอมูล ความจริง เสมือนและความเปนจริงเสริม เทคโนโลยีดิจิทัลรูปแบบใหม
+      Basic concepts of digital technology, internet and world wide web, computer hardware, system software and applications, computer networks, databases and information systems, software development, artificial intelligence, computer security, computer laws and ethics and privacy, data science, virtual reality and augmented reality, novel digital technologies.
+วิทยาลัยบูรณาการศาสตร
+
+3(2-2-5)
+
+
+01999023 ทักษะความเขาใจและใชเทคโนโลยีดิจิทัล (Digital Literacy)	2(1-2-4)
+       คอมพิวเตอรฮารดแวร ซอฟตแวรระบบ ความมั่นคงปลอดภัยทางคอมพิวเตอร ซอฟตแวรสํานักงานอัตโนมัติ การใชงานอินเทอรเน็ต จริยธรรมดิจิทัล
+      Computer hardware. System software. Computer security. Office automation software. Use of the Internet. Digital ethics.
+คณะวิศวกรรมศาสตรศรีราชา
+03600013 เครื่องมือและทักษะทางคอมพิวเตอรที่จําเปน	1(0-3-2) (Essential Computer Tools and Skills)
+      เครื่องมือผลิตภาพและการประยุกต การใชอินเทอรเน็ตเพื่อการสืบคน รวบรวม และวิเคราะหขอมูล เครื่องมือสื่อสาร ความปลอดภัยทางคอมพิวเตอร การแกปญหา คอมพิวเตอร เทคโนโลยีบนกลุมเมฆ แบบฟอรมและเอกสารออนไลน เครื่องมือสื่อประสม และการสรางเนื้อหา
+    
+     Productivity tools and its applications. Using the Internet for searching, collecting, and analyzing data. Communication tools. Computer security. Computer troubleshooting. Cloud technology. Online forms and documents. Multimedia tools and content creation.
+คณะวิทยาการจัดการ
+103752111 ทรัพยากรสารสนเทศเพื่อการคนควา (Information Resources for Research) 1(1-0-2)
+      ความสําคัญ สารสนเทศและแหลงสารสนเทศ การใชเทคโนโลยีสารสนเทศใน หองสมุด การเลือก และการเขียนรายงาน
+     Significance, information and source, the use of information technology in library, selection and report writing
+    
+
+       
+
+4.1 วิชาศาสตรแหงแผนดิน
+วิทยาลัยบูรณาการศาสตร
+01999111  ศาสตรแหงแผนดิน (Knowledge of the Land)	2(2-0-4)
+       แนวคิดของศาสตรแหงแผนดินเพื่อความกินดีอยูดีของชาติ ประวัติ เอกลักษณ และอัตลักษณของมหาวิทยาลัยเกษตรศาสตร ปรัชญาเศรษฐกิจพอเพียง ศาสตรชุมชน ศาสตรสากล การสํานึกในความเปนพลเมืองไทยและพลเมืองโลก การเสริมสรางและ พัฒนาทักษะในการเรียนรูและการทํางานสูเปาหมายภายใตบริบทของความสํานึกดี มุงมั่น สรางสรรค สามัคคี
+      Concept of knowledge of the land for the well-being of nation. History, uniqueness and identity of Kasetsart University. Philosophy of the sufficiency economy. Community science. International science. Realization of being a Thai and world’s citizen. Reinforcement and development of learning skills and goal-oriented work within the context of integrity, determination, knowledge creation and unity.
+4.2 รายวิชาอื่น ๆ ในกลุมสาระพลเมืองไทยและพลเมืองโลก
+คณะเกษตร
+01001317 ผูนํากับการพัฒนาภาคการเกษตร	3(3-0-6) (Leaders and Agricultural Sectors Development)
+     ความสําคัญของภาคการเกษตร หลักการพัฒนาการเกษตร ทิศทางการเกษตร ไทย ระบบการเกษตรและแนวโนมการเปลี่ยนแปลง ผูนํากับการเปลี่ยนแปลงบริบท โลก พลวัตผูนําภาคการเกษตร บทบาทและภาวะผูนําตอภาคการเกษตร ผูนํากับการ พัฒนาการเกษตรในภาครัฐ ภาคเอกชน และองคการไมแสวงหากําไร ผูนํากับการ พัฒนาเครือขายการเกษตร วิถีชีวิตและคุณคาของภาคการเกษตร
+    Importance of agricultural sectors, principle of agricultural development, direction of Thai agriculture, agricultural system and trend of change, leader and global change, dynamic of agricultural leader, role and leadership situation on agricultural sectors, private sector and non- government organization, leader and agricultural development network, lifestyle and agricultural sector value.
+    
+01009102 มนุษยและทรัพยากรธรรมชาติ	3(3-0-6)
+(Humans and Natural Resources)
+      ความสําคัญของทรัพยากรธรรมชาติกับการดํารงชีวิตมนุษย ประเภทของ ทรัพยากร สถานการณการเปลี่ยนแปลงสภาพภูมิอากาศโลก ผลกระทบของการใช ทรัพยากรธรรมชาติตอการดํารงชีวิต แนวทางการอนุรักษทรัพยากรธรรมชาติเพื่อ ประโยชนสูงสุดโดยไมเกิดผลเสียตอสิ่งแวดลอม
+        Importance of natural resources to human sustenance. Types of natural resources. Global climate change situation. Impact of natural resources usage on living. Guidelines of natural resources conservation for maximum benefit without any negative impact on the environment.
+01015202 เกษตรวิถีไทย (Thai Livelihood Agriculture)	3(3-0-6)
+      ประวัติการเกษตรของชาติไทย เกษตรกับชีวิตประจําวัน ภูมิปญญาทองถิ่นดาน การเกษตร การปลูกพืชและเลี้ยงสัตวในปจจุบัน การใชประโยชนจากผลผลิตและของ เหลือทางการเกษตร
+     Thai agriculture history, agriculture and daily life, local wisdom in agriculture, current crop cultivations and animal productions, utilization of agricultural produce and residue.
+
+คณะวนศาสตร
+01301101 การอนุรักษทรัพยากรและสิ่งแวดลอม	3(3-0-6) (Resources and Environmental Conservation)
+      ความสําคัญและคุณคาของทรัพยากรและสิ่งแวดลอม แนวคิดและหลักการ อนุรักษ สาเหตุและผลกระทบ แนวทางการจัดการทรัพยากรและสิ่งแวดลอม สถานการณปจจุบันของทรัพยากรและสิ่งแวดลอมในระดับประเทศและระดับโลก
+     The importance and value of resources and environment. Concepts and principles of conservation. Causes and effects. Guideline for resources and environmental management. Present situation in resources and environment at the national and global level.
+    
+คณะมนุษยศาสตร
+
+01350104 ศิลปะการอานคน (Art of Reading People)	3(3-0-6)
+      ความสําคัญของการอานคนตอการใชชีวิตและทํางานในสังคมสมัยใหม ความ หลากหลายทางวัฒนธรรมของมนุษย การสื่อสารระหวางวัฒนธรรม อารมณความรูสึก และการแสดงออก ลักษณะและความหมายของภาษากายและทาทาง มารยาทสากล และขอหามในการสื่อสารดวยภาษากายและทาทาง การสรางสัมพันธภาพและจัดการ ความขัดแยง
+     Importance of reading people towards living and working in modern society. Human cultural diversity. Inter-cultural communication. Emotions, feelings and expressions. Characteristics and meaning of body language and posture. Global etiquettes and taboos in communication through body language and posture. Human relationship developing and conflict management.
+01390102 การทองเที่ยวเชิงสรางสรรค (Creative Tourism)	3(3-0-6)
+      ความหมาย ความสําคัญ องคประกอบ รูปแบบ และแนวโนมของการทองเที่ยว เชิงสรางสรรค บทบาท หนาที่ และคุณลักษณะของนักทองเที่ยวเชิงสรางสรรค การมี สวนรวมของนักทองเที่ยวเชิงสรางสรรคในการอนุรักษศิลปวัฒนธรรม ภูมิปญญา ทองถิ่น และสิ่งแวดลอม เสนทางและกิจกรรมการทองเที่ยวเชิงสรางสรรคของโลกและ ของประเทศไทย การเลาเรื่องและการใชสื่อในการทองเที่ยวเชิงสรางสรรค มีการศึกษา นอกสถานที่
+     Definition, significance, components, patterns and trends of creative tourism. Roles, duties and characteristics of creative tourists. Participation of creative tourists in the conservation of art and culture, local wisdom and environment. Creative tour routings and tourist activities of the world and Thailand. Storytelling and media in creative tourism. Field trips required.
+    
+คณะสังคมศาสตร
+01453101 สิทธิขั้นพื้นฐาน (Fundamental Rights)	3(3-0-6)
+     ความหมาย ความสําคัญของสิทธิมนุษยชน ประเภทและการคุมครองสิทธิ ขอบเขตและเจตคติเกี่ยวกับการใชสิทธิและเสรีภาพภายใตกฎหมายในบริบทของ สังคมไทย หนาที่ตอการเคารพสิทธิของผูอื่น สมดุลระหวางการใชสิทธิและเสรีภาพตาม กฎหมายและความสงบเรียบรอยในสังคม
+     Meaning, importance of human rights. Types and protection of rights. Scope and attitude of using rights and freedoms under the laws in context of Thai society. Duties to respect other’s rights. Balance between using rights and freedoms under the laws and public order.
+
+01455101 การเมืองโลกในชีวิตประจําวัน (Global Politics in Daily Life)	3(3-0-6)
+      ความรูความเขาใจพื้นฐานเกี่ยวกับมโนทัศนและประเด็นปญหาหลักของ การเมืองโลก โครงสรางการเมืองโลกสมัยใหม แนวโนมใหมและประเด็นใหม ๆ ของ การเมืองโลก ผลกระทบของการเมืองโลกในชีวิตประจําวัน
+     Basic knowledge on concepts and major problem issues of global politics. Recent global political structure. New trends and issues of global politics. Effect of global politics in daily life.
+201460101 สังคมและวัฒนธรรมไทยรวมสมัย (Contemporary Thai Society and Culture)	3(3-0-6)
+      แนวความคิด รูปแบบ และความสัมพันธทางสังคมและวัฒนธรรมไทยรวมสมัย การสังเกต การศึกษา และการวิเคราะหปรากฏการณทางสังคมรวมสมัย ความเขาใจ ตอพลวัตและการปรับตัวทางสังคมและวัฒนธรรม แนวโนมของความสัมพันธทางสังคม และวัฒนธรรมในการอยูรวมกัน
+     Concepts, patterns and relations in contemporary Thai society and culture; observations, studies and analysis of contemporary social phenomena; understanding of social dynamism, socio-cultural adaptation; trends of socio-cultural relations in society.
+    
+วิทยาลัยบูรณาการศาสตร
+301999013 พลเมืองดิจิทัล (Digital Citizens)	3(2-2-5)
+      การเปนพลเมืองดิจิทัล การเขาถึงดิจิทัล สุขภาวะดิจิทัล การคาดิจิทัล การ สื่อสารดิจิทัล สิทธิและความรับผิดชอบดิจิทัล ความมั่นคงดิจิทัล จริยธรรมและ กฎหมายดิจิทัล การรูดิจิทัล
+      Digital citizenship. Digital access. Digital health and wellness. Digital commerce. Digital communication. Digital rights and responsibilities. Digital security. Digital etiquette and law. Digital literacy.
+01999031 มรดกอารยธรรมโลก (The Heritage of Civilization)	3(3-0-6)
+      มรดกอารยธรรมโลกตั้งแตสมัยกอนประวัติศาสตรจนถึงปจจุบัน ภูมิหลังดาน ประวัติศาสตร ปรัชญา ศาสนา ภาษา วรรณคดี ศิลปะการแสดง ดนตรี ศิลปะ
+World heritage from prehistory to the present. Historical background.
+Philosophy. Religion. Language. Literature. Performing arts. Music. Arts.
+
+01999032 ไทยศึกษา (Thai Studies)	3(3-0-6)
+      ประวัติศาสตร ศาสนา ภาษา วรรณคดี ศิลปะ ดนตรี ภูมิปญญาทองถิ่นและ วิถีของคนไทยในอดีต ปจจุบันและแนวโนมในอนาคต ประสบการณภาคสนาม
+     History, religion, language, literature, art, local wisdom and the Thai way of life from past up to present as well as the future trend. Field work experience.
+01999046  การพัฒนาความมั่นคงแหงชาติ (National Security Development)	3(3-0-6)
+      วิวัฒนาการดานความมั่นคงของชาติไทย องคประกอบของความมั่นคงแหงชาติ ความมั่นคงแหงชาติในมิติดานการเมือง เศรษฐกิจ สังคม การปองกันประเทศ วิทยาศาสตรและเทคโนโลยี พลังงาน และทรัพยากรทางธรรมชาติและสิ่งแวดลอม ยุทธศาสตรชาติ บทบาทของกองทัพในการพัฒนาประเทศ เศรษฐกิจพอเพียงกับการ พัฒนาความมั่นคงแหงชาติ มีการศึกษานอกสถานที่
+     Evolution of the national security of Thailand. Composition of the National Security. National security in terms of the politics, economic, social, defense, science and technology, energy, and natural resources and environment. National strategy. Role of the military in developing the country. Self-sufficient economics and national security development. Field trip required.
+    
+01999047 การทหารเพื่อพัฒนาประเทศ (Military for Country Development)	3(3-0-6)
+      ความมั่นคงแหงชาติ วิวัฒนาการทางทหารและความสัมพันธระหวางพลเรือน กับทหาร และประวัติศาสตรสงคราม ภารกิจ การจัดหนวย และการปฏิบัติงานของ กระทรวงกลาโหมเพื่อความมั่นคงของชาติและการพัฒนาประเทศ ความรวมมือของ ทหารและพลเรือนในการปองกันและพัฒนาประเทศ การพัฒนาเทคโนโลยีทางทหาร เพื่อความมั่นคงของชาติ การปฏิบัติการทางทหารที่มิใชสงคราม การทหารกับ การเกษตร มีการศึกษานอกสถานที่
+     National security, military evolution and civil-military relations and war history. Missions, organizations, and operations of the Ministry of Defense for national security and country development. Collaboration between civilian and military for national defense and country development. Development of military technology for national security, military operations other than war. Military and agriculture. Field trip required.
+01999141 มนุษยกับสังคม (Man and Society)	3(3-0-6)
+      พื้นฐานของมนุษยโดยธรรมชาติ พฤติกรรม การตั้งถิ่นฐาน ความสัมพันธ ระหวางมนุษยกับสังคมดานวัฒนธรรม การจัดระเบียบสังคม และการขัดเกลาทาง สังคม เศรษฐกิจ การเมือง กฎหมาย ภูมิหลังสังคมไทย การเปลี่ยนแปลงทางสังคม ปญหาสังคม และแนวทางแกไข
+      Human nature, behavior, and settlement. The relationship of man, society and culture. Economic, political and legal aspects of social organization. Background of Thai society. Social change and social problems.
+คณะศิลปศาสตรและวิทยาศาสตร
+02717112  การเมืองไทยรวมสมัย (Contemporary Thai Politics)	3(3-0-6)
+      ความรูพื้นฐานเกี่ยวกับเหตุการณสําคัญทางการเมืองภาคประชาชนของไทย  ความสัมพันธระหวางการเมืองกับความเปนพลเมือง โครงสรางและสถาบันทางการเมือง ของไทย อํานาจและกลุมผลประโยชนในการเมืองไทย ประชาธิปไตย สิทธิเสรีภาพ และ การมีสวนรวมทางการเมือง ทหารกับการเมืองไทย สื่อกับการเมืองไทย ประเด็นปญหา การเมืองไทยในปจจุบัน แนวโนมการเมืองไทยในอนาคต
+    
+     Basic knowledge of important events relating to people’s politics of Thailand. Relationship between politics and citizenship. Thailand’s political structure and institutions. Power and interest groups in Thai politics. Democracy, rights, freedom and political participation. Military and Thai politics. Media and Thai politics. Current issues in Thai politics. Future trends of Thai politics.
+โครงการบูรณาการ วิทยาเขตกําแพงแสน
+02999042 การพัฒนานิสิต (Student Development)	3(2-3-6)
+      การพัฒนาการทํางานดวยวงจรคุณภาพ ทักษะในการติดตอสื่อสารและการทํางาน รวมกับผูอื่น การรูเทาทันสื่อและการใชเทคโนโลยีการสื่อสารที่เหมาะสม สิทธิและหนาที่ พลเมือง ความตระหนักรูทางสังคมและวัฒนธรรม การพัฒนาบุคลิกภาพ การสรางและ รักษาเอกลักษณและอัตลักษณที่เหมาะสม การเตรียมความพรอมในการทํางาน
+Developing work management with quality cycle. Communication
+and collaboration skills. Information and communications technology literacy. Citizenship. Social and culture awareness. Personality development maintaining unique identities. Preparing for the professional careers.
+02999144 ทักษะชีวิตการเปนนิสิตมหาวิทยาลัย	1(1-0-2) (Life Skills for Undergraduate Student)
+      เอกลักษณ เจตลักษณนิสิต การพัฒนาบุคลิกภาพและการปรับใชชีวิต ในมหาวิทยาลัย กระบวนการเรียนรูของนิสิต องคประกอบการเรียนรูทางสังคม จิตตปญญาศึกษาเพื่อการพัฒนาความเปนมนุษยสําหรับสังคมคุณภาพ จิตสาธารณะ ในมิติของพลเมืองไทยและพลเมืองโลก
+      Identity. Desired character of undergraduates. Personality development and life adjustment in the university. Undergraduate learning process. Social learning elements. Mind and contemplative studies for humanity development of quality society. Public mind in the Thai and global citizen dimensions.
+    
+02999147 ไทยในพลวัตอาเซียน (The Thai in ASEAN Dynamics)	3(3-0-6)
+      ความรูพื้นฐานเกี่ยวกับสมาคมประชาชาติแหงเอเชียตะวันออกเฉียงใต (อาเซียน) บริบทของกลุมประเทศสมาชิกในประชาคมอาเซียน การเปลี่ยนแปลงและ ผลกระทบดานสังคม วัฒนธรรม เศรษฐกิจ การเมืองการปกครอง การศึกษา ทรัพยากรธรรมชาติและสิ่งแวดลอมของประเทศไทยในประชาคมอาเซียน บทบาทของ ประเทศไทยกับการเปนประชาคมอาเซียน ปญหาและแนวโนมที่เกิดขึ้น
+     Basic knowledge of the Association of Southeast Asian Nations (ASEAN). Contexts of ASEAN country members. Changes and impacts on society, culture, economic, politics, government, education, natural resources and environment of Thailand in ASEAN community. Preparation of Thailand toward ASEAN community.
+คณะวิทยาการจัดการ
+03751111 มนุษยกับสิ่งแวดลอม (Man and Environment)	3(3-0-6)
+      แนวคิดทางนิเวศวิทยาและสิ่งแวดลอม ความสัมพันธระหวางมนุษยกับ ทรัพยากร ธรรมชาติและสิ่งแวดลอม หลักการอนุรักษธรรมชาติและสิ่งแวดลอม วิธีการปรับตัวและการใชประโยชน จากสิ่งแวดลอมเพื่อการดํารงชีวิตของมนุษย ผลกระทบของกิจกรรมมนุษยที่มีตอสิ่งแวดลอม สภาพสังคมและเศรษฐกิจ ปญหาและ สถานการณสิ่งแวดลอมในปจจุบัน มลพิษสิ่งแวดลอม รวมทั้งนโยบายการควบคุม การปองกัน และการแกไขปญหาสิ่งแวดลอม
+     Ecological and environmental concepts, relations between man and natural resources and environment, principles of natural and environmental conservation, ways of adaptation and utilization of environment for human living, effects of human activities to environmental, social and economical conditions, present environmental problems and situations, environmental pollution, including controlling policy, prevention, and solution of environmental problems.
+103751112 สังคมและการเมือง (Social and Politics)	3(3-0-6)
+     แนวคิดและทฤษฎีทางสังคม การเมืองและวัฒนธรรม กําเนิดสังคมและรัฐ โครงสรางและองคประกอบสังคม สถาบันทางสังคมและการเมือง กลุมทางสังคมและ ระบบทางการเมือง อุดมการณและลัทธิการเมือง พรรคการเมืองและระบบราชการ การมีสวนรวมทางการเมือง พัฒนาการทางการเมือง การเปลี่ยนแปลงทางสังคมและ การเมือง และการบริหารประเทศในสมัยใหม
+    
+     Sociological concept and theory, politics and cultures, origins of society and state, social structure and components, social and political institutions, social group and political system, political ideology and doctrines, political parties and governmental system, participation in politics, political development, social and political changes, and administration of modern country.
+คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร
+04101302 จิตอาสาเพื่อพัฒนาชุมชน	3(3-0-6)
+(Volunteer Spirit for Community Development)
+     หลักการของจิตอาสา การศึกษาและวิเคราะหจิตอาสาเพื่อพัฒนาชุมชนและ ความเขาใจ การบริหารจัดการกลุมเพื่อทํากิจกรรมจิตอาสา การนําไปใชประโยชนใน การดําเนินงานเพื่อพัฒนาชุมชน
+Principles of volunteer spirit. Study and analytical of volunteer
+spirit for community and understanding. Teamwork management for volunteer spirit activities. Utilization in the development community.
+    
+
+       
+
+คณะเกษตร
+301007101 พืชสวนเพื่อคุณภาพชีวิตและสิ่งแวดลอม	2(2-0-4) (Horticulture for Life Quality and Environment)
+      มนุษยกับพืชสวน การจัดกลุมพืชสวนอยางงาย ความหลากหลายของพืชสวนใน เขตรอน พืชสวนในกลุมอาหาร เครื่องดื่ม สมุนไพร เครื่องสําอาง ไมดอกไมประดับ และอื่น ๆ การใชประโยชนจากความหลากหลายของพืชสวนเพื่อสุนทรียภาพ สงเสริม สุขภาพ ปองกันและบําบัดโรคทั้งทางรางกายและจิตใจ
+     Man and horticulture. Simple grouping of horticultural crops. Diversity of horticultural crops in the tropics. Horticultural crop groups: food, beverage, medicine, cosmetic, flower, ornamental and others. Utilization of horticultural crop diversity for aesthetics, health promoting, preventing and treatment of both physical and mental diseases.
+คณะสถาปตยกรรมศาสตร
+01240011 การออกแบบในชีวิตประจําวัน (Design in Everyday Life)	3(3-0-6)
+    แนวคิดเบื้องตนเกี่ยวกับการออกแบบในชีวิตประจําวัน ความหมายและ ความสําคัญของการออกแบบ ความคิดสรางสรรคและการคิดเชิงออกแบบ มูลฐานการ ออกแบบ การออกแบบเพื่อการสื่อสาร การออกแบบผลิตภัณฑ การออกแบบตกแตง ภายในและสถาปตยกรรม การออกแบบเพื่อสิ่งแวดลอม
+      Basic concept of design in everyday life. Definition and importance of design. Creative thinking and design thinking. Design fundamental. Communication design. Product design. Interior design and architecture. Design for environment.
+01244101 การออกแบบเพื่อความเปนอยูที่ดี (Design for Well-being)	3(3-0-6)
+      มนุษยกับความเปนอยูที่ดี การคิดเชิงออกแบบ สภาพแวดลอมและความยั่งยืน สภาพแวดลอมเพื่อทุกคน ผลิตภัณฑและการบริการเพื่อสุขภาพ สภาพแวดลอมเพื่อความ เปนอยูที่ดี เมืองและพื้นที่สาธารณะ เกษตรกรรมในเมือง สวนบําบัด สภาพแวดลอม บําบัด นวัตกรรมเพื่อผูสูงอายุ การอภิปรายและกรณีศึกษา
+    
+     Human and well-being. Design thinking. Environment and sustainability. Environment for all. Products and services for health. Well-being environment. City and public space. Urban agriculture. Garden therapy. Therapeutic environment. Innovation for elders. Discussion and case studies.
+คณะประมง
+01255101 มนุษยกับทะเล (Man and Sea)	3(3-0-6)
+      ความรูพื้นฐานเกี่ยวกับทะเล สิ่งมีชีวิตในทะเลและระบบนิเวศชายฝง คุณคา ของทะเล อันตรายจากทะเล การปฐมพยาบาล ทะเลกับความเปลี่ยนแปลง การอนุรักษ และจัดการสิ่งแวดลอมทางทะเลอยางยั่งยืน กรณีศึกษา
+     Fundamental knowledge of the sea, marine life and coastal eco- system, value of sea, marine hazards injury, first aid, sea and changes, marine conservation and sustainable environmental management, case study.
+คณะวนศาสตร
+01308101 การทองเที่ยวทางธรรมชาติอยางยั่งยืน (Sustainable Nature-based Tourism)  3(3-0-6)
+       แนวคิดและหลักการทองเที่ยวอยางยั่งยืน ทรัพยากรการทองเที่ยวทางธรรมชาติ รูปแบบการทองเที่ยวในแหลงธรรมชาติ พฤติกรรมนักทองเที่ยวในแหลงทองเที่ยวทาง ธรรมชาติ ภาพรวมของผลกระทบทางการทองเที่ยว การจัดการผลกระทบทางการ ทองเที่ยว มีการศึกษานอกสถานที่
+        Concepts and principles of sustainable tourism. Nature-based tourism resources. Nature-based tourism patterns. Tourists’ behaviors in nature-based destination. Overview of tourism impacts. Tourism impact management. Field trip required.
+คณะมนุษยศาสตร
+01350102  เลาเร่ืองดวยภาพ (Visual Storytelling)	3(3-0-6)
+      ทักษะการคิดและสื่อสารดวยภาพ เทคนิคการวาดภาพ การนําเสนอดวยภาพ การวางแผนและแกปญหาดวยภาพ การสรางเนื้อหา บุคลิกภาพของนักเลาเรื่อง เทคนิคการเลาเรื่อง การใชเทคนิคการนําเสนอดวยสื่อดิจิทัล
+    
+      Thinking and visual communication skills. Drawing techniques. Visual presentation. Visual planning and the use of visualization in problem-solving. Content creation. Storytellers’ personality. Storytelling techniques. Presentation techniques using digital media.
+301387102 ปรัชญาสําหรับชีวิตยุคใหม (Philosophy for Modern Life)	3(3-0-6)
+      ศึกษาปรัชญาที่เกี่ยวกับความจริง ความรู คุณธรรม จริยธรรม ความดีและความ งาม ทั้งในมิติทางกายภาพและทางจิตวิญญาณ โดยใชวิธีการทางปรัชญาหรือการใช เหตุผลอยางมีวิจารณญาณ รวมทั้งการประยุกตใชวิธีการทางปรัชญาเพื่อใหเกิดความ งอกงามทางสติปญญา และมีคุณคาตอชีวิตและสังคมในโลกยุคใหม
+    Studying on the problems of Reality, knowledge, morality, ethicality goodness and beauty in both physical concept and spiritual concept with philosophical method or reasoning. Application of philosophical method to wisdom growing and worth of life and society in new world.
+คณะวิทยาศาสตร
+01401201 พืชเพื่อการสรางคุณคาชีวิต (Plants for Value of Life Creation)	3(3-0-6)
+       การประยุกตใชพืชเพื่อสรางสุนทรียะในชีวิตประจําวัน ความหลายหลากของพืช การใชพืชในทางเศรษฐกิจ อาหาร พลังงาน สุขภาพ การจัดตกแตง การจัดสวน งานศิลปะ ภูมิปญญาทองถิ่นและวัฒนธรรม มีการศึกษานอกสถานที่
+      Applications of plants for aesthetics in daily life. Plant Diversity. Utilization of plants for economy, food, energy, health, decoration, gardening, arts, local wisdom, and culture. Field trip required.
+
+01418105 ศิลปะสรางสรรคดิจิทัล (Digital Creative Arts)	3(2-2-5)
+      เทคโนโลยีสื่อประสม หลักการถายรูปดิจิทัล การจัดอุปกรณสําหรับการบรอดคาสต อักษรศิลป การวาดและการแกไขตกแตงภาพ เสียงและดนตรีดิจิทัล หลักการสรางและ ปรับแตงวิดีทัศน ภาพเคลื่อนไหว รูปสามมิติและความเปนจริงเสริม งานศิลปะดิจิทัล ดานเอ็ดดูเทนเมนท เนื้อหาดิจิทัล รูเทาทันสื่อและสารสนเทศ ลิขสิทธิ์และสัญญาอนุญาต
+    
+     Multimedia technology. Digital photography principle. Equipment setting for broadcasts. Word art. Digital image creation and editing. Digital sound and music. Video creation and editing. Animation. 3 D images and augmented reality. Digital arts in edutainment. Digital content. Media and information literacy. Copyrights and licenses.
+01420201 อัญมณีและเครื่องประดับ (Gems and Jewelry)	3(3-0-6)
+      การกําเนิดและการแบงประเภทของอัญมณี สมบัติของอัญมณี ลักษณะเฉพาะ ของอัญมณีธรรมชาติ อัญมณีสังเคราะห อัญมณีเลียนแบบ อัญมณีตกแตง และอัญมณี อินทรีย การทดสอบเบื้องตนสําหรับอัญมณี และอุปกรณการทดสอบ การประเมิน คุณภาพและการประเมินราคาพลอยสีและเพชร ความรูทั่วไปเกี่ยวกับเครื่องประดับ ขั้นตอนการผลิต การประเมินคุณภาพและการประเมินราคาเครื่องประดับ การคา พลอยและเครื่องประดับ
+     Origins and classification of gemstones; properties of gemstones; characteristics of natural, synthetic, imitation, treated and organic gemstones, basic testing of gemstones and instruments; grading and appraising of colored gemstones and diamond; general knowledge of jewelry; process of production; jewelry grading and appraising; gemstone and jewelry trading.
+วิทยาลัยบูรณาการศาสตร
+301999034 ศิลปวิจักษณ (Art Perception)	3(3-0-6)
+      การรับรูเกี่ยวกับแนวคิด ความงาม หนาที่ การแสดงออก และคุณคาของศิลปะ ในชีวิตประจําวัน
+Perception of concept, beauty, function, expression and value of
+art in everyday life.
+
+101999035 วัฒนธรรมดนตรีกับชีวิต (Music Culture in Life)	3(3-0-6)
+       การสงเสริมจินตนาการเพื่อสุนทรียและการสรางสรรค  ความสัมพันธระหวาง ดนตรี สังคม วัฒนธรรม และศิลปะแขนงอื่น
+      Imagination encouragement for aesthetics and creativity. Relationship between music, society, culture and other branches of arts.
+    
+คณะศิลปศาสตรและวิทยาศาสตร
+02708102  วรรณกรรมกับวิทยาศาสตร (Literature and Science)	3(3-0-6)
+      ความสัมพันธระหวางวรรณกรรมกับวิทยาศาสตร ประวัติและวิวัฒนาการของ วรรณกรรมวิทยาศาสตร อิทธิพลของแนวคิดและหลักการทางวิทยาศาสตรตอวรรณกรรม การอานวรรณกรรมวิทยาศาสตร
+      Relationship between literature and science, history and evolution of scientific literature, influences of scientific concepts and principles on literature, reading scientific literary works.
+
+      
+02728102 สารสีในงานศิลปะ (Pigments in Art)
+      ความลับทางวิทยาศาสตรเบื้องหลังงานศิลปะ สีที่ใชในยุคกอนประวัติศาสตร เทคนิคและสีในศิลปะของกรีก โรมัน อียิปต เทคนิคการตรวจสอบศิลปะโบราณ กรณีศึกษา
+     The science secrets behind art. Prehistoric pigments. Techniques and pigments in art of Greek, Roman, Egyptian. Investigation techniques in art. Case study.
+
+3(3-0-6)
+
+โครงการบูรณาการ วิทยาเขตกําแพงแสน
+02999037  ศิลปะแหงสุนทรียศาสตรเพื่อความสุข (Arts of Aesthetics for Happiness)	3(3-0-6)
+      แนวคิด ความหมาย และความเขาใจตอสุนทรียศาสตร การมองเห็นคุณคาของ สิ่งรอบตัว การวิเคราะหและประเมินตนเอง การคนหาสุนทรียศาสตรจากสิ่งรอบตัว การประยุกตเพื่อการดํารงตนใหมีคุณคาสรางสรรคที่ดีงาม และมีความสุข
+     Concepts, definition, and understanding toward arts of aesthetics. Perception towards the value of surroundings. Self evaluation and assessment. Aesthetics searching from surroundings. Aesthetics application for worthy, creation and happiness.
+คณะวิศวกรรมศาสตรศรีราชา
+103600012 เทคโนโลยีสีเขียว (Green Technology)	3(3-0-6)
+     พื้นฐานของการพัฒนาอยางยั่งยืนและเทคโนโลยีสีเขียว แหลงพลังงานทางเลือก และพลังงานทดแทน การอนุรักษและการจัดการพลังงาน การจัดการกากของเสีย การผลิตและการผลิตภาพสีเขียว คารบอนเครดิตและรอยเทาคารบอน การจัดการ ผลกระทบสิ่งแวดลอมจากเทคโนโลยีสมัยใหม
+    
+      Basic of sustainable development and green technology. Source of alternative and renewable resource. Energy conservation and management. Waste management. Green production and productivity. Carbon credit and carbon footprint. Management of environmental impacts from modern technologies.
+
+คณะวิทยาศาสตรศรีราชา
+03654111 สุนทรียศาสตรทางการกีฬา (Aesthetics of Sport)	3(3-0-6)
+      รับรูและความหมายของสุนทรียศาสตรทางการกีฬา การวิเคราะหและสังเคราะห การรับรูทางอารมณและพฤติกรรมสุนทรียภาพตามธรรมชาติ ความสัมพันธระหวาง องคประกอบของสุนทรียศาสตรกับการกีฬา รูปแบบและการใชเทคนิค วิธีการผลิตสื่อ ตาง ๆ เพื่อสรางสุนทรียศาสตรทางการกีฬา
+      Recognizing and meaning of aesthetics in sports. Analysing and synthesizing emotional awareness and aesthetics behaviour in nature. Relationship between aesthetics composition and sports. Pattern utilization of variety of media production methods in creating aesthetics in sports.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
