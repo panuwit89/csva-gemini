@@ -13,5 +13,5 @@ pip install -r requirements.txt
 ```
 ## Start service
 ```
-python csva_gemini_api.py
+python main.py
 ```
