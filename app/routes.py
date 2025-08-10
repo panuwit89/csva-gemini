@@ -5,14 +5,15 @@ import json
 import uuid
 import tempfile
 import unicodedata
+import requests
 from typing import List, Optional
 
-from fastapi import FastAPI, File, UploadFile, Form, BackgroundTasks
+from fastapi import FastAPI, File, UploadFile, Form, BackgroundTasks, HTTPException
 from google.genai import types
 
 from . import global_state, gemini_services, knowledge_management
 from .schemas import ChatRequest, PromptRequest, RefreshKnowledgeRequest
-from .config import TRANSCRIPT_INSTRUCTION
+from .config import TRANSCRIPT_INSTRUCTION, LARAVEL_API_URL
 
 app = FastAPI()
 
@@ -121,7 +122,7 @@ async def process_files_and_prompt_api(
     files: List[UploadFile] = File(...),
     custom_prompt: str = Form(...),
     conv_id: int = Form(...),
-    history: Optional[str] = Form(None)
+    # history: Optional[str] = Form(None)
 ):
     """API endpoint for processing files and prompts"""
     temp_dir = None
@@ -190,15 +191,24 @@ async def process_files_and_prompt_api(
         if not temp_files_for_processing:
             return {"error": "No valid files were uploaded or saved"}
         
-        # Parse history string if provided
-        parsed_history = None
-        if history:
-            try:
-                # Convert JSON string back to Python list of dicts
-                parsed_history = json.loads(history) # Now parsed_history will be a list of dicts like [{'role': 'user', 'content': '...'}]
-            except json.JSONDecodeError:
-                print(f"Warning: Could not decode history JSON string: {history}")
-                return {"error": "Invalid history format (not a valid JSON string)"}
+        # 1. ยิง API กลับไปหา Laravel เพื่อขอ History
+        try:
+            history_url = LARAVEL_API_URL + f"/conversations/history/{conv_id}"
+            print(f"Fetching history from: {history_url}")
+
+            response = requests.get(history_url, timeout=15) # ตั้ง timeout 15 วินาที
+            response.raise_for_status()  # ถ้า status code ไม่ใช่ 2xx จะเกิด Exception
+
+            # response.json() จะแปลง JSON ที่ได้จาก Laravel เป็น Python list/dict
+            parsed_history = response.json()
+            print(f"Successfully fetched history for conv_id: {conv_id}")
+
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching history from Laravel for conv_id {conv_id}: {e}")
+            # ส่ง HTTP 503 Service Unavailable กลับไปถ้าเรียก Laravel ไม่ได้
+            raise HTTPException(status_code=503, detail="Could not fetch chat history from the main service.")
+        
+        # 2. ลบโค้ดส่วนที่เคย parse history จาก Form ออกไปได้เลย
         
         transcript_config = None
         if should_process_transcript:
