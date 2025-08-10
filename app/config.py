@@ -68,4 +68,5 @@ TRANSCRIPT_INSTRUCTION = """
 
 # Base URL for Laravel API
 LARAVEL_BASE_URL = "http://localhost"
+LARAVEL_API_URL = f"{LARAVEL_BASE_URL}/api"
 GEMINI_API_KEY = "AIzaSyB6AS0OkeKNbGecKzVIidL4vXsvUa-OgVo"
