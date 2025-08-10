@@ -1,6 +1,6 @@
 import os
-import json
-import requests
+import base64
+import tempfile
 from google import genai
 from google.genai import types
 
@@ -21,6 +21,7 @@ def create_chat_session(conv_id: int, history: list[types.Content] | None = None
             model="gemini-2.0-flash",
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_INSTRUCTION,
+                temperature=0.2,
             ),
             history=history,
         )
@@ -31,48 +32,94 @@ def create_chat_session(conv_id: int, history: list[types.Content] | None = None
         print(f"Error creating chat session {conv_id}: {e}")
         raise e
 
-def get_chat_session(conv_id: int, history: list[types.Content] | None = None):
-    """Get existing chat by conversation ID.
-    If not found in memory, it will try to fetch history from the Laravel backend
-    and recreate the session.
+def get_chat_session(conv_id: int, history: list | None = None):
+    """
+    Gets or recreates a chat session, correctly handling multi-part messages
+    from the same role, file upload workarounds, and ensuring history starts correctly.
     """
     if conv_id in global_state.chat_sessions:
         print(f"Found chat session {conv_id} in memory.")
         return global_state.chat_sessions[conv_id]
     
-    if conv_id not in global_state.chat_sessions:
-        print(f"Chat session {conv_id} not in memory. Creating new session...")
+    print(f"Chat session {conv_id} not in memory. Recreating session...")
         
     try:
         recreated_history = []
-        if history is not None:
-            for i, msg in enumerate(history):
-                
-                role_val = None
-                content_val = None
-
-                if isinstance(msg, Message): # Is Pydantic Message object type (from sendPrompt)
+        if history:
+            for msg in history:
+                # 1. Process the current message to get its role and parts
+                current_parts = []
+                # Extract data from either dict or pydantic model
+                if isinstance(msg, dict):
+                    role_val = msg.get('role', 'user')
+                    content_val = msg.get('content', '')
+                    attachments_list = msg.get('attachments', [])
+                elif hasattr(msg, 'role') and hasattr(msg, 'content'):
                     role_val = msg.role
                     content_val = msg.content
-                elif isinstance(msg, dict): # Is dictionary type (from process_files_and_prompt)
-                    role_val = msg.get('role', msg.get('type', 'user'))
-                    content_val = msg.get('content', '')
+                    attachments_list = msg.attachments
                 else:
-                    # Handle unexpected types
-                    print(f"WARNING: Unexpected type in history item {i}: {type(msg)}. Attempting to convert to string content.")
-                    role_val = "user" # Initialize role as 'user' if not specified
-                    content_val = str(msg) # Convert to string content to avoid AttributeError
+                    print(f"WARNING: Skipping malformed history item: {msg}")
+                    continue
 
-                if role_val is not None and content_val is not None:
-                    recreated_history.append(
-                        types.Content(parts=[types.Part(text=content_val)], role=role_val)
-                    )
+                if content_val:
+                    current_parts.append(types.Part(text=content_val))
+                
+                if attachments_list:
+                    for attachment_info in attachments_list:
+                        # This logic now correctly handles dicts and objects
+                        if isinstance(attachment_info, dict):
+                            original_name, mime_type, content_data = (
+                                attachment_info.get('original_name'),
+                                attachment_info.get('mime_type'),
+                                attachment_info.get('content_base64')
+                            )
+                        else:
+                            original_name, mime_type, content_data = (
+                                attachment_info.original_name,
+                                attachment_info.mime_type,
+                                attachment_info.content_base64
+                            )
+                        
+                        if not content_data: continue
+
+                        file_content_bytes = base64.b64decode(content_data) if isinstance(content_data, str) else content_data
+                        
+                        temp_file_path = None
+                        try:
+                            with tempfile.NamedTemporaryFile(delete=False, suffix=f"_{original_name}") as temp_f:
+                                temp_f.write(file_content_bytes)
+                                temp_file_path = temp_f.name
+                            
+                            gemini_file = client.files.upload(file=temp_file_path, config=dict(mime_type=mime_type, display_name=original_name))
+                            
+                            file_part = types.Part(file_data=types.FileData(mime_type=gemini_file.mime_type, file_uri=gemini_file.uri))
+                            current_parts.append(file_part)
+                        finally:
+                            if temp_file_path and os.path.exists(temp_file_path):
+                                os.remove(temp_file_path)
+
+                if not current_parts:
+                    continue
+
+                # 2. Merge with previous message if roles are the same
+                if recreated_history and recreated_history[-1].role == role_val:
+                    recreated_history[-1].parts.extend(current_parts)
                 else:
-                    print(f"WARNING: Skipping malformed or empty history message for conv_id {conv_id}: {msg}")
+                    recreated_history.append(types.Content(role=role_val, parts=current_parts))
 
-        print(f"Successfully fetched {len(recreated_history)} messages. Recreating session...")
+        print(f"Successfully processed history into {len(recreated_history)} turns.")
         
-        chat = create_chat_session(conv_id, history=recreated_history)
+        # 3. FINAL SAFEGUARD: Ensure the history slice passed to the model starts with a user turn.
+        start_index = -1
+        for i, content in enumerate(recreated_history):
+            if content.role == 'user':
+                start_index = i
+                break
+        
+        valid_history_for_init = recreated_history[start_index:] if start_index != -1 else None
+        
+        chat = create_chat_session(conv_id, history=valid_history_for_init)
         
         try:
             initialize_chat_with_docs(chat)
@@ -82,10 +129,6 @@ def get_chat_session(conv_id: int, history: list[types.Content] | None = None):
         
         return chat
 
-    except requests.exceptions.RequestException as e:
-        # Handle API call failures (e.g., network error, 404 not found from Laravel)
-        print(f"Failed to fetch history for conv_id {conv_id} from API: {e}")
-        raise ValueError(f"Chat session '{conv_id}' not found in memory or database.") from e
     except Exception as e:
         print(f"An unexpected error occurred while recreating session {conv_id}: {e}")
         raise e
@@ -144,7 +187,6 @@ def define_chat_name(conv_id: int):
             return "New Conversation"
 
         transcript = "\n".join(transcript_parts)
-        print(f"Transcript for naming conv_id '{conv_id}': {transcript}")
         
         # Prompt for naming the chat based on the transcript content
         prompt_for_naming = f"""
