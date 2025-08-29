@@ -1,14 +1,28 @@
 import os
 import base64
 import tempfile
+import traceback
 from google import genai
 from google.genai import types
 
-from . import global_state
-from .config import LARAVEL_BASE_URL, SYSTEM_INSTRUCTION, GEMINI_API_KEY
+from . import global_state, graduation_check
+from .config import SYSTEM_INSTRUCTION, TRANSCRIPT_INSTRUCTION, GRADUATION_CHECK_INSTRUCTION, GEMINI_API_KEY
 from .schemas import Message
 
 client = genai.Client(api_key=GEMINI_API_KEY)
+
+def _enhance_prompt(prompt: str, tags: list[str] = None) -> str:
+    """Enhances the prompt with context if tags are provided for recommendation."""
+    if tags and any(keyword in prompt.lower() for keyword in ['แนะนำวิชา', 'ลงเรียนอะไรดี', 'วิชาเลือก']):
+        tags_string = ", ".join(tags)
+        enhanced_prompt = (
+            f"แนะนำวิชาสำหรับนิสิตที่สนใจในหัวข้อเหล่านี้: {tags_string}.\n\n"
+            f"วิเคราะห์จากไฟล์ความรู้เกี่ยวกับวิชา หลักสูตร และคำอธิบายรายวิชา เพื่อให้คำแนะนำที่เหมาะสม.\n\n"
+            f"คำถามของนิสิต: \"{prompt}\""
+        )
+        print(f"Enhanced prompt for course recommendation with tags: {tags_string}")
+        return enhanced_prompt
+    return prompt
 
 def create_chat_session(conv_id: int, history: list[types.Content] | None = None):
     """Create a new chat session with the Gemini model and configuration"""
@@ -20,8 +34,8 @@ def create_chat_session(conv_id: int, history: list[types.Content] | None = None
         chat = client.chats.create(
             model="gemini-2.0-flash",
             config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_INSTRUCTION,
-                temperature=0.2,
+                system_instruction=[SYSTEM_INSTRUCTION],
+                tools=[graduation_check.GRADUATION_CHECK_TOOL],
             ),
             history=history,
         )
@@ -157,7 +171,7 @@ def define_chat_name(conv_id: int):
         start_index = -1
         for i, message in enumerate(chat.get_history()):
             # Check if the message is from the user and has text parts
-            if message.role == 'user' and any(hasattr(part, 'text') and part.text and part.text.strip() for part in message.parts):
+            if message.role == 'user' and hasattr(message, 'parts') and any(hasattr(part, 'text') and part.text and part.text.strip() for part in message.parts):
                 start_index = i
                 break
 
@@ -230,24 +244,38 @@ def define_chat_name(conv_id: int):
         print(f"An error occurred while defining chat name for conv_id {conv_id}: {e}")
         return "New Conversation"
     
-def process_prompt(prompt, conv_id, history=None):
+def process_prompt(prompt, conv_id, history=None, tags: list = None):
     """Process a text prompt"""
     try:
         # Get the chat session for the conversation ID
-        chat = get_chat_session(conv_id, history)
+        chat = get_chat_session(conv_id, history)   
+        final_prompt = _enhance_prompt(prompt, tags)
         
         # Send the prompt to Gemini and get the response
-        response = chat.send_message(prompt)
+        response = chat.send_message(final_prompt)
         return response.text
     except Exception as e:
         print(f"Error processing prompt for conv_id {conv_id}: {e}")
         return f"Error: {str(e)}"
-
-def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, history=None):
+    
+def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, history=None, tags: list = None):
     """Process uploaded files and a prompt"""
     try:
         # Get the chat session for the conversation ID
         chat = get_chat_session(conv_id, history)
+        final_prompt = _enhance_prompt(custom_prompt, tags)
+        
+        selected_instruction = SYSTEM_INSTRUCTION 
+        
+        grad_check_keywords = ['เช็คจบ', 'สำเร็จการศึกษา', 'ผ่านเกณฑ์', 'สถานะการจบ']
+        transcript_summary_keywords = ['ประมวลผลไฟล์', 'สรุป transcript', 'ดูเกรด', 'gpa แต่ละเทอม', 'ผลการเรียน']
+
+        if any(keyword in custom_prompt for keyword in grad_check_keywords):
+            print(f"Intent detected for conv_id {conv_id}: Graduation Check")
+            selected_instruction = GRADUATION_CHECK_INSTRUCTION
+        elif any(keyword in custom_prompt for keyword in transcript_summary_keywords):
+            print(f"Intent detected for conv_id {conv_id}: Transcript Summary")
+            selected_instruction = TRANSCRIPT_INSTRUCTION
 
         # List to store uploaded files (Gemini File objects)
         uploaded_gemini_files = []
@@ -267,17 +295,66 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
             # Upload file to Gemini by passing the file path directly
             uploaded_file_obj = client.files.upload(
                 file=file.name,
-                config=dict(mime_type=mime_type)
+                config=dict(mime_type=mime_type, display_name=file.filename)
             )
-            uploaded_gemini_files.append(uploaded_file_obj)
-        
+            file_part = types.Part(file_data=types.FileData(mime_type=uploaded_file_obj.mime_type, file_uri=uploaded_file_obj.uri))
+            uploaded_gemini_files.append(file_part)
+            print(f"Uploaded {file.filename} to Gemini with ID: {uploaded_file_obj.name}")
+
         if not uploaded_gemini_files:
             return "No files were uploaded. Please upload at least one file."
         
-        chat.send_message(uploaded_gemini_files)
-        response = chat.send_message(custom_prompt, custom_config)
-        return response.text
+        message_parts = uploaded_gemini_files
+        message_parts.append(types.Part(text=final_prompt))
+
+        # Send the message with files and custom prompt
+        initial_response = chat.send_message(
+            message_parts,
+            config=types.GenerateContentConfig(
+                system_instruction=selected_instruction
+            ),
+        )
+
+        tool_responses_to_send = []
+        final_text_output = "" 
+
+        if initial_response and initial_response.candidates:
+            for part in initial_response.candidates[0].content.parts:
+                if part.text:
+                    final_text_output += part.text
+                elif part.function_call and part.function_call.name == "check_graduation_status":
+                    print(f"AI initiated 'check_graduation_status' for conv_id {conv_id}")
+                    args = part.function_call.args
+                    tool_output = graduation_check.check_graduation_status(
+                        student_id=args.get("student_id"),
+                        student_name=args.get("student_name"),
+                        faculty=args.get("faculty"),
+                        field_of_study=args.get("field_of_study"),
+                        admission_year=args.get("admission_year"),
+                        transcript_data=args.get("transcript_data"),
+                        final_cumulative_gpa=args.get("final_cumulative_gpa"),
+                        final_total_credits=args.get("final_total_credits"),
+                        semester_gpas=args.get("semester_gpas"),
+                        activity_data=args.get("activity_data"),
+                        payment_status_clear=args.get("payment_status_clear"),
+                        payment_amount=args.get("payment_amount"),
+                        payment_date=args.get("payment_date"),
+                        payment_channel=args.get("payment_channel"),
+                        payment_term_year_semester=args.get("payment_term_year_semester")
+                    )
+                    tool_responses_to_send = types.Part(
+                        function_response=types.FunctionResponse(
+                            name="check_graduation_status",
+                            response=tool_output
+                        )
+                    )
+        if tool_responses_to_send:
+            final_ai_response = chat.send_message(tool_responses_to_send)
+            return final_ai_response.text
         
+        return final_text_output if final_text_output else "ขออภัยค่ะ ระบบไม่สามารถประมวลผลคำตอบได้"
+    
     except Exception as e:
-        print(f"Error processing files and prompt for conv_id {conv_id}: {e}")
-        return f"Error: {str(e)}"
+        print(f"Error in process_files_and_prompt for conv_id {conv_id}: {e}")
+        traceback.print_exc()
+        return f"ขออภัยค่ะ เกิดข้อผิดพลาด: {str(e)}"
