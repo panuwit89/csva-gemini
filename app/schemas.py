@@ -15,6 +15,7 @@ class PromptRequest(BaseModel):
     prompt: str
     conv_id: int
     history: Optional[List[Message]] = None
+    tags: Optional[str] = None
 
 class ChatRequest(BaseModel):
     conv_id: int
