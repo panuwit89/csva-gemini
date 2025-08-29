@@ -111,7 +111,19 @@ async def get_refresh_status():
 async def process_prompt_api(request: PromptRequest):
     """API endpoint for processing text prompts"""
     try:
-        result = gemini_services.process_prompt(request.prompt, request.conv_id, request.history)
+        parsed_tags = []
+        if hasattr(request, 'tags') and request.tags:
+            try:
+                parsed_tags = json.loads(request.tags)
+            except (json.JSONDecodeError, TypeError):
+                parsed_tags = []
+                
+        result = gemini_services.process_prompt(
+            request.prompt, 
+            request.conv_id, 
+            request.history,
+            parsed_tags
+        )
         return {"result": result}
     except Exception as e:
         print(f"Error in process_prompt_api: {e}")
@@ -123,21 +135,13 @@ async def process_files_and_prompt_api(
     custom_prompt: str = Form(...),
     conv_id: int = Form(...),
     # history: Optional[str] = Form(None)
+    tags: Optional[str] = Form(None)
 ):
     """API endpoint for processing files and prompts"""
     temp_dir = None
     temp_files_for_processing = []
 
     try:
-        # Create flag to check if transcript file is present
-        should_process_transcript = False
-        for file in files:
-            # Check filename contains 'transcript'
-            if file.filename and 'transcript' in file.filename.lower():
-                should_process_transcript = True
-                print(f"Detected transcript file: {file.filename}")
-                break
-        
         def sanitize_filename(filename):
             """Sanitize filename to avoid filesystem issues"""
             if not filename:
@@ -202,21 +206,23 @@ async def process_files_and_prompt_api(
             # response.json() จะแปลง JSON ที่ได้จาก Laravel เป็น Python list/dict
             parsed_history = response.json()
             print(f"Successfully fetched history for conv_id: {conv_id}")
+            
+            parsed_tags = json.loads(tags) if tags else []
 
         except requests.exceptions.RequestException as e:
             print(f"Error fetching history from Laravel for conv_id {conv_id}: {e}")
             # ส่ง HTTP 503 Service Unavailable กลับไปถ้าเรียก Laravel ไม่ได้
             raise HTTPException(status_code=503, detail="Could not fetch chat history from the main service.")
         
-        # 2. ลบโค้ดส่วนที่เคย parse history จาก Form ออกไปได้เลย
-        
-        transcript_config = None
-        if should_process_transcript:
-            transcript_config = types.GenerateContentConfig(system_instruction=TRANSCRIPT_INSTRUCTION)
-            print("Config set to TRANSCRIPT_INSTRUCTION")
-        
         # Process the files
-        result = gemini_services.process_files_and_prompt(temp_files_for_processing, custom_prompt, conv_id, transcript_config, parsed_history) 
+        result = gemini_services.process_files_and_prompt(
+            files=temp_files_for_processing, 
+            custom_prompt=custom_prompt, 
+            conv_id=conv_id, 
+            custom_config=None, 
+            history=parsed_history,
+            tags=parsed_tags,
+        ) 
         return {"result": result}
         
     except Exception as e:
