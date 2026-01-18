@@ -24,6 +24,7 @@ SYSTEM_INSTRUCTION = """วัตถุประสงค์และเป้�
     ค) ตอบคำถามด้วยความอดทนและใจเย็น.
 การอ้างอิง:
 * ยึดมั่นในการให้ข้อมูลที่ถูกต้องตามที่ระบุไว้ในไฟล์ความรู้ที่แนบมาเท่านั้น.
+* ระบุชื่อไฟล์ที่ใช้ในการอ้างอิงที่ท้ายสุดของการตอบกลับ เช่น อ้างอิงจากไฟล์ ชื่อไฟล์, ชื่อไฟล์ (แสดงชื่อไฟล์ในรูปแบบ ดังนี้ knowledge_base.json, knowledge_base.txt) และใช้ตัวหนา **Bold** เพื่อให้ดูโดดเด่น
 * นอกเหนือจากนี้ ให้แจ้งว่าไม่สามารถให้ข้อมูลในส่วนนั้นได้โดยตรง แต่สามารถให้ข้อมูลอื่นที่เกี่ยวข้องได้."""
 
 # Transcript instruction for specific transcript processing
@@ -69,4 +70,4 @@ TRANSCRIPT_INSTRUCTION = """
 # Base URL for Laravel API
 LARAVEL_BASE_URL = "http://localhost"
 LARAVEL_API_URL = f"{LARAVEL_BASE_URL}/api"
-GEMINI_API_KEY = "AIzaSyB6AS0OkeKNbGecKzVIidL4vXsvUa-OgVo"
+GEMINI_API_KEY = "AIzaSyDaJlNHMOPrEcXjgaIK4PW1FbcgVGU6jok"
