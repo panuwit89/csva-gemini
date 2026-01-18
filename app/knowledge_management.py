@@ -50,6 +50,18 @@ def process_knowledge_files_from_laravel():
         print("No active knowledge files found")
         return []
     
+    keywords_curriculum = ['มคอ2', 'โครงสร้างหลักสูตร', 'cs-bs']
+    curriculum_info = next(
+        (f for f in knowledge_files if any(k.lower() in f.get('title', '').lower() for k in keywords_curriculum) and f.get('filename', '').endswith('.json')),
+        None
+    )
+    if curriculum_info:
+        print(f"Curriculum file identified: '{curriculum_info.get('title')}'. Processing separately.")
+        file_content_bytes = download_file_from_laravel(curriculum_info.get('file_path'))
+        if file_content_bytes:
+            global_state.curriculum_rules_json = json.loads(file_content_bytes.decode('utf-8'))
+            print("Successfully parsed and stored curriculum rules in global state.")
+    
     contents = []
     
     for knowledge in knowledge_files:
@@ -59,7 +71,6 @@ def process_knowledge_files_from_laravel():
             filename = knowledge.get('filename')
             title = knowledge.get('title', 'Unknown')
             file_extension = os.path.splitext(filename)[1]
-
             if not file_path or not filename:
                 print(f"Missing file path or filename for knowledge: {title}")
                 continue
@@ -98,7 +109,7 @@ def process_knowledge_files_from_laravel():
                 # 2. Upload to Gemini using the determined mime_type
                 uploaded_file = client.files.upload(
                     file=temp_file_path,
-                    config=dict(mime_type=mime_type)
+                    config=dict(mime_type=mime_type, display_name=title)
                 )
                 
                 contents.append(uploaded_file)
@@ -106,7 +117,6 @@ def process_knowledge_files_from_laravel():
                 end_time = datetime.datetime.now()
                 duration = end_time - start_time
                 print(f"Processed: {title} ({filename}) in {duration.total_seconds():.2f} seconds")
-
             finally:
                 # Clean up temp file
                 try:
@@ -141,6 +151,7 @@ def refresh_knowledge_base():
         # Clear old knowledge contents to free memory
         old_contents = global_state.knowledge_contents
         global_state.knowledge_contents = []
+        global_state.curriculum_rules_json = {}
         
         # Force garbage collection
         del old_contents
