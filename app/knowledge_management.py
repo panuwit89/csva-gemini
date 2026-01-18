@@ -53,11 +53,13 @@ def process_knowledge_files_from_laravel():
     contents = []
     
     for knowledge in knowledge_files:
+        start_time = datetime.datetime.now()
         try:
             file_path = knowledge.get('file_path')
             filename = knowledge.get('filename')
             title = knowledge.get('title', 'Unknown')
-            
+            file_extension = os.path.splitext(filename)[1]
+
             if not file_path or not filename:
                 print(f"Missing file path or filename for knowledge: {title}")
                 continue
@@ -68,6 +70,14 @@ def process_knowledge_files_from_laravel():
             if file_content is None:
                 print(f"Failed to download file: {filename}")
                 continue
+            
+            if filename.lower().endswith(('.txt', '.json')):
+                try:
+                    decoded_content = file_content.decode('utf-8')
+                    new_content = f"ชื่อไฟล์: {title+file_extension}\nเนื้อหา: {decoded_content}"
+                    file_content = new_content.encode('utf-8')
+                except UnicodeDecodeError:
+                    print(f"Warning: Could not decode file {filename} as UTF-8. Skipping content modification.")
             
             # Create temporary file for upload
             temp_dir = tempfile.mkdtemp()
@@ -93,8 +103,10 @@ def process_knowledge_files_from_laravel():
                 
                 contents.append(uploaded_file)
                 
-                print(f"Processed: {title} ({filename})")
-                
+                end_time = datetime.datetime.now()
+                duration = end_time - start_time
+                print(f"Processed: {title} ({filename}) in {duration.total_seconds():.2f} seconds")
+
             finally:
                 # Clean up temp file
                 try:
@@ -135,7 +147,11 @@ def refresh_knowledge_base():
         gc.collect()
         
         # Process new knowledge files
+        start_processing_time = datetime.datetime.now()
         new_contents = process_knowledge_files_from_laravel()
+        end_processing_time = datetime.datetime.now()
+        duration = end_processing_time - start_processing_time
+        print(f"Processing knowledge files took: {duration.total_seconds():.2f} seconds")
         global_state.knowledge_contents = new_contents  # Update global variable
         
         # Edit: not update existing chat sessions
