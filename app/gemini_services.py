@@ -32,7 +32,7 @@ def create_chat_session(conv_id: int, history: list[types.Content] | None = None
             history = []
             
         chat = client.chats.create(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             config=types.GenerateContentConfig(
                 system_instruction=[SYSTEM_INSTRUCTION],
                 tools=[graduation_check.GRADUATION_CHECK_TOOL],
@@ -217,7 +217,7 @@ def define_chat_name(conv_id: int):
 
         try:
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-2.5-flash",
                 contents=prompt_for_naming,
                 config=types.GenerateContentConfig(
                     temperature=0.2
