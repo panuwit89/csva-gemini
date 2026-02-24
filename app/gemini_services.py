@@ -2,6 +2,7 @@ import os
 import base64
 import tempfile
 import traceback
+import datetime
 from google import genai
 from google.genai import types
 
@@ -252,7 +253,11 @@ def process_prompt(prompt, conv_id, history=None, tags: list = None):
         final_prompt = _enhance_prompt(prompt, tags)
         
         # Send the prompt to Gemini and get the response
+        start_processing_time = datetime.datetime.now()
         response = chat.send_message(final_prompt)
+        end_processing_time = datetime.datetime.now()
+        duration = end_processing_time - start_processing_time
+        print(f"Processed prompt for conv_id {conv_id} took {duration.total_seconds():.2f} seconds")
         return response.text
     except Exception as e:
         print(f"Error processing prompt for conv_id {conv_id}: {e}")
@@ -307,6 +312,8 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
         message_parts = uploaded_gemini_files
         message_parts.append(types.Part(text=final_prompt))
 
+        start_processing_time = datetime.datetime.now()
+        
         # Send the message with files and custom prompt
         initial_response = chat.send_message(
             message_parts,
@@ -314,6 +321,10 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
                 system_instruction=selected_instruction
             ),
         )
+        
+        end_processing_time = datetime.datetime.now()
+        duration = end_processing_time - start_processing_time
+        print(f"Processed files and prompt for conv_id {conv_id} took {duration.total_seconds():.2f} seconds")
 
         tool_responses_to_send = []
         final_text_output = "" 
