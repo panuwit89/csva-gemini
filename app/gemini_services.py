@@ -4,7 +4,7 @@ import tempfile
 import traceback
 from google import genai
 from google.genai import types
-from datetime import datetime
+import datetime
 
 from . import global_state, graduation_check
 from .config import SYSTEM_INSTRUCTION, TRANSCRIPT_INSTRUCTION, GRADUATION_CHECK_INSTRUCTION, GEMINI_API_KEY
@@ -303,7 +303,7 @@ def process_prompt(prompt, conv_id, history=None, tags: list = None):
     
 def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, history=None, tags: list = None):
     """Process uploaded files and a prompt"""
-    start_processing_time = datetime.now()
+    start_processing_time = datetime.datetime.now()
     try:
         # Get the chat session for the conversation ID
         chat = get_chat_session(conv_id, history)
@@ -395,13 +395,13 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
         if tool_responses_to_send:
             final_ai_response = chat.send_message(tool_responses_to_send)
             
-            end_processing_time = datetime.now()
+            end_processing_time = datetime.datetime.now()
             duration = end_processing_time - start_processing_time
             print(f"Total processing time for conv_id {conv_id}: {duration.total_seconds():.2f} seconds")
            
             return final_ai_response.text
         
-        end_processing_time = datetime.now()
+        end_processing_time = datetime.datetime.now()
         duration = end_processing_time - start_processing_time
         print(f"Total processing time for conv_id {conv_id}: {duration.total_seconds():.2f} seconds")
            
@@ -411,7 +411,7 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
         print(f"Error in process_files_and_prompt for conv_id {conv_id}: {e}")
         traceback.print_exc()
         
-        error_time = datetime.now()
+        error_time = datetime.datetime.now()
         duration = error_time - start_processing_time
         print(f"Total processing error time for conv_id {conv_id}: {duration.total_seconds():.2f} seconds")
         return f"ขออภัยค่ะ เกิดข้อผิดพลาด: {str(e)}"
