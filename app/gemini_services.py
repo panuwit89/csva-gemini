@@ -4,6 +4,7 @@ import tempfile
 import traceback
 from google import genai
 from google.genai import types
+from datetime import datetime
 
 from . import global_state, graduation_check
 from .config import SYSTEM_INSTRUCTION, TRANSCRIPT_INSTRUCTION, GRADUATION_CHECK_INSTRUCTION, GEMINI_API_KEY
@@ -253,13 +254,56 @@ def process_prompt(prompt, conv_id, history=None, tags: list = None):
         
         # Send the prompt to Gemini and get the response
         response = chat.send_message(final_prompt)
-        return response.text
+        
+        final_text_output = ""
+        tool_responses_to_send = []
+
+        if response and response.candidates:
+            for part in response.candidates[0].content.parts:
+                if part.text:
+                    final_text_output += part.text
+                elif part.function_call and part.function_call.name == "check_graduation_status":
+                    print(f"AI initiated 'check_graduation_status' in process_prompt for conv_id {conv_id}")
+                    args = part.function_call.args
+                    tool_output = graduation_check.check_graduation_status(
+                        student_id=args.get("student_id"),
+                        student_name=args.get("student_name"),
+                        faculty=args.get("faculty"),
+                        field_of_study=args.get("field_of_study"),
+                        admission_year=args.get("admission_year"),
+                        transcript_data=args.get("transcript_data"),
+                        final_cumulative_gpa=args.get("final_cumulative_gpa"),
+                        final_total_credits=args.get("final_total_credits"),
+                        semester_gpas=args.get("semester_gpas"),
+                        activity_data=args.get("activity_data"),
+                        payment_status_clear=args.get("payment_status_clear"),
+                        payment_amount=args.get("payment_amount"),
+                        payment_date=args.get("payment_date"),
+                        payment_channel=args.get("payment_channel"),
+                        payment_term_year_semester=args.get("payment_term_year_semester")
+                    )
+                    tool_responses_to_send = types.Part(
+                        function_response=types.FunctionResponse(
+                            name="check_graduation_status",
+                            response=tool_output
+                        )
+                    )
+                    
+        # ถ้ามี Tool Response ให้ส่งกลับไปให้ AI สรุปความอีกรอบ
+        if tool_responses_to_send:
+            final_ai_response = chat.send_message(tool_responses_to_send)
+            return final_ai_response.text
+        
+        # ถ้าไม่มี Tool Call ก็ตอบเป็น Text ปกติ
+        return final_text_output if final_text_output else (response.text if hasattr(response, 'text') else "ขออภัยค่ะ ระบบไม่สามารถประมวลผลคำตอบได้")
+        # return response.text
     except Exception as e:
         print(f"Error processing prompt for conv_id {conv_id}: {e}")
         return f"Error: {str(e)}"
     
 def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, history=None, tags: list = None):
     """Process uploaded files and a prompt"""
+    start_processing_time = datetime.now()
     try:
         # Get the chat session for the conversation ID
         chat = get_chat_session(conv_id, history)
@@ -350,11 +394,24 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
                     )
         if tool_responses_to_send:
             final_ai_response = chat.send_message(tool_responses_to_send)
+            
+            end_processing_time = datetime.now()
+            duration = end_processing_time - start_processing_time
+            print(f"Total processing time for conv_id {conv_id}: {duration.total_seconds():.2f} seconds")
+           
             return final_ai_response.text
         
+        end_processing_time = datetime.now()
+        duration = end_processing_time - start_processing_time
+        print(f"Total processing time for conv_id {conv_id}: {duration.total_seconds():.2f} seconds")
+           
         return final_text_output if final_text_output else "ขออภัยค่ะ ระบบไม่สามารถประมวลผลคำตอบได้"
     
     except Exception as e:
         print(f"Error in process_files_and_prompt for conv_id {conv_id}: {e}")
         traceback.print_exc()
+        
+        error_time = datetime.now()
+        duration = error_time - start_processing_time
+        print(f"Total processing error time for conv_id {conv_id}: {duration.total_seconds():.2f} seconds")
         return f"ขออภัยค่ะ เกิดข้อผิดพลาด: {str(e)}"
