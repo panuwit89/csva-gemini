@@ -28,7 +28,18 @@ GRADUATION_CHECK_TOOL = types.Tool(
                     "faculty": types.Schema(type=types.Type.STRING),
                     "field_of_study": types.Schema(type=types.Type.STRING),
                     "admission_year": types.Schema(type=types.Type.INTEGER),
-                    "transcript_data": types.Schema(type=types.Type.ARRAY, items=types.Schema(type=types.Type.OBJECT)),
+                    "transcript_data": types.Schema(
+                        type=types.Type.ARRAY, 
+                        description="List of all courses taken. VERY IMPORTANT: Do NOT include course names to save processing time. Only extract code, grade, and credit.",
+                        items=types.Schema(
+                            type=types.Type.OBJECT,
+                            properties={
+                                "code": types.Schema(type=types.Type.STRING, description="Course code e.g. 01418111"),
+                                "grade": types.Schema(type=types.Type.STRING, description="Grade received e.g. A, B+, P, N"),
+                                "credit": types.Schema(type=types.Type.INTEGER, description="Course credits e.g. 3")
+                            }
+                        )
+                    ),
                     "final_cumulative_gpa": types.Schema(type=types.Type.NUMBER),
                     "final_total_credits": types.Schema(type=types.Type.INTEGER),
                     "semester_gpas": types.Schema(type=types.Type.ARRAY, items=types.Schema(type=types.Type.OBJECT)),
@@ -83,10 +94,8 @@ def _calculate_stats(transcript_data: List[Dict]) -> Dict:
 
     for course in all_courses:
         grade = course.get('grade', '').strip().upper()
-        try:
-            credit = int(float(course.get('credit', 0) or course.get('credits', 0)))
-        except:
-            credit = 0
+        credit_raw = str(course.get('credit', course.get('credits', '0')))
+        credit = _extract_credits(credit_raw, 0)
             
         # เช็ควิชาที่ยังไม่จบ
         if grade in PENDING_GRADES:
