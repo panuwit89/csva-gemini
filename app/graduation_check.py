@@ -73,7 +73,15 @@ def _calculate_stats(transcript_data: List[Dict]) -> Dict:
     total_credits_earned = 0
     pending_courses = []
 
-    for course in transcript_data:
+    # รองรับทั้ง list of courses และ list of semesters
+    all_courses = []
+    for item in transcript_data:
+        if 'courses' in item:  # เป็น semester object
+            all_courses.extend(item['courses'])
+        else:  # เป็น course object
+            all_courses.append(item)
+
+    for course in all_courses:
         grade = course.get('grade', '').strip().upper()
         try:
             credit = int(float(course.get('credit', 0) or course.get('credits', 0)))
@@ -121,7 +129,6 @@ def _check_payment(payment_info: Dict, latest_transcript_term: str) -> Dict:
     details = f"ยอดชำระ {payment_info.get('amount')} บาท สำหรับ {receipt_term_str}"
     
     if not is_match:
-        # *จุดสำคัญ* ถ้าเทอมไม่ตรง ให้แจ้งเตือนแบบตัวอย่างที่ผมทำ
         return {
             "status": "ไม่ผ่านเกณฑ์",
             "details": details,
@@ -175,6 +182,9 @@ def check_graduation_status(
     final_cumulative_gpa: float,
     final_total_credits: int,
     semester_gpas: List[Dict],
+    faculty: Optional[str] = None,        
+    field_of_study: Optional[str] = None, 
+    admission_year: Optional[int] = None, 
     activity_data: Optional[List[Dict]] = None,
     payment_status_clear: Optional[bool] = None,
     payment_amount: Optional[float] = None,
@@ -234,10 +244,17 @@ def check_graduation_status(
             "unmet_requirements": unmet_requirements,
             "semesters_summary": {}, "activity_summary": {}, "payment_summary": {}
         }
- 
+    
+    all_courses_flat = []
+    for item in transcript_data:
+        if 'courses' in item:
+            all_courses_flat.extend(item['courses'])
+        else:
+            all_courses_flat.append(item)
+            
     # Course requirements
     course_records = {}
-    for c in transcript_data:
+    for c in all_courses_flat:
         code = (c.get('course_code') or c.get('code'))
         if code and isinstance(code, str): # Ensure code is a string
             c['credits'] = c.get('credits') or c.get('credit')
@@ -306,7 +323,7 @@ def check_graduation_status(
         unmet_requirements.append(payment_result["unmet"])
     
     courses_by_semester = defaultdict(list)
-    for course in transcript_data:
+    for course in all_courses_flat:
         semester_key = course.get('semester_full_name', 'Unknown')
         courses_by_semester[semester_key].append(course)
 
