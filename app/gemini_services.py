@@ -318,7 +318,9 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
         initial_response = chat.send_message(
             message_parts,
             config=types.GenerateContentConfig(
-                system_instruction=selected_instruction
+                system_instruction=selected_instruction,
+                tools=[graduation_check.GRADUATION_CHECK_TOOL],
+                temperature=0.2
             ),
         )
         
@@ -328,9 +330,22 @@ def process_files_and_prompt(files, custom_prompt, conv_id, custom_config, histo
 
         tool_responses_to_send = []
         final_text_output = "" 
-
+        
+        if not initial_response or not initial_response.candidates:
+            feedback = getattr(initial_response, 'prompt_feedback', 'N/A')
+            print(f"WARNING: Empty candidates. prompt_feedback: {feedback}")
+            return "ขออภัยค่ะ ระบบไม่สามารถประมวลผลเอกสารได้ กรุณาลองใหม่อีกครั้ง"
+        
         if initial_response and initial_response.candidates:
-            for part in initial_response.candidates[0].content.parts:
+            candidate = initial_response.candidates[0]
+            print(f"finish_reason: {candidate.finish_reason}")
+
+            if not candidate.content or not candidate.content.parts:
+                print(f"WARNING: Empty content. finish_reason: {candidate.finish_reason}")
+                print(f"safety_ratings: {candidate.safety_ratings}")
+                return "ขออภัยค่ะ ระบบไม่สามารถประมวลผลได้"
+
+            for part in candidate.content.parts:
                 if part.text:
                     final_text_output += part.text
                 elif part.function_call and part.function_call.name == "check_graduation_status":
