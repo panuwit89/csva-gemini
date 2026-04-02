@@ -63,6 +63,7 @@ def process_knowledge_files_from_laravel():
             print("Successfully parsed and stored curriculum rules in global state.")
     
     contents = []
+    sum_file_size = 0
     
     for knowledge in knowledge_files:
         start_time = datetime.datetime.now()
@@ -70,6 +71,7 @@ def process_knowledge_files_from_laravel():
             file_path = knowledge.get('file_path')
             filename = knowledge.get('filename')
             title = knowledge.get('title', 'Unknown')
+            file_size = knowledge.get('file_size')
             file_extension = os.path.splitext(filename)[1]
             if not file_path or not filename:
                 print(f"Missing file path or filename for knowledge: {title}")
@@ -116,7 +118,8 @@ def process_knowledge_files_from_laravel():
                 
                 end_time = datetime.datetime.now()
                 duration = end_time - start_time
-                print(f"Processed: {title} ({filename}) in {duration.total_seconds():.2f} seconds")
+                sum_file_size += file_size
+                print(f"Processed: {title} ({filename}) ({file_size / 1024:.2f} KB) in {duration.total_seconds():.2f} seconds")
             finally:
                 # Clean up temp file
                 try:
@@ -130,7 +133,7 @@ def process_knowledge_files_from_laravel():
         except Exception as e:
             print(f"Error processing knowledge file {knowledge.get('title', 'Unknown')}: {e}")
             continue
-    
+    print(f"Total file size processed: {(sum_file_size / 1024):.2f} KB")
     print(f"Successfully processed {len(contents)} knowledge files")
     return contents
 
